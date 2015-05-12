@@ -3,6 +3,7 @@
     var myApp = angular.module('maths', [
                                'maths.routes',
                                'maths.config',
+                               'maths.topics',
                                'maths.questions',
                               ]);
 
