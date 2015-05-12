@@ -1,14 +1,15 @@
 (function() {
     'use strict'
-    var myApp = angular.module('myApp', ['ui.router']);
-
-    myApp.config(function($stateProvider, $urlRouterProvider) {
+    angular
+    .module('maths.routes')
+    .config(function($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/state1");
 
         $stateProvider
             .state('state1', {
-                url: "/state1",
+                url: "/:level/state1",
                 templateUrl: "/static/maths/partials/state1.html",
+                controller: "ViewController"
             })
             .state('state1.list', {
                 url: "/list",
