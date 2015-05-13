@@ -13,7 +13,7 @@
                 $scope.questions = response.data;
                 $scope.questions.forEach(function(element){
                     element.parts = element.content.split(";");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                //MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
                 })
             });
         }]);

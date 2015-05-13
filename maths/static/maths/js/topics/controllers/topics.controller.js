@@ -5,7 +5,7 @@
         .controller('TopicsViewController', ['$scope', '$stateParams', 'Topics', function($scope, $stateParams, Topics){
             $scope.level = $stateParams.level;
             if($scope.level)
-                var res = Topics.getLevel($scope.level); 
+                var res = Topics.getByLevel($scope.level); 
             else
                 var res = Topics.all()
             res.then(function(response){

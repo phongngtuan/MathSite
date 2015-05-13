@@ -5,7 +5,7 @@
         .factory('Topics', ['$http', function($http){
             var Topics = {
                 all: all,
-                getLevel: getLevel,
+                getByLevel: getByLevel,
                 retrieve: retrieve,
             }
             return Topics;
@@ -13,7 +13,7 @@
             function all() {
                 return $http.get('/maths/api/topics/');
             }
-            function getLevel(level){
+            function getByLevel(level){
                 return $http.get('/maths/api/topics/', {
                     params: {level: level}
                 });
