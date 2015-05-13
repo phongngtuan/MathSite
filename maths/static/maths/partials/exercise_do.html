@@ -4,8 +4,8 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX", "output/HTML-CSS"],
     tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"], ["\\[","\\]"] ],
-      displayMath: [ ['$$','$$'] ],
+      inlineMath: [ ['$','$'], ["\\(","\\)"], ["\\[","\\]"], ['$$','$$'] ],
+      displayMath: [  ],
       processEscapes: true
     },
     "HTML-CSS": { availableFonts: ["TeX"] }
@@ -20,6 +20,10 @@
         <ul>
         <li ng-repeat="question in questions" class="question-content">
             <p ng-repeat="part in question.parts track by $index">{{part}}</p>
+            <h6>Answer</h6>
+            <ul>
+                <li ng-repeat="answer in question.answers"> {{answer.content}}</li>
+            </ul>
         </li>
     </ul>
     </div>
