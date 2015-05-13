@@ -9,7 +9,7 @@ class Answer(models.Model):
     content = models.TextField(blank=True)
     switch = models.IntegerField()
     
-    def __unicode__(self):
+    def __str__(self):
         return self.content
 
     class Meta:
@@ -111,7 +111,7 @@ class Block(models.Model):
     title = models.TextField(blank=True)
     subject = models.ForeignKey('Subject', blank=True, null=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
     class Meta:
@@ -203,7 +203,7 @@ class Paper(models.Model):
     subject = models.ForeignKey('Subject')
     paperset = models.ForeignKey('Paperset')
 
-    def __unicode__(self):
+    def __str__(self):
         return "{0}/{1}/{2}".format(self.year, self.month, self.number)
 
     class Meta:
@@ -216,7 +216,7 @@ class Paperset(models.Model):
     title = models.TextField(blank=True)
     subject = models.ForeignKey('Subject')
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 
@@ -278,7 +278,7 @@ class Question(models.Model):
         managed = False
         db_table = 'question'
 
-    def __unicode__(self):
+    def __str__(self):
         return self.content
 
 
@@ -326,7 +326,7 @@ class Subject(models.Model):
     edu_level = models.ForeignKey(EducationLevel, blank=True, null=True)
     description = models.TextField(blank=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
     class Meta:
@@ -339,7 +339,7 @@ class Subtopic(models.Model):
     topic = models.ForeignKey('Topic', blank=True, null=True)
     title = models.TextField(blank=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
     class Meta:
@@ -404,7 +404,7 @@ class Topic(models.Model):
     block = models.ForeignKey(Block, blank=True, null=True)
     title = models.TextField(blank=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
     class Meta:

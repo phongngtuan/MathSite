@@ -4,9 +4,15 @@ class AnswerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Answer
 
+class AnswerListingField(serializers.RelatedField):
+    def to_representation(self, value):
+        import re
+        hidden = re.sub(r'"(.*)"', r'<input>', value.content)
+        return hidden 
+
 
 class QuestionSerializer(serializers.ModelSerializer):
-    answers = AnswerSerializer(many=True)
+    answers = AnswerListingField(many=True, read_only=True)
     class Meta:
         model = Question
                                             
