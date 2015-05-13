@@ -10,7 +10,7 @@
 <div align="left">
     <ul>
         <li ng-repeat="question in questions" class="question-content">
-            <p ng-repeat="part in question.answers">{{part.content}}</p>
+            <p ng-repeat="part in question.parts track by $index">{{part}}</p>
         </li>
     </ul>
 </div>

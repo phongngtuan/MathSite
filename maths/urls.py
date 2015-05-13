@@ -18,7 +18,7 @@ from django.contrib import admin
 from maths import views
 from rest_framework.routers import DefaultRouter
 
-router = DefaultRouter()
+router = DefaultRouter(trailing_slash=False)
 router.register(r'questions', views.QuestionViewSet)
 router.register(r'topics', views.TopicViewSet)
 urlpatterns = [

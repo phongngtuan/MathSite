@@ -9,9 +9,12 @@
                 $scope.topic = response.data.title;
             });
             
-            Questions.all().then(function(response){
+            Questions.getByTopic(topic).then(function(response){
                 $scope.questions = response.data;
-                console.log(response.data)
+                $scope.questions.forEach(function(element){
+                    element.parts = element.content.split(";");
+                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                })
             });
         }]);
 })()
