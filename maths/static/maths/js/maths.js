@@ -5,6 +5,7 @@
                                'maths.config',
                                'maths.topics',
                                'maths.questions',
+                               'maths.exercises',
                               ]);
 
     angular

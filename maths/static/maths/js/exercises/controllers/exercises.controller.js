@@ -1,8 +1,8 @@
 (function() {
     'use strict'
     angular
-        .module('maths.questions.controllers')
-        .controller('QuestionsViewController', ['$scope', '$stateParams', 'Questions', 'Topics', function($scope, $stateParams, Questions, Topics){
+        .module('maths.exercises.controllers')
+        .controller('ExercisesDoController', ['$scope', '$stateParams', 'Questions', 'Topics', function($scope, $stateParams, Questions, Topics){
             var topic = $stateParams.topic;
             if(topic){
                 Topics.retrieve(topic).then(function(response){
@@ -13,7 +13,6 @@
                     $scope.questions = response.data;
                     $scope.questions.forEach(function(element){
                         element.parts = element.content.split(";");
-                    //MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
                     })
                 });
             }

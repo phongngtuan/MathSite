@@ -19,6 +19,16 @@
                 url: "/:topic/questions",
                 templateUrl: "/static/maths/partials/questions.html",
                 controller: "QuestionsViewController"
+            })
+            .state('exercise', {
+                url: "/:level/exercise",
+                templateUrl: "/static/maths/partials/exercises.html",
+                controller: "TopicsViewController"
+            })
+            .state('exercise_do', {
+                url: "/:topic/do",
+                templateUrl: "/static/maths/partials/exercise_do.html",
+                controller: "ExercisesDoController"
             });
     });
 })()

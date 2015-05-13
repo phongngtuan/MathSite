@@ -1,0 +1,26 @@
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"], ["\\[","\\]"] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<div class="row-fluid">
+    <div class="col-md-4">
+        <h3>Math editor</h3>
+    </div>
+    <div class="col-md-8">
+        <h3>Questions</h3>
+        <ul>
+        <li ng-repeat="question in questions" class="question-content">
+            <p ng-repeat="part in question.parts track by $index">{{part}}</p>
+        </li>
+    </ul>
+    </div>
+</div>
