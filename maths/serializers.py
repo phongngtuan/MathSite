@@ -6,10 +6,10 @@ class AnswerSerializer(serializers.ModelSerializer):
 
 
 class QuestionSerializer(serializers.ModelSerializer):
+    answers = AnswerSerializer(many=True)
     class Meta:
         model = Question
                                             
-
 class TopicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Topic

@@ -4,7 +4,7 @@ from django.db import models
 class Answer(models.Model):
     id = models.IntegerField(primary_key=True)  # AutoField?
     answertype = models.ForeignKey('Answertype')
-    question = models.ForeignKey('Question')
+    question = models.ForeignKey('Question', related_name='answers')
     part_no = models.CharField(max_length=3)
     content = models.TextField(blank=True)
     switch = models.IntegerField()

@@ -11,9 +11,7 @@
             
             Questions.all().then(function(response){
                 $scope.questions = response.data;
-                $scope.questions.forEach(function(current, index, arr){
-                    current.parts = current.content.split(";");
-                });
+                console.log(response.data)
             });
         }]);
 })()
