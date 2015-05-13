@@ -11,5 +11,6 @@
             function all() {
                 return $http.get('/maths/api/questions/');
             }
+
         }]);
 })();

@@ -1,6 +1,19 @@
 <h1>Questions</h1>
 <h3>Topic: {{topic}}</h3>
-<ul>
-    <li ng-repeat="question in questions">{{question.content}}</li>
-</ul>
-
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ["input/TeX","output/HTML-CSS"],
+    displayAlign: "left"
+    });
+</script>
+<div align="left">
+    <ul>
+        <li ng-repeat="question in questions" class="question-content">
+            <ul>
+                <p ng-repeat="part in question.parts"> {{part}}
+                </p>
+            </ul> 
+        </li>
+    </ul>
+</div>

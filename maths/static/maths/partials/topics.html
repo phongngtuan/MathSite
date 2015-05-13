@@ -1,8 +1,12 @@
-<h3>Topics</h3>
-<h5>Level: {{level}}</h5>
-<ul>
-    <li ng-repeat="topic in topics ">
-        <a ui-sref="topics.questions({topic: topic.id})">{{topic.id}} {{topic.title}}</a>
-    </li>
-</ul>
-<div ui-view></div>
+<div class="row-fluid">
+    <div class="col-md-4">
+        <h3>Topics</h3>
+        <h5>Level: {{level}}</h5>
+        <ul>
+            <li ng-repeat="topic in topics ">
+                <a ui-sref="topics.questions({topic: topic.id})">{{topic.id}} {{topic.title}}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-8" ui-view></div>
+</div>
