@@ -15,8 +15,8 @@
                 templateUrl: "/static/maths/partials/topics.html",
                 controller: "TopicsViewController"
             })
-            .state('questions', {
-                url: "/:level/questions",
+            .state('topics.questions', {
+                url: "/:topic/questions",
                 templateUrl: "/static/maths/partials/questions.html",
                 controller: "QuestionsViewController"
             });

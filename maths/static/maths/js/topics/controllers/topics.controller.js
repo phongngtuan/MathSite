@@ -4,7 +4,11 @@
         .module('maths.topics.controllers')
         .controller('TopicsViewController', ['$scope', '$stateParams', 'Topics', function($scope, $stateParams, Topics){
             $scope.level = $stateParams.level;
-            Topics.all().then(function(response){
+            if($scope.level)
+                var res = Topics.getLevel($scope.level); 
+            else
+                var res = Topics.all()
+            res.then(function(response){
                 $scope.topics = response.data;
             });
         }]);

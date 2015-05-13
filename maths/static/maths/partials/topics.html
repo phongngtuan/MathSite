@@ -1,5 +1,8 @@
 <h3>Topics</h3>
 <h5>Level: {{level}}</h5>
 <ul>
-    <li ng-repeat="topic in topics ">{{topic.title}}</li>
+    <li ng-repeat="topic in topics ">
+        <a ui-sref="topics.questions({topic: topic.id})">{{topic.id}} {{topic.title}}</a>
+    </li>
 </ul>
+<div ui-view></div>

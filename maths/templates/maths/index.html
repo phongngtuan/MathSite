@@ -2,6 +2,12 @@
 {% load staticfiles %}
 <html ng-app="maths">
     <head>
+        {% include "maths/header.html" %}
+        <link rel="stylesheet" href="{% static "maths/bower_components/bootstrap/dist/css/bootstrap.css" %}">
+        <link href="{% static 'maths/css/addon-css.css' %}" rel="stylesheet" type="text/css" media="screen" />
+
+        <script src="{% static "maths/bower_components/jquery/dist/jquery.js" %}"></script>
+        <script src="{% static "maths/bower_components/bootstrap/dist/js/bootstrap.js" %} "></script>
         <script src="{% static "maths/bower_components/angular/angular.js" %}"></script>
         <script src="{% static "maths/bower_components/ui-router/release/angular-ui-router.js" %}"></script>
         <script src="{% static "maths/js/maths.js" %}"></script>

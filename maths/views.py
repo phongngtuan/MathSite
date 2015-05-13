@@ -16,8 +16,23 @@ class AnswerViewSet(viewsets.ModelViewSet):
 class QuestionViewSet(viewsets.ModelViewSet):
     queryset = Question.objects.all()
     serializer_class = QuestionSerializer
+
+    def get_queryset(self):
+        queryset = Question.objects.all()
+        topic = self.request.QUERY_PARAMS.get('topic', None)
+        if topic is not None:
+            queryset = queryset.filter(topic__id==topic)
+        return queryset
     
 
 class TopicViewSet(viewsets.ModelViewSet):
     queryset = Topic.objects.all()
     serializer_class = TopicSerializer
+
+    def get_queryset(self):
+        queryset = Topic.objects.all()
+        level = self.request.QUERY_PARAMS.get('level', None)
+        if level is not None:
+            t = Question.objects.filter(paper__subject__id=level).values_list('topic', flat=True).distinct()
+            queryset = queryset.filter(id__in=list(t))
+        return queryset
