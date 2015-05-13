@@ -14,6 +14,7 @@
 <div class="row-fluid">
     <div class="col-md-4">
         <h3>Math editor</h3>
+        <span ng-bind-html="myContent"></span>
     </div>
     <div class="col-md-8">
         <h3>Questions</h3>
@@ -22,7 +23,7 @@
             <p ng-repeat="part in question.parts track by $index">{{part}}</p>
             <h6>Answer</h6>
             <ul>
-                <li ng-repeat="answer in question.answers"> {{answer.content}}</li>
+                <li ng-repeat="answer in question.answers"> {{answer}}</li>
             </ul>
         </li>
     </ul>
