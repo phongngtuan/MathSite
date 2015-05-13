@@ -16,9 +16,12 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from maths import views
+from rest_framework.routers import DefaultRouter
+
+router = DefaultRouter()
+router.register(r'questions', views.QuestionViewSet)
+router.register(r'topics', views.TopicViewSet)
 urlpatterns = [
-        url(r'^api/questions/$', views.QuestionViewSet.as_view({'get':'list'}), name='questions'),
-        url(r'^api/answers/$', views.AnswerViewSet.as_view({'get':'list'}), name='questions'),
-        url(r'^api/topics/$', views.TopicViewSet.as_view({'get':'list'}), name='questions'),
+        url(r'^api/', include(router.urls)), 
         url(r'^$', views.index, name='index'), 
 ]

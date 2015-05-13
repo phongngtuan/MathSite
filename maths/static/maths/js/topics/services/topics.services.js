@@ -6,6 +6,7 @@
             var Topics = {
                 all: all,
                 getLevel: getLevel,
+                retrieve: retrieve,
             }
             return Topics;
             
@@ -16,6 +17,9 @@
                 return $http.get('/maths/api/topics/', {
                     params: {level: level}
                 });
+            }
+            function retrieve(id){
+                return $http.get('/maths/api/topics/'+id);
             }
         }]);
 })();
