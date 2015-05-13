@@ -23,7 +23,7 @@ class QuestionViewSet(viewsets.ModelViewSet):
         topic = self.request.QUERY_PARAMS.get('topic', None)
         print(topic)
         if topic is not None:
-            queryset = queryset.filter(topic__id==topic)
+            queryset = queryset.filter(topic__id=topic)
         return queryset
     
 
