@@ -2,10 +2,23 @@ from django.shortcuts import render
 from rest_framework import viewsets
 from maths.models import *
 from maths.serializers import AnswerSerializer, QuestionSerializer, TopicSerializer
-
+from django.http import HttpResponse
 
 def index(request):
     return render(request, 'maths/index.html', {})
+
+def checkAnswer(request):
+    import json
+    if request.method == 'POST':
+        print(request.header)
+        print(request.body)
+        
+
+    response = json.dumps({'result': 1})
+    return HttpResponse(
+        response,
+        content_type = 'application/json'
+        )
 
 
 class AnswerViewSet(viewsets.ModelViewSet):

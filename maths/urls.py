@@ -22,6 +22,7 @@ router = DefaultRouter()
 router.register(r'questions', views.QuestionViewSet)
 router.register(r'topics', views.TopicViewSet)
 urlpatterns = [
+        url(r'^api/checkAnswer/$', views.checkAnswer, name='checkAnswer'),
         url(r'^api/', include(router.urls)), 
         url(r'^$', views.index, name='index'), 
 ]

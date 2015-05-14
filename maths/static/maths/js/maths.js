@@ -14,10 +14,8 @@
         .module('maths.config', []);
     angular
         .module('maths')
-        .run(run);
-    
-    function run($http) {
-        $http.defaults.xsrfHeaderName = 'X-CSRFToken';
-        $http.defaults.xsrfCookieName = 'csrftoken';
-    };
+        .run(['$http', function($http) {
+            $http.defaults.xsrfHeaderName = 'X-CSRFToken';
+            $http.defaults.xsrfCookieName = 'csrftoken';
+        }]);
 })()

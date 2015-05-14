@@ -8,12 +8,14 @@
                 console.log("Checking!");
                 console.log(question_id);
                 console.log($scope.user_answers[question_id]);
+                var x = {}
+                x.content = "1";
+                x.id = "2";
                 $http({
                     method   : 'POST',
-                    url      : '/api/checkAnswer',
-                    data     : $.param($scope.user_answers[questiond_id]),
-                    headers  : {'Content-Type': 'application/x-www-form-urlencode' }
-                });
+                    url      : '/maths/api/checkAnswer/',
+                    data     : x, 
+                })
             }
 
         }]);

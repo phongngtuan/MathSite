@@ -8,7 +8,9 @@ class AnswerListingField(serializers.RelatedField):
     def to_representation(self, value):
         import re
         import json
-        hidden = re.sub(r'"(.*)"', r'<input>', value.content)
+        if not value.content:
+            value.content=''
+        hidden = re.sub(r'"(.*?)"', r'<input>', value.content)
         return {"part": value.part_no, "content": hidden}
 
 

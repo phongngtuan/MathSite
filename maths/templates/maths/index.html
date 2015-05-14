@@ -3,6 +3,7 @@
 <html ng-app="maths">
     <head>
         {% include "maths/header.html" %}
+        <base href="/maths/">
         <link rel="stylesheet" href="{% static "maths/bower_components/bootstrap/dist/css/bootstrap.css" %}">
         <link href="{% static 'maths/css/addon-css.css' %}" rel="stylesheet" type="text/css" media="screen" />
 
@@ -12,6 +13,7 @@
         <script src="{% static "maths/bower_components/ui-router/release/angular-ui-router.js" %}"></script>
         <script src="{% static "maths/js/maths.js" %}"></script>
         <script src="{% static "maths/js/maths.routes.js" %}"></script>
+        <script src="{% static "maths/js/maths.config.js" %}"></script>
         <script src="{% static "maths/js/questions/questions.module.js" %}"></script>
         <script src="{% static "maths/js/questions/services/questions.service.js" %}"></script>
         <script src="{% static "maths/js/questions/controllers/questions.controller.js" %}"></script>
