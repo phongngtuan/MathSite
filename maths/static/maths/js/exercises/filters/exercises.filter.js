@@ -11,7 +11,7 @@
             return function(val) {
                 var index=0;
                 return val.replace("<input>", function(){
-                    return '<input ng-model="phong">';
+                    return '<input ng-model="$parent.user_answers['+(index++)+']">';
                 })
             };
         });

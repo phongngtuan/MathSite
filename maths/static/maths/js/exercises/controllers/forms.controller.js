@@ -6,6 +6,7 @@
             $scope.formData = {};
             $scope.checkAnswer = function(){
                 console.log("Checking!");
+                console.log($scope.user_answers);
             }
 
         }]);

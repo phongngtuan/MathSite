@@ -14,7 +14,6 @@
 <div class="row-fluid">
     <div class="col-md-4">
         <h3>Math editor</h3>
-        <span ng-bind-html="myContent"></span>
     </div>
     <div class="col-md-8">
         <h3>Questions</h3>
@@ -23,17 +22,13 @@
             <p ng-repeat="part in question.parts track by $index">{{part}}</p>
             <h6>Answer</h6>
             <form ng-controller="FormController" ng-submit="checkAnswer()">
-                <input ng-model="formData.test"/>
                 <ul>
                     <li ng-repeat="answer in question.answers">
-                        <span ng-bind-html="answer.content | assignModel | rawHtml"></span>
-                        {{phong}}
-                        {{$parent.formData}}
-</li>
+                        <span compile="answer.content | assignModel"></span>
+                    </li>
+                    {{user_answers}}
                 </ul>
                 <button type="submit">Check</button>
-                {{formData | json}}
-                {{user_answers}}
             </form>
         </li>
     </ul>
