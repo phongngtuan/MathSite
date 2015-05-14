@@ -2,7 +2,6 @@ from django.db import models
 
 # Create your models here.
 class Answer(models.Model):
-    id = models.IntegerField(primary_key=True)  # AutoField?
     answertype = models.ForeignKey('Answertype')
     question = models.ForeignKey('Question', related_name='answers')
     part_no = models.CharField(max_length=3)
@@ -15,6 +14,7 @@ class Answer(models.Model):
     class Meta:
         managed = False
         db_table = 'answer'
+        unique_together = ('question', 'part_no')
 
 
 class Answertype(models.Model):

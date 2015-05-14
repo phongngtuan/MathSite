@@ -14,11 +14,14 @@
                     $scope.questions = response.data;
                     $scope.questions.forEach(function(element){
                         element.parts = element.content.split(";");
-                        element.answers.forEach(function(answer){
-                            console.log(answer);
-                        })
+                        element.answers.forEach(function(element){
+                            console.log(element.content);
+                        });
+                        element.answers = element.answers.filter(function(element){
+                                return(element.content != "");
+                            });
+                        });
                     })
-                });
             }
         }]);
 })()
