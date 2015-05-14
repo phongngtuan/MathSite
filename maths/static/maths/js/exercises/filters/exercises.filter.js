@@ -11,7 +11,7 @@
             return function(val) {
                 var index=0;
                 return val.replace("<input>", function(){
-                    return '<input ng-model="$parent.user_answers[$index]['+(index++)+']">';
+                    return '<input ng-model="$parent.user_answers[question.id][answer.part]['+(index++)+']">';
                 })
             };
         });

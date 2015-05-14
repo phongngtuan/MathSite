@@ -21,12 +21,12 @@
         <li ng-repeat="question in questions" class="question-content">
             <p ng-repeat="part in question.parts track by $index">{{part}}</p>
             <h6>Answer</h6>
-            <form ng-controller="FormController" ng-submit="checkAnswer()">
+            <form ng-controller="FormController" ng-submit="checkAnswer(question.id)">
                 <ul>
                     <li ng-repeat="answer in question.answers">
                         <span compile="answer.content | assignModel"></span>
                     </li>
-                    {{user_answers}}
+                    {{user_answers | json}}
                 </ul>
                 <button type="submit">Check</button>
             </form>
