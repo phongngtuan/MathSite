@@ -12,7 +12,7 @@ def checkAnswer(request):
     if request.method == 'POST':
         data = json.loads(request.body.decode("UTF-8"))
         for id, answers in data.items():
-            print(answers)
+            print(id, answers)
 
     response = json.dumps({'result': 1})
     return HttpResponse(
