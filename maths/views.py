@@ -10,9 +10,9 @@ def index(request):
 def checkAnswer(request):
     import json
     if request.method == 'POST':
-        print(request.header)
-        print(request.body)
-        
+        data = json.loads(request.body.decode("UTF-8"))
+        for id, answers in data.items():
+            print(answers)
 
     response = json.dumps({'result': 1})
     return HttpResponse(
