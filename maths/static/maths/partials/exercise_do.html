@@ -25,6 +25,7 @@
                 <ul>
                     <li ng-repeat="answer in question.answers">
                         <span compile="answer.content | assignModel"></span>
+                        {{ result[question.id][answer.id] }}
                     </li>
                     {{user_answers | json}}
                 </ul>

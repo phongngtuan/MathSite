@@ -12,12 +12,11 @@ def latex2ascii(expression):
     result = parser.parse(expression)
     return result
 
-def compare(x, y):
+def evaluate(x, y):
     '''Compare 2 strings in asciiMath format'''
     if x and y:
         x = parse_expr(x)
         y = parse_expr(y)
-        print("parsed")
         #import pdb; pdb.set_trace()
         z = simplify(x-y)
         return(z==0)

@@ -12,10 +12,10 @@ def checkAnswer(request):
     from maths.utils import answer_checker as ac
     if request.method == 'POST':
         data = json.loads(request.body.decode("UTF-8"))
-        for id, answer in data.items():
-            ac.check(id, answer)
+        results = [ (id, ac.check(id, answer)) for id, answer in data.items()]
 
-    response = json.dumps({'result': 1})
+    response = json.dumps(dict(results))
+    print(response)
     return HttpResponse(
         response,
         content_type = 'application/json'
