@@ -1,6 +1,6 @@
 import sys
 import re
-import pattern_dictionary as inventory
+from maths.utils import pattern_dictionary as inventory
 def replace_recursive(pattern, repl, expression):
     count = 1
     expr = expression[:]
@@ -18,7 +18,7 @@ def parse(expression):
     expr = expression[:]
     for pattern, repl in inventory.rules:
         expr = replace_recursive(pattern, repl, expr)
-    print "parsed", expression
+    print("parsed", expression)
     return expr
 
 def latex2ascii(expression):

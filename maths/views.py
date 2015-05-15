@@ -9,10 +9,11 @@ def index(request):
 
 def checkAnswer(request):
     import json
+    from maths.utils import answer_checker as ac
     if request.method == 'POST':
         data = json.loads(request.body.decode("UTF-8"))
-        for id, answers in data.items():
-            print(id, answers)
+        for id, answer in data.items():
+            ac.check(id, answer)
 
     response = json.dumps({'result': 1})
     return HttpResponse(
