@@ -1,4 +1,6 @@
 <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<link rel="stylesheet" type="text/css" href="/static/maths/mathquill/mathquill.css">
+<script src="/static/maths/mathquill/mathquill.min.js"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
@@ -11,17 +13,20 @@
     "HTML-CSS": { availableFonts: ["TeX"] }
   });
 </script>
-<div class="row-fluid">
+<div ng-controller="FormController" class="row-fluid">
     <div class="col-md-4">
         <h3>Math editor</h3>
+        <input ng-model = "latex_input">
+        {{latex_input}}
     </div>
     <div class="col-md-8">
         <h3>Questions</h3>
         <ul>
         <li ng-repeat="question in questions" class="question-content">
+            <h4>{{question.id}}</h4>
             <p ng-repeat="part in question.parts track by $index">{{part}}</p>
             <h6>Answer</h6>
-            <form ng-controller="FormController" ng-submit="checkAnswer(question.id)">
+            <form ng-submit="checkAnswer(question.id)">
                 <ul>
                     <li ng-repeat="answer in question.answers">
                         <span compile="answer.content | assignModel"></span>
