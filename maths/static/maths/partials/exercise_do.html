@@ -16,8 +16,13 @@
 <div ng-controller="FormController" class="row-fluid">
     <div class="col-md-4">
         <h3>Math editor</h3>
-        <input ng-model = "latex_input">
-        {{latex_input}}
+        <h4>Latex Editor</h4>
+        <span class="mathquill-editable" id="latex-box"></span>
+        <button ng-click="latex_changed()">Copy to field</button>
+        <h4>Ascii Output</h4>
+        <input ng-model="latex_input">
+        <p>{{latex_input}}</p>
+        <p>{{latex}}</p>
     </div>
     <div class="col-md-8">
         <h3>Questions</h3>

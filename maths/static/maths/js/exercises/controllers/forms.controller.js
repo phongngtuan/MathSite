@@ -24,5 +24,11 @@
                 })
             }
 
+            $scope.latex_changed = function(){
+                console.log("changed");
+                var box = angular.element(document.getElementById("latex-box"));
+                console.log(box.mathquill().mathquill('latex'));
+            }
+
         }]);
 })()
