@@ -18,7 +18,6 @@ def parse(expression):
     expr = expression[:]
     for pattern, repl in inventory.rules:
         expr = replace_recursive(pattern, repl, expr)
-    print("parsed", expression)
     return expr
 
 def latex2ascii(expression):
@@ -28,7 +27,6 @@ def latex2ascii(expression):
     #expr = replace_sqrt(expr)
     #expr = replace_power(expr)
     #expr = replace_fraction(expr)
-    print(expr)
 
 def main():
     value = sys.argv[1]
