@@ -27,7 +27,8 @@
             $scope.latex_changed = function(){
                 console.log("changed");
                 var box = angular.element(document.getElementById("latex-box"));
-                console.log(box.mathquill().mathquill('latex'));
+                $scope.ascii_input = box.mathquill('latex')
+                console.log($scope.ascii_input);
             }
 
         }]);
