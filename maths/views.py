@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
 from maths.models import *
-from maths.serializers import AnswerSerializer, QuestionSerializer, TopicSerializer
+from maths.serializers import *
 from django.http import HttpResponse
 
 def index(request):
@@ -52,3 +52,11 @@ class TopicViewSet(viewsets.ModelViewSet):
             t = Question.objects.filter(paper__subject__id=level).values_list('topic', flat=True).distinct()
             queryset = queryset.filter(id__in=list(t))
         return queryset
+
+class LevelViewSet(viewsets.ModelViewSet):
+    queryset = EducationLevel.objects.all()
+    serializer_class = LevelSerializer
+
+class SubjectViewSet(viewsets.ModelViewSet):
+    queryset = Subject.objects.all()
+    serializer_class = SubjectSerializer
