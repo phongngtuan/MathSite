@@ -2,13 +2,12 @@
     'use strict'
     angular
         .module('maths.topics.controllers')
-        .controller('TopicsManageController', ['$scope', 'Topics', 'Subjects', function($scope, Topics, Subjects){
-            var res = Subjects.all()
-            res.then(function(response){
-                $scope.subjects = response.data;
+        .controller('TopicsManageController', ['$scope', 'Topic', 'Subject', function($scope, Topic, Subject){
+            Subject.query(function(response){
+                $scope.subjects = response;
             });
-            Topics.query(function(response) {
-                $scope.topics = response
+            Topic.query(function(response) {
+                $scope.topics = response;
             });
         }]);
 })()

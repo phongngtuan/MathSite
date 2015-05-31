@@ -2,8 +2,9 @@
     'use strict'
     angular
         .module('maths.topics.services')
-        .factory('Topics', function($resource){
+        .factory('Topic', function($resource){
             return $resource("/maths/api/topics/:id", {
+                id: "@id"
             },
             {
                 getByLevel :{

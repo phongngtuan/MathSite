@@ -2,18 +2,9 @@
     'use strict'
     angular
         .module('maths.subjects.services')
-        .factory('Subjects', ['$http', function($http){
-            var Subjects = {
-                all: all,
-                retrieve: retrieve,
-            }
-            return Subjects;
-            
-            function all() {
-                return $http.get('/maths/api/subjects/');
-            }
-            function retrieve(id){
-                return $http.get('/maths/api/subjects/'+id);
-            }
-        }]);
-})();
+        .factory('Subject', function($resource) {
+            return $resource("/maths/api/subjects/:id", {
+                id: "@id"
+            });
+        })
+})()
