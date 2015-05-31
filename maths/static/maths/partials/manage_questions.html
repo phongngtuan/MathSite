@@ -1,0 +1,9 @@
+<div class="row-fluid">
+    <div class="col-md-4">
+        <h3>Subject</h3>
+        <select ng-model="search.subject" ng-options="subject.title for subject in subjects"></select>
+        <select ng-model="search.topic" ng-options="topic.title for topic in topics | filter:search.id"></select>
+    </div>
+    <div class="col-md-8" ui-view>
+    </div>
+</div>

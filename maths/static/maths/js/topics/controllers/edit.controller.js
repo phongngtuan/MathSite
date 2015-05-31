@@ -2,11 +2,11 @@
     'use strict'
     angular
         .module('maths.topics.controllers')
-        .controller('TopicEditController', ['$scope', '$stateParams', 'Topics', function($scope, $stateParams, Topics){
+        .controller('TopicEditController', ['$scope', '$stateParams', 'Topic', function($scope, $stateParams, Topic){
             var topicId = $stateParams.topic;
             $scope.x = topicId
             if(topicId != 'new') {
-                Topics.get({id: topicId}, function(response){
+                Topic.get({id: topicId}, function(response){
                     $scope.topic = response;
                     console.log(response)
                 });

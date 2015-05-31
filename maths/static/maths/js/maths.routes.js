@@ -10,12 +10,12 @@
                     url: "/home",
                     templateUrl: "/static/maths/partials/home.html",
                 })
-            .state('topics', {
-                url: "/:level/topics",
+            .state('browse', {
+                url: "/:level/browse",
                 templateUrl: "/static/maths/partials/topics.html",
                 controller: "TopicsViewController"
             })
-            .state('topics.questions', {
+            .state('browse.questions', {
                 url: "/:topic/questions",
                 templateUrl: "/static/maths/partials/questions.html",
                 controller: "QuestionsViewController"
@@ -30,15 +30,24 @@
                 templateUrl: "/static/maths/partials/exercise_do.html",
                 controller: "ExercisesDoController"
             })
-            .state('manage_topics', {
+            .state('manage', {
+                url: "/manage",
+                templateUrl: "/static/maths/partials/manage.html"
+            })
+            .state('manage.topics', {
                 url: "/topics",
                 templateUrl: "/static/maths/partials/manage_topics.html",
                 controller: "TopicsManageController"
             })
-            .state('manage_topics.edit', {
+            .state('manage.topics.edit', {
                 url: "/edit/:topic",
                 templateUrl: "/static/maths/partials/topic_edit.html",
                 controller: "TopicEditController"
+            })
+            .state('manage.questions', {
+                url: "/questions",
+                templateUrl: "/static/maths/partials/manage_questions.html",
+                controller: "QuestionsManageController"
             })
             ;
         });
