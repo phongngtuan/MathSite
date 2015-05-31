@@ -2,7 +2,8 @@
     <div class="col-md-4">
         <h3>Subject</h3>
         <select ng-model="search.subject" ng-options="subject.title for subject in subjects"></select>
-        <select ng-model="search.topic" ng-options="topic.title for topic in topics | filter:search.id"></select>
+        <input ng-model="foo.subject"/>
+        <select ng-model="search.topic" ng-options="topic.title for topic in topics | filter:{block: foo.subject}:strict"></select>
     </div>
     <div class="col-md-8" ui-view>
     </div>
