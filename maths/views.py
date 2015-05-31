@@ -33,7 +33,6 @@ class QuestionViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         queryset = Question.objects.all()
-        print("here")
         topic = self.request.QUERY_PARAMS.get('topic', None)
         print(topic)
         if topic is not None:
@@ -49,8 +48,7 @@ class TopicViewSet(viewsets.ModelViewSet):
         queryset = Topic.objects.all()
         level = self.request.QUERY_PARAMS.get('level', None)
         if level is not None:
-            t = Question.objects.filter(paper__subject__id=level).values_list('topic', flat=True).distinct()
-            queryset = queryset.filter(id__in=list(t))
+            queryset = queryset.filter(subject__edu_level=level)
         return queryset
 
 class LevelViewSet(viewsets.ModelViewSet):

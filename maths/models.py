@@ -14,7 +14,7 @@ from django.db import models
 
 class Answer(models.Model):
     answertype = models.IntegerField()
-    question = models.ForeignKey('Question', db_column='question')
+    question = models.ForeignKey('Question', related_name='answers', db_column='question')
     part_no = models.IntegerField()
     content = models.TextField(blank=True, null=True)
     switch = models.IntegerField()
