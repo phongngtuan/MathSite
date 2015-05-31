@@ -1,10 +1,25 @@
 <div class="row-fluid">
     <div class="col-md-4">
         <h3>Subject</h3>
-        <select ng-model="search.subject" ng-options="subject.title for subject in subjects"></select>
-        <input ng-model="foo.subject"/>
-        <select ng-model="search.topic" ng-options="topic.title for topic in topics | filter:{block: foo.subject}:strict"></select>
+        <table>
+            <tr>
+                <td><b>Subject</b></td>
+                <td><select ng-model="search.subject" ng-options="subject.title for subject in subjects">
+                        <option value="">All</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><b>Topic</b></td>
+                <td><select ng-model="search.topic"
+                        ng-options="topic.title for topic in topics | filter:{subject: search.subject.id}:strict"
+                        ng-change="topicChanged()"></select></td>
+            </tr>
+                <input ng-model="foo.subject"/>
+                </table>
     </div>
-    <div class="col-md-8" ui-view>
+    <div class="col-md-8">
+        <div ng-repeat="question in questions">
+            <div ng-include="'/static/maths/partials/question_view.html'"></div>
+        </div>
     </div>
 </div>

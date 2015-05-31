@@ -6,9 +6,9 @@
         <h5>ID: {{search.id}}</h5>
         <h6>{{search.description}}</h6>
         <ul>
-            <a ui-sref="manage_topics.edit({topic: 'new'})">New topic</a>
+            <a ui-sref="manage.topics.edit({topic: 'new'})">New topic</a>
             <li ng-repeat="topic in topics | filter:search.id:strict">
-                <a ui-sref="manage_topics.edit({topic: topic.id})">{{topic.id}} {{topic.title}}</a>
+                <a ui-sref="manage.topics.edit({topic: topic.id})">{{topic.id}} {{topic.title}}</a>
             </li>
         </ul>
     </div>
