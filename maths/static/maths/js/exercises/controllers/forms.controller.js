@@ -49,6 +49,15 @@
                 $scope.field
             }
 
-
+            $scope.get_style = function(question, answer, index) {
+                console.log("getting style");
+                return "{background-color: 'blue'}";
+                if( question == selected_question
+                    && answer == selected_answer
+                    && index == selected_index)
+                    return "{'background-color': 'blue'}";
+                else
+                    return "{'background-color': 'white'}";
+            }
         }]);
 })()

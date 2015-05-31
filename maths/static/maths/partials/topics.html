@@ -4,7 +4,7 @@
         <h5>Level: {{level}}</h5>
         <ul>
             <li ng-repeat="topic in topics ">
-                <a ui-sref="topics.questions({topic: topic.id})">{{topic.id}} {{topic.title}}</a>
+                <a ng-click="edit(topic.id)">{{topic.id}} {{topic.title}}</a>
             </li>
         </ul>
     </div>

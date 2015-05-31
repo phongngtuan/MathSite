@@ -6,6 +6,7 @@
                                'maths.topics',
                                'maths.questions',
                                'maths.exercises',
+                               'maths.subjects'
                               ]);
 
     angular

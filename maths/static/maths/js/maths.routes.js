@@ -1,15 +1,15 @@
 (function() {
     'use strict'
-    angular
-    .module('maths.routes')
-    .config(function($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise("/home");
+        angular
+        .module('maths.routes')
+        .config(function($stateProvider, $urlRouterProvider) {
+            $urlRouterProvider.otherwise("/home");
 
-        $stateProvider
-            .state('home', {
-                url: "/home",
-                templateUrl: "/static/maths/partials/home.html",
-            })
+            $stateProvider
+                .state('home', {
+                    url: "/home",
+                    templateUrl: "/static/maths/partials/home.html",
+                })
             .state('topics', {
                 url: "/:level/topics",
                 templateUrl: "/static/maths/partials/topics.html",
@@ -29,6 +29,17 @@
                 url: "/:topic/do",
                 templateUrl: "/static/maths/partials/exercise_do.html",
                 controller: "ExercisesDoController"
-            });
-    });
+            })
+            .state('manage_topics', {
+                url: "/topics",
+                templateUrl: "/static/maths/partials/manage_topics.html",
+                controller: "TopicsManageController"
+            })
+            .state('manage_topics.edit', {
+                url: "/edit/:topic",
+                templateUrl: "/static/maths/partials/topic_edit.html",
+                controller: "TopicEditController"
+            })
+            ;
+        });
 })()

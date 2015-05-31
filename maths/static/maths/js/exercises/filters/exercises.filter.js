@@ -11,7 +11,10 @@
             return function(val) {
                 var index=0;
                 return val.replace(/<input>/gi, function(){
-                    return '<input ng-model="$parent.user_answers[question.id][answer.id]['+(index++)+']">';
+                    var x= '<input '
+                        + 'ng-model="$parent.user_answers[question.id][answer.id]['+(index)+']" '
+                        + 'ng-click="$parent.selected(question.id, answer.id, '+ (index++) + ')"> ';
+                    return x
                 },
                 'gi')
             };

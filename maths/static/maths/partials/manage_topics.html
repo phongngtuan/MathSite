@@ -1,0 +1,18 @@
+<div class="row-fluid">
+    <div class="col-md-4">
+        <h3>Subject</h3>
+        <select ng-model="search" ng-options="subject.title for subject in subjects">
+        </select>
+        <h5>ID: {{search.id}}</h5>
+        <h6>{{search.description}}</h6>
+        <ul>
+            <a ui-sref="manage_topics.edit({topic: 'new'})">New topic</a>
+            <li ng-repeat="topic in topics | filter:search.id:strict">
+                <a ui-sref="manage_topics.edit({topic: topic.id})">{{topic.id}} {{topic.title}}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-8" ui-view>
+        
+    </div>
+</div>
