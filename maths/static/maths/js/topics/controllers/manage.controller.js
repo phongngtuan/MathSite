@@ -7,8 +7,8 @@
             res.then(function(response){
                 $scope.subjects = response.data;
             });
-            Topics.all().then(function(response) {
-                $scope.topics = response.data
+            Topics.query(function(response) {
+                $scope.topics = response
             });
         }]);
 })()

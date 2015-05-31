@@ -5,11 +5,13 @@
         .controller('TopicsViewController', ['$scope', '$stateParams', 'Topics', function($scope, $stateParams, Topics){
             $scope.level = $stateParams.level;
             if($scope.level)
-                var res = Topics.getByLevel($scope.level); 
+                Topics.getByLevel({level: $scope.level}, function(response){
+                    console.log(response);
+                    $scope.topics = response;
+                });
             else
-                var res = Topics.all()
-            res.then(function(response){
-                $scope.topics = response.data;
-            });
+                Topics.query(function(response){
+                    $scope.topics = response;
+                });
         }]);
 })()

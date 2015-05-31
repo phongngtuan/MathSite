@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from maths.models import Answer, Question, Topic
+from maths.models import Answer, Question, Topic, EducationLevel, Subject
 class AnswerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Answer
@@ -22,3 +22,12 @@ class QuestionSerializer(serializers.ModelSerializer):
 class TopicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Topic
+
+class LevelSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = EducationLevel
+        
+class SubjectSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Subject
+ 

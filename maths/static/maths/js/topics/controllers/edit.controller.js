@@ -6,9 +6,9 @@
             var topicId = $stateParams.topic;
             $scope.x = topicId
             if(topicId != 'new') {
-                Topics.retrieve(topicId).then(function(response){
-                    $scope.topic = response.data;
-                    console.log(response.data)
+                Topics.get({id: topicId}, function(response){
+                    $scope.topic = response;
+                    console.log(response)
                 });
             }
             else {

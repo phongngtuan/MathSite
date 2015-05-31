@@ -21,6 +21,8 @@ from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
 router.register(r'questions', views.QuestionViewSet)
 router.register(r'topics', views.TopicViewSet)
+router.register(r'levels', views.LevelViewSet)
+router.register(r'subjects', views.SubjectViewSet)
 urlpatterns = [
         url(r'^api/checkAnswer/$', views.checkAnswer, name='checkAnswer'),
         url(r'^api/', include(router.urls)), 

@@ -10,8 +10,7 @@
                 <li class="dropdown-toggle">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-book icon-white"></i>Questions <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a ui-sref=topics({level:1})>A Level H2 Math</a></li>
-                        <li><a ui-sref=topics({level:2})>O Level A Math</a></li>
+                        <li><a ui-sref=topics({level:1})>A Level H2 Math</a></li> <li><a ui-sref=topics({level:2})>O Level A Math</a></li>
                         <li><a ui-sref=topics({level:3})>O Level E Math</a></li>
                     </ul>
                 </li>
@@ -30,9 +29,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog icon-white"></i> Admin <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/math/manage/3/paper">Modify A Level H2 Math Paper</a></li>
-                        <li><a href="/math/manage/1/paper">Modify O Level A Math Paper</a></li>
-                        <li><a href="/math/manage/2/paper">Modify O Level E Math Paper</a></li>
+                        <li><a ui-sref="manage_topics">Manage topics</a></li>
+                        <li><a ui-sref="manage_questions">Manage questions</a></li>
                         <li class="divider"></li>
                         <li class="nav-header">Developer Only</li>
                         <li><a href="/admin/">Django Admin</a></li>
