@@ -12,13 +12,14 @@
                     });
                     $scope.topicChanged = function() {
                         getQuestionWithTopic($scope.search.topic.id);
+                        MathJax.Hub.Queue(["Reprocess", MathJax.Hub]);
+                        console.log("queued");
                     }
                     function getQuestionWithTopic(topic) {
                         Question.getByTopic({topic: topic}, function(response) {
                             $scope.questions = response; 
                             console.log(response);
-                        })
-                        console.log($scope.search.topic.id);
+                        });
                     }
                 }
         ]);
