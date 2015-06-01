@@ -1,4 +1,3 @@
-<h3>Edit Page</h3>
 <div class="row-fluid">
     <div class="col-md-4">
         <form>
@@ -22,7 +21,10 @@
             </div>
         </form>
     </div>
-    <div class="col-md-8">
+    <div class="row-fluid col-md-8">
         <h3>Answer</h3>
+        <div ng-repeat="answer in question.answers">
+            <div ng-include="'/static/maths/partials/answer_edit.html'"></div>
+        </div>
     </div>
 </div>

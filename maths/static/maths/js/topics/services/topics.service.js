@@ -3,7 +3,7 @@
     angular
         .module('maths.topics.services')
         .factory('Topic', function($resource){
-            return $resource("/maths/api/topics/:id", {
+            return $resource("/maths/api/topics/:id/", {
                 id: "@id"
             },
             {

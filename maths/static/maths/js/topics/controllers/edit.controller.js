@@ -15,5 +15,9 @@
                 $scope.topic = {'title': ''}
                 console.log($scope.topic)
             }
+            $scope.saveTopic = function(){
+                console.log("saved");
+                $scope.topic.$save();
+            }
         }]);
 })()
