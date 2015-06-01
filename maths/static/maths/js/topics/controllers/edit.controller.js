@@ -1,7 +1,7 @@
 (function() {
     'use strict'
     angular
-        .module('maths.topics.controllers')
+        .module('maths.questions.controllers')
         .controller('TopicEditController', ['$scope', '$stateParams', 'Topic', function($scope, $stateParams, Topic){
             var topicId = $stateParams.topic;
             $scope.x = topicId
