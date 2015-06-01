@@ -2,7 +2,7 @@
     'use strict'
     angular
         .module('maths.questions.controllers')
-        .controller('TopicEditController', ['$scope', '$stateParams', 'Topic', function($scope, $stateParams, Topic){
+        .controller('TopicEditController', ['$scope', '$stateParams', 'Topic', '$http', function($scope, $stateParams, Topic, $http){
             var topicId = $stateParams.topic;
             $scope.x = topicId
             if(topicId != 'new') {
@@ -17,7 +17,7 @@
             }
             $scope.saveTopic = function(){
                 console.log("saved");
-                $scope.topic.$save();
+                Topic.update($scope.topic);
             }
         }]);
 })()

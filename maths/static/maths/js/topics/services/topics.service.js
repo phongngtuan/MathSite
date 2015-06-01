@@ -12,6 +12,9 @@
                     url: "/maths/api/topics/",
                     params: {level: '@level'},
                     isArray: true
+                },
+                update: {
+                    method:'PUT',
                 }
             },
             {
