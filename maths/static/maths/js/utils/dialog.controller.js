@@ -5,7 +5,7 @@
         .controller('ConfirmDialogController', ['$scope', '$modalInstance',
                 function($scope, $modalInstance) {
                     $scope.ok = function () {
-                        $modalInstance.dismiss('cancel');
+                        $modalInstance.close(true);
                     };
                     $scope.cancel = function () {
                         $modalInstance.dismiss('cancel');

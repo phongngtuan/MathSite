@@ -2,8 +2,8 @@
     'use strict'
     angular
         .module('maths.questions.controllers')
-        .controller('TopicEditController', ['$scope', '$stateParams', 'Topic', '$modal',
-                function($scope, $stateParams, Topic, $modal){
+        .controller('TopicEditController', ['$scope', '$state', '$stateParams', 'Topic', '$modal',
+                function($scope, $state, $stateParams, Topic, $modal){
                     var topicId = $stateParams.topic;
                     $scope.x = topicId
                         if(topicId != 'new') {
@@ -26,7 +26,19 @@
                             templateUrl: '/static/maths/partials/confirmDialog.html',
                             controller: 'ConfirmDialogController',
                             size: 'sm'
-                        })
+                        });
+                        modalInstance.result.then(function(result) {
+                            $scope.confirm = result;
+                            console.log($scope.$parent.topics);
+                            if(result) {
+                                console.log("Deleting");
+                                Topic.delete({id: topicId});
+                                $scope.$parent.topics = $scope.$parent.topics.filter(function(topic) {
+                                    return (topic.id != topicId)
+                                });
+                                $state.go('manage.topics');
+                            }
+                        });
                     }
                 }]);
 })()
