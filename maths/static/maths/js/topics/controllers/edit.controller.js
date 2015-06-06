@@ -2,8 +2,8 @@
     'use strict'
     angular
         .module('maths.questions.controllers')
-        .controller('TopicEditController', ['$scope', '$state', '$stateParams', 'Topic', '$modal',
-                function($scope, $state, $stateParams, Topic, $modal){
+        .controller('TopicEditController', ['$scope', '$state', '$stateParams', 'Topic', '$modal', '$http',
+                function($scope, $state, $stateParams, Topic, $modal, $http){
                     var topicId = $stateParams.topic;
                     $scope.x = topicId
                         if(topicId != 'new') {
@@ -13,12 +13,20 @@
                             });
                         }
                         else {
-                            $scope.topic = {'title': ''}
+                            $scope.topic = {title: '', subject:null}
                             console.log($scope.topic)
                         }
                     $scope.saveTopic = function(){
                         console.log("saved");
-                        Topic.update($scope.topic);
+                        if(topicId == 'new') {
+                            Topic.create($scope.topic)
+                                .$promise.then(function(topic){
+                                    $scope.$parent.topics.push(topic);
+                                })
+                        }
+                        else {
+                            Topic.update($scope.topic);
+                        }
                     }
                     $scope.confirmDelete = function() {
                         var modalInstance = $modal.open({

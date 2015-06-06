@@ -134,10 +134,9 @@ class Subtopic(models.Model):
 
 
 class Topic(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.AutoField(primary_key=True)
     title = models.TextField(blank=True, null=True)
     subject = models.ForeignKey(Subject, db_column='subject', blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'topic'
