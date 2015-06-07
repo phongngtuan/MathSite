@@ -3,16 +3,11 @@
     angular
         .module('maths.answers.services')
         .factory('Answer', function($resource) {
-            return $resource("/maths/api/topics/:id", {
-                id: "@id"
+            return $resource("/maths/api/questions/:question_id/answers/:part", {
+                question_id: "@question",
+                part_no: "@part_no"
             },
             {
-                getByQuestion: {
-                    method: 'GET',
-                    url: '/maths/api/questions/',
-                    params: {question: '@question'},
-                    isArray: true
-                },
                 create: {
                     method:'POST',
                 },

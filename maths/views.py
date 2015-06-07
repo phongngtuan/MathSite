@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from rest_framework import viewsets
+from rest_framework.response import Response
 from maths.models import *
 from maths.serializers import *
 from django.http import HttpResponse
@@ -26,12 +27,18 @@ class AnswerViewSet(viewsets.ModelViewSet):
     queryset = Answer.objects.all()
     serializer_class = AnswerSerializer
 
-    def get_queryset(self):
-        queryset = Answer.objects.all()
-        question = self.request.QUERY_PARAMS.get('question', None)
-        if question is not None:
-            queryset = queryset.filter(question__id=question)
-        return queryset
+    def list(self, request, question_pk=None):
+        print(question_pk)
+        answers = self.queryset.filter(question_id=question_pk)
+        serializer = AnswerSerializer(answers, many=True)
+        return Response(serializer.data)
+
+    #def get_queryset(self):
+    #    queryset = Answer.objects.all()
+    #    question = self.request.QUERY_PARAMS.get('question', None)
+    #    if question is not None:
+    #        queryset = queryset.filter(question__id=question)
+    #    return queryset
 
 
 class QuestionViewSet(viewsets.ModelViewSet):

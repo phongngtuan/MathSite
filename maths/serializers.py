@@ -14,7 +14,6 @@ class AnswerListingField(serializers.RelatedField):
         hidden = re.sub(r'"(.*?)"', r'<input>', value.content)
         return {"id": value.id, "part_no": value.part_no, "content": hidden}
 
-
 class QuestionSerializer(serializers.ModelSerializer):
     answers = AnswerListingField(many=True, read_only=True)
     class Meta:

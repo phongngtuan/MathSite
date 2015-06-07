@@ -7,6 +7,7 @@
                                'maths.questions',
                                'maths.exercises',
                                'maths.subjects',
+                               'maths.answers',
                                'maths.utils'
                               ]);
 

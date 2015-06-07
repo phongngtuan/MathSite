@@ -25,7 +25,7 @@
         <h5>Answer</h5>
         <button class="btn btn-default" ng-click="updateAllAnswers()">Save</button>
         <button class="btn btn-default" ng-click="addAnswer()">Add part</button>
-        <div ng-repeat="answer in question.answers">
+        <div ng-repeat="answer in answers">
             <div ng-include="'/static/maths/partials/answer_edit.html'"></div>
         </div>
     </div>

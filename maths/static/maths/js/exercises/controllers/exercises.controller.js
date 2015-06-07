@@ -17,10 +17,10 @@
                             console.log(element.content);
                         });
                         element.answers = element.answers.filter(function(element){
-                                return(element.content != "");
-                            });
+                            return(element.content != "");
                         });
                     });
+                });
             }
         }]);
 })()
