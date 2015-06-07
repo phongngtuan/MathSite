@@ -6,8 +6,13 @@
                 function($scope, $stateParams, Question) {
                     var question_id = $stateParams.id
                     Question.get({id: question_id}, function(response) {
+                        console.log("here");
                         $scope.question = response;
                     });
+                    $scope.addAnswer = function() {
+                        console.log("added answer");
+                        $scope.question.answers.push({});
+                    };
                 }]);
 })()
 
