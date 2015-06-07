@@ -19,8 +19,10 @@ class Answer(models.Model):
     content = models.TextField(blank=True, null=True)
     switch = models.IntegerField()
 
+    def list(self, request, question_pk=None):
+        return Answer.objects.filter(question__id=question_pk)
+
     class Meta:
-        managed = False
         db_table = 'answer'
 
 
