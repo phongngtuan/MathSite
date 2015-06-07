@@ -2,15 +2,15 @@
     'use strict'
     angular
         .module('maths.exercises.controllers')
-        .controller('ExercisesDoController', ['$scope', '$stateParams', 'Questions', 'Topics', function($scope, $stateParams, Questions, Topics){
+        .controller('ExercisesDoController', ['$scope', '$stateParams', 'Question', 'Topic', function($scope, $stateParams, Question, Topic){
             var topic = $stateParams.topic;
             if(topic){
-                Topics.retrieve(topic).then(function(response){
-                    $scope.topic = response.data.title;
+                Topic.get({id:topic}, function(response) {
+                    $scope.topic = response;
                 });
                 
-                Questions.getByTopic(topic).then(function(response){
-                    $scope.questions = response.data;
+                Question.getByTopic({topic:topic}, function(response){
+                    $scope.questions = response;
                     $scope.questions.forEach(function(element){
                         element.parts = element.content.split(";");
                         element.answers.forEach(function(element){
@@ -20,7 +20,7 @@
                                 return(element.content != "");
                             });
                         });
-                    })
+                    });
             }
         }]);
 })()
