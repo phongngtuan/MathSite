@@ -9,7 +9,7 @@
                         console.log("here");
                         $scope.question = response;
                     });
-                    Answer.query({question_id:question_id}, function(response) {
+                    Answer.query({question:question_id}, function(response) {
                         console.log(response);
                         $scope.answers = response;
                     });
@@ -20,13 +20,21 @@
                     };
                     $scope.updateAllAnswers = function() {
                         $scope.answers.forEach(function(answer){
-                            console.log(answer.content);
+                            saveAnswer(answer);
                         });
                     };
                     $scope.deleteAnswer = function(answer) {
                         var index = $scope.answers.indexOf(answer);
                         $scope.answers.splice(index, 1);
                     }
+
+                    function saveAnswer(answer) {
+                        console.log(answer);
+                        if (answer.id) {
+                            Answer.update(answer); 
+                        }
+                    }
+
                 }]);
 })()
 

@@ -3,9 +3,9 @@
     angular
         .module('maths.answers.services')
         .factory('Answer', function($resource) {
-            return $resource("/maths/api/questions/:question_id/answers/:part", {
-                question_id: "@question",
-                part_no: "@part_no"
+            return $resource("/maths/api/questions/:question/answers/:id/", {
+                question: "@question",
+                id: "@id"
             },
             {
                 create: {
@@ -17,6 +17,6 @@
             },
             {
                 stripTrailingSlashes: false
-            })
+            });
         })
 })();
