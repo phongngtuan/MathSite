@@ -13,6 +13,11 @@
                         console.log("added answer");
                         $scope.question.answers.push({});
                     };
+                    $scope.updateAllAnswers = function() {
+                        $scope.question.answers.forEach(function(answer){
+                            console.log(answer.content);
+                        });
+                    }
                 }]);
 })()
 
