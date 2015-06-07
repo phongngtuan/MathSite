@@ -25,7 +25,14 @@ def checkAnswer(request):
 class AnswerViewSet(viewsets.ModelViewSet):
     queryset = Answer.objects.all()
     serializer_class = AnswerSerializer
-    
+
+    def get_queryset(self):
+        queryset = Answer.objects.all()
+        question = self.request.QUERY_PARAMS.get('question', None)
+        if question is not None:
+            queryset = queryset.filter(question__id=question)
+        return queryset
+
 
 class QuestionViewSet(viewsets.ModelViewSet):
     queryset = Question.objects.all()

@@ -9,6 +9,7 @@
                         console.log("here");
                         $scope.question = response;
                     });
+                    
                     $scope.addAnswer = function() {
                         console.log("added answer");
                         $scope.question.answers.push({});
@@ -17,6 +18,8 @@
                         $scope.question.answers.forEach(function(answer){
                             console.log(answer.content);
                         });
+                    };
+                    $scope.deleteAnswer = function() {
                     }
                 }]);
 })()

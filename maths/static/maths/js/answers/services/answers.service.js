@@ -2,20 +2,26 @@
     'use strict'
     angular
         .module('maths.answers.services')
-        .factory('Answers', ['$http', function($http){
-            var Answers = {
-                all: all,
-                retrieve: retrieve,
-            }
-            return Answers;
-            
-            function all() {
-                return $http.get('/maths/api/answers/', {
-                    params: {question: question}
-                });
-            }
-            function retrieve(id){
-                return $http.get('/maths/api/answers/'+id);
-            }
-        }]);
+        .factory('Answer', function($resource) {
+            return $resource("/maths/api/topics/:id", {
+                id: "@id"
+            },
+            {
+                getByQuestion: {
+                    method: 'GET',
+                    url: '/maths/api/questions/',
+                    params: {question: '@question'},
+                    isArray: true
+                },
+                create: {
+                    method:'POST',
+                },
+                update: {
+                    method:'PUT',
+                }
+            },
+            {
+                stripTrailingSlashes: false
+            })
+        })
 })();
