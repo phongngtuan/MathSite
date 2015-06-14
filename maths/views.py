@@ -33,12 +33,10 @@ class AnswerViewSet(viewsets.ModelViewSet):
         serializer = AnswerSerializer(answers, many=True)
         return Response(serializer.data)
 
-    #def get_queryset(self):
-    #    queryset = Answer.objects.all()
-    #    question = self.request.QUERY_PARAMS.get('question', None)
-    #    if question is not None:
-    #        queryset = queryset.filter(question__id=question)
-    #    return queryset
+    def retrieve(self, request, pk=None, question_pk=None):
+        answer = self.queryset.get(part_no=pk, question=question_pk)
+        serializer = AnswerSerializer(answer, many = False)
+        return Response(serializer.data)
 
 
 class QuestionViewSet(viewsets.ModelViewSet):

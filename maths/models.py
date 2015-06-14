@@ -97,9 +97,14 @@ class Question(models.Model):
     source = models.TextField(blank=True, null=True)
     difficulty = models.IntegerField(blank=True, null=True)
 
+    def __str__(self):
+        return self.id
+
     class Meta:
         managed = False
         db_table = 'question'
+
+
 
 
 class Solution(models.Model):

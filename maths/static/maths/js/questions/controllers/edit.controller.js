@@ -35,7 +35,11 @@
                         }
                         else {
                             console.log("Add new question");
-                            Answer.save({question: question_id, id: 999});
+                            answer.answertype = 1;
+                            answer.part_no = 3;
+                            answer.switch = 1;
+                            answer.question = question_id;
+                            Answer.save({question: question_id}, answer);
                         }
                     }
 
