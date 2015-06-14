@@ -38,11 +38,11 @@
                     </ul>
                 </li>
             </ul>
-            <ul class="navbar-form navbar-right">
+            <ul class="navbar-form navbar-right" ng-controller="LoginController">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username">
-                    <input type="text" class="form-control" placeholder="Password">
-                    <button type="submit" class="btn btn-default">Login</button>
+                    <input type="text" class="form-control" placeholder="Username" ng-model="username">
+                    <input type="text" class="form-control" placeholder="Password" ng-model="password">
+                    <button type="submit" class="btn btn-default" ng-click="login()">Login</button>
                 </div>
             </ul>
         </div>

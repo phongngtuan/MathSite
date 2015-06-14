@@ -1,20 +1,34 @@
 from django.shortcuts import render
-from rest_framework import viewsets
+from django.contrib.auth import authenticate, login
+from rest_framework import views, viewsets
 from rest_framework.response import Response
 from maths.models import *
 from maths.serializers import *
 from django.http import HttpResponse
+import json
 
 def index(request):
     return render(request, 'maths/index.html', {})
 
+class LoginView(views.APIView):
+    def post(self, request):
+        data = request.data
+        username = data.get('username', None)
+        password = data.get('password', None)
+        print("Logging in user")
+        print(username)
+        print(password)
+        account = authenticate(username="phongnt", password="123456789")
+        print("here")
+        print(account)
+        return Response()
+
+
 def checkAnswer(request):
-    import json
     from maths.utils import answer_checker as ac
     if request.method == 'POST':
         data = json.loads(request.body.decode("UTF-8"))
         results = [ (id, ac.check(id, answer)) for id, answer in data.items()]
-
     response = json.dumps(dict(results))
     print(response)
     return HttpResponse(
