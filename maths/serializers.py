@@ -12,7 +12,7 @@ class AnswerListingField(serializers.RelatedField):
         if not value.content:
             value.content=''
         hidden = re.sub(r'"(.*?)"', r'<input>', value.content)
-        return {"id": value.id, "part_no": value.part_no, "content": hidden}
+        return {"id": value.id, "part_no": value.part, "content": hidden}
 
 class QuestionSerializer(serializers.ModelSerializer):
     answers = AnswerListingField(many=True, read_only=True)

@@ -13,11 +13,11 @@ from django.db import models
 
 
 class Answer(models.Model):
-    answertype = models.IntegerField()
+    answertype = models.IntegerField(blank=True, null=True)
     question = models.ForeignKey('Question', related_name='answers', db_column='question')
-    part_no = models.IntegerField()
+    part = models.IntegerField()
     content = models.TextField(blank=True, null=True)
-    switch = models.IntegerField()
+    switch = models.IntegerField(blank=True, null=True)
 
     class Meta:
         db_table = 'answer'

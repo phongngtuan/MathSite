@@ -4,6 +4,7 @@
         .module('maths.questions.controllers')
         .controller('QuestionEditController', ['$scope', '$stateParams', 'Question', 'Answer',
                 function($scope, $stateParams, Question, Answer) {
+                    var trash_answers = [];
                     var question_id = $stateParams.id
                     Question.get({id: question_id}, function(response) {
                         console.log("here");
@@ -22,22 +23,26 @@
                         $scope.answers.forEach(function(answer){
                             saveAnswer(answer);
                         });
+                        trash_answers.forEach(function(answer) {
+                            Answer.remove(answer);
+                        });
                     };
+
                     $scope.deleteAnswer = function(answer) {
                         var index = $scope.answers.indexOf(answer);
+                        trash_answers.push(answer);
                         $scope.answers.splice(index, 1);
                     }
 
                     function saveAnswer(answer) {
+                        console.log("deleted answer:");
+                        console.log(trash_answers);
                         console.log(answer);
                         if (answer.id) {
                             Answer.update(answer); 
                         }
                         else {
                             console.log("Add new question");
-                            answer.answertype = 1;
-                            answer.part_no = 3;
-                            answer.switch = 1;
                             answer.question = question_id;
                             Answer.save({question: question_id}, answer);
                         }
