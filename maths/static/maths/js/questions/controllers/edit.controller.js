@@ -33,6 +33,10 @@
                         if (answer.id) {
                             Answer.update(answer); 
                         }
+                        else {
+                            console.log("Add new question");
+                            Answer.save({question: question_id, id: 999});
+                        }
                     }
 
                 }]);

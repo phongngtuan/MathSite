@@ -21,7 +21,7 @@ from rest_framework_nested import routers
 
 router = DefaultRouter()
 router.register(r'questions', views.QuestionViewSet)
-router.register(r'answers', views.AnswerViewSet)
+#router.register(r'answers', views.AnswerViewSet)
 router.register(r'topics', views.TopicViewSet)
 router.register(r'levels', views.LevelViewSet)
 router.register(r'subjects', views.SubjectViewSet)
