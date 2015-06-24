@@ -84,3 +84,7 @@ class LevelViewSet(viewsets.ModelViewSet):
 class SubjectViewSet(viewsets.ModelViewSet):
     queryset = Subject.objects.all()
     serializer_class = SubjectSerializer
+
+class PaperViewSet(viewsets.ModelViewSet):
+    queryset = Paper.objects.all()
+    serializer_class = PaperSerializer

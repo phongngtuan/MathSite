@@ -1,5 +1,10 @@
 from rest_framework import serializers
-from maths.models import Answer, Question, Topic, EducationLevel, Subject
+from maths.models import *
+
+class PaperSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Paper
+
 
 class AnswerSerializer(serializers.ModelSerializer):
     class Meta:
