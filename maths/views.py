@@ -60,9 +60,12 @@ class QuestionViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         queryset = Question.objects.all()
         topic = self.request.QUERY_PARAMS.get('topic', None)
+        paper = self.request.QUERY_PARAMS.get('paper', None)
         print(topic)
         if topic is not None:
             queryset = queryset.filter(topic__id=topic)
+        elif paper is not None:
+            queryset = queryset.filter(paper=paper)
         return queryset
     
 

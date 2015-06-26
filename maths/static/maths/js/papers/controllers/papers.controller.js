@@ -2,15 +2,16 @@
     'use strict'
     angular
         .module('maths.papers.controllers')
-        .controller('PapersViewController', ['$scope', '$stateParams', 'Paper', 'Topic', function($scope, $stateParams, Paper, Topic){
-            var topic = $stateParams.topic;
-            if(topic){
-                Topic.get({id: topic}, function(response){
-                    $scope.topic = response;
+        .controller('PaperViewController', ['$scope', '$stateParams', 'Paper', 'Question', function($scope, $stateParams, Paper, Question){
+            var paper = $stateParams.paper;
+            if(paper){
+                Paper.get({id: paper}, function(response){
+                    $scope.paper = response;
                 });
-                Paper.getByTopic({topic: topic}, function(response){
-                    $scope.papers = response;
-                    $scope.papers.forEach(function(element){
+                Question.getByPaper({paper: paper}, function(response){
+                    console.log("Here");
+                    $scope.questions = response;
+                    $scope.questions.forEach(function(element){
                         element.parts = element.content.split(";");
                     MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
                     })

@@ -12,13 +12,18 @@
                 })
                 .state('browse', {
                     url: "/:level/browse",
-                    templateUrl: "/static/maths/partials/topics.html",
-                    controller: "TopicsViewController"
+                    templateUrl: "/static/maths/partials/browse.html",
+                    controller: "BrowseController"
                 })
-                .state('browse.questions', {
-                    url: "/:topic/questions",
+                .state('browse.topic', {
+                    url: "/topic/:topic",
                     templateUrl: "/static/maths/partials/questions.html",
                     controller: "QuestionsViewController"
+                })
+                .state('browse.paper', {
+                    url: "/paper/:paper",
+                    templateUrl: "/static/maths/partials/questions.html",
+                    controller: "PaperViewController"
                 })
                 .state('exercise', {
                     url: "/:level/exercise",
