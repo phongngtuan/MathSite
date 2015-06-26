@@ -1,0 +1,28 @@
+ID: 199904003012
+Content:
+a) The complex numbers \[2e^{\frac {1}{12} \pi i}\] and \[2e^{\frac {5}{12} \pi i}\] are represented by the points A and B respectively in an Argand diagram with origin O. Show that triangle OAB is equilateral.;;b) The complex numbers z and w each have modulus R, and have arguments \[\alpha\] and \[\beta\] respectively, where \[0 < \alpha < \beta < \frac {1}{2} \pi\]. In either order,;(i) show that \[z + w = 2R \left \{ \cos \frac {1}{2} (\beta - \alpha) \right \}e^{\frac {1}{2}(\alpha + \beta)i}\],;(ii) express |z + w| and arg (z + w) in terms of R, \[\alpha\] and \[\beta\], as appropriate. Show also that \[|z - w| = 2R\sin \frac {1}{2}(\beta - \alpha)\]. The complex numbers z and w are represented by the points Z and W respectively in an Argand diagram with origin O. Triangle OZW has area \[\Delta\]. Show that \[|z^2 - w^2| = 4\Delta \].Answers:
+227: None
+228: 
+229: |z + w| = "2R\cos{\frac{1}{2}(\beta-\alpha)}".
+230: arg(z+w) = "\frac{1}{2}(\alpha+\beta)".
+231: 
+232: 
+
+ID: 200303003007
+Content:
+Given that  $$| z - 2i | \le 4$$, illustrate the locus of the point representing the complex number z in an Argand diagram. Hence find the greatest and least possible values of |z - 3 + 4i|, given that  $$| z - 2i | \le 4$$. Answers:
+496: x = "-2" or "4".
+497: Set of values of x is "-11" < x < "9".
+
+ID: 200603003005
+Content:
+The complex number z satisfies $$|z+4-4i|=3$$. ;(i) Describe, with the aid of a sketch, the locus of the point which represents z in an Argand diagram.;(ii) Find the least possible value of $$|z-i|$$ .  Answers:
+684: None
+685: Least possible value of |z-i| = "2" units.
+
+ID: 200703003003
+Content:
+a) Sketch, on an Argand diagram, the locus of points representing the complex number z such that $$|z+2-3i|= \sqrt{13} $$ ;;b) The complex number w is such that $$ww*+2w=3+4i$$ , where w* is the complex conjugate of w. Find w in the form of a + ib, where a and b are real Answers:
+755: None
+756: w = "-1 + 2i".
+

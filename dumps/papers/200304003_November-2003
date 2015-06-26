@@ -1,0 +1,150 @@
+ID: 200304003001
+Content:
+Solve the equation  $$3( 3^{2x} ) - 7( 3^x ) + 2 = 0$$, giving your answers correct to 3 significant figures where appropriate. Answers:
+519: x = "-1" or "0.631".
+
+ID: 200304003002
+Content:
+Find ;(i) $$\int x^3 \ln xdx $$ ;(ii)  $$\int x^3 ( \ln x )^2 dx $$. Answers:
+520: \int x^3 \ln x dx = "\frac{1}{4} x^4 x - \frac{x^4}{16}"+ c.
+521: \int x^3 (\ln x)^2 dx = "\frac{1}{4} x^4 (\ln{x})^2 - \frac{1}{8} x^4 \ln{x} + \frac{1}{32} x^4"+ c.
+
+ID: 200304003003
+Content:
+Express  $$8\sin \theta  + 15\cos \theta $$ in the form  $$R\sin ( \theta  + \alpha  )$$, where R > 0 and  $$0^0  < \alpha  < 90^0 $$. Find the greatest value, as  $$\theta $$ varies, of;(i) 8 sin  $$\theta $$ + 15 cos  $$\theta $$,;(ii) $$\frac{1}{20 + 8\sin \theta  + 15\cos \theta}$$,;(iii) $$\frac{1}{20 + (8\sin \theta  + 15\cos \theta)^2}$$.Answers:
+522: R = "17".
+523: \alpha = "61.9" ^{\circ}.
+524: Greatest value = "17".
+525: Greatest value = "\frac{1}{3}".
+526: Greatest value = "\frac{1}{20}".
+
+ID: 200304003004
+Content:
+The first, second and fourth term of a convergent geometric progression are consecutive terms of an arithmetic progression. Prove that the common ratio of the geometric progression is  $$\frac{-1 + \sqrt 5}{2}$$. The first term of the geometric progression is positive. Show that the sum of the first 5 terms of this progression is greater than nine tenths of the sum to infinity.   Answers:
+527: 
+
+ID: 200304003005
+Content:
+It is given that $$y = \sin{\ln (1 + x)}$$. Show that ;(i) $$( 1 + x )\frac{dy}{dx}= \cos {\ln ( 1 + x )}$$;(ii) $$( 1 + x )^2 \frac{d^2 y}{dx^2} + (1 + x)\frac{dy}{dx} + y = 0$$. Find the Maclaurin's series for y, up to and including the term in  $$x^3 $$.  Answers:
+528: 
+529: 
+530: Maclaurin's series (up to term in x^3) = "x - \frac{1}{2}x^2 + \frac{1}{6}x^3".
+
+ID: 200304003006
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003007
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003008
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003009
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003010
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003011
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003012
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003013
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003014
+Content:
+Applied MathematicsAnswers:
+
+ID: 200304003015
+Content:
+Particle MathematicsAnswers:
+
+ID: 200304003016
+Content:
+Particle MathematicsAnswers:
+
+ID: 200304003017
+Content:
+Particle MathematicsAnswers:
+
+ID: 200304003018
+Content:
+Particle MathematicsAnswers:
+
+ID: 200304003019
+Content:
+Particle MathematicsAnswers:
+
+ID: 200304003020
+Content:
+Particle MathematicsAnswers:
+
+ID: 200304003021
+Content:
+Particle MathematicsAnswers:
+
+ID: 200304003022
+Content:
+Particle MathematicsAnswers:
+
+ID: 200304003023
+Content:
+The random variable X has the binomial distribution B(5,p), where 0 < p < 1. It is given that Var(X) = $$\frac{1}{4}E(X)$$. Find $$E(X^2).$$Answers:
+531: E(X^2) = "15".
+
+ID: 200304003024
+Content:
+In a survey of a random sample of 960 people, 621 have a cell phone. Find a 90% confidence interval for the proportion of the population who have a cell phone.  The company commissioning the survey wishes to have a confidence interval which is about half the width of the above interval. State one way in which this could be achieved. Answers:
+532: The 90% confidence interval for p is ["0.622","0.672"].
+533: One way to reduce the interval width by half is to "increase" (increase/decrease) the sample size by "4" times.
+
+ID: 200304003025
+Content:
+In the first state of a computer game, the player chooses, at random, one of 5 icons, only one of which is correct. If the correct icon is chosen then, in the second stage, the player chooses, at random, one of 8 icons, only one of which is correct. If an incorrect icon is chosen in the first stage then, in the second stage, the player chooses, at random, one of 10 icons, only one of which is correct. The events A and B are defined as follows. A: the first icon chosen is correct. B:the second icon chosen is correct. Find;(i) $$P(A \cap B)$$;(ii) $$P(B)$$;(iii) $$P(A \cup B)$$;(iv) $$P(A|B)$$Answers:
+534: P ( A \cap B )  = "\frac{1}{40}".
+535: P(B) = "\frac{21}{200}".
+536: P ( A \cup B )  = "\frac{7}{25}".
+
+ID: 200304003026
+Content:
+The random variable X has the binomial distribution B(20, 0.4), and the independent random variable Y has the binomial distribution B(30, 0.6). State the approximate distribution of Y - X, and hence find an approximate value for P(Y - X >13).Answers:
+537: Y-X ~ N("10","12").
+538: P(Y-X >13) = "0.156".
+
+ID: 200304003027
+Content:
+The random variable X has the distribution N(1, 20).;(i) Given that P(X < a) = 2P(X > a), find a.;(ii) A random sample of n observations of X is taken. Given that the probability that the sample mean exceeds 1.5 is at most 0.01, find the set of possible values of n. Answers:
+539: a = "2.93".
+540: n \geq "433".
+
+ID: 200304003028
+Content:
+At a particular petrol station, the numbers of sports cars and motor- cycles that are served with petrol in a randomly chosen hour have independent Poisson distributions with means 2 and 1 respectively. Find the probability that, in a randomly chosen period of 2 hours, the total number of sports cards and motorcycles that are served with petrol is 4 or more.  The cost, in dollars, of the petrol supplied to a randomly chosen sports car may e assumed to have a uniform (rectangular) distribution on the interval (10, 100). The cost, in dollars, of the petrol supplied to a randomly chosen motor-cycle may be assumed to have a uniform (rectangular) distribution on the interval (5, 35). Find the mean and variance of the total cost of the petrol supplied to random sample consisting of 4 sports cars and 2 motor-cycles. Answers:
+541: P(in a randomly chosen period of 2 hours, the total number of sports cards and motorcycles that are served with petrol \geq 4) = "0.849".
+542: Mean = "260".
+543: Variance = "2850".
+
+ID: 200304003029
+Content:
+The mass, x kg, of the contents of each packet in a random sample of 80 cereal packets is measured, and the results are summarized by $$\Sigma x=79.53$$, $$\Sigma x^2 = 100.4621$$. Test, at the 4% significance level, whether the population mean mass of the contents is less than 1.10kg.  In another test, using the same data and also at the 4% significance level, the hypotheses are as follows. Null hypothesis: the population mean mass of the contents is equal to $$\mu_0$$ kg Alternative hypothesis: the population mean mass of the contents is not equal to $$\mu_0$$ kg Given that the null hypothesis is rejected in favour of the alternative hypothesis, find the set of possible values of $$\mu_0$$. Answers:
+544: "reject" (Do not reject/Reject) H_0 and conclude that, at 4% level of significance, there is "sufficient " (sufficient/insufficient) evidence that the mean mass of the contents is less than 1.10kf.
+545: \mu_0 > "1.1136" or \mu_0 < "0.8746".
+
+ID: 200304003030
+Content:
+A fruit grower produces a large number of peaches every day. A small proportion p of these peaches is infected. A check is carried out each day by taking a random sample of 60 peaches and examining them for infection. The number X of infected peaches in the sample may be assumed to have an approximate Poisson distribution. State the inequality satisfied by p. The probability that none of the 60 peaches is infected is 0.25. Use the Poisson distribution to show that the probability that at most 2 are infected is 0.837, correct to 3 decimal places. If exactly 3 are infected, a further random sample of 15 peaches is taken. The day's production is accepted as satisfactory in either of the following two cases: The number of infected peaches in the sample of 60 is at most 2  The number of infected peaches in the sample of 60 is 3, and the number of infected peaches in the sample of 15 is 0 or 1. Find the probability that the day' production is accepted as satisfactoryAnswers:
+546: p < "\frac{1}{12}".
+547: 
+548: P(production accepted as satisfactory) = "0.943".
+

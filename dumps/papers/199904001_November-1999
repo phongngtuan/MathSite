@@ -1,0 +1,32 @@
+ID: 199904001001
+Content:
+(a) Find the remainder when \[3x^3-x^2-5x+2\] is divided by 3x + 2.;(b) Solve the equation \[2x^3+13x^2+x-70=0\];(Note: Please enter your answers in ascending order);(c) Given that \[x^2+2x-3\] is a factor of f(x), where \[f(x)-=x^4+6x^3+2ax^2+bx-3a\] find;(i)	the value of a and of b,;(ii)	the other quadratic factor of f(x).Answers:
+
+ID: 199904001002
+Content:
+a) The arithmetic progression has first term -91 and common difference 6. Given that the arithmetic progression has three times as many positive terms as it has negative terms, find;i) the total number of terms in the progression,;ii) the sum of the positive terms.;b) The ninth term of an arithmetic progression is 6. Find the sum of the first 17 terms.;c) A geometric progression is such that the sum of the first 3 terms is 0.973 times the sum to infinity. Find the common ratio.;Given that the first term of the progression is 823, find the sixth term, giving the answer to the nearest whole number.Answers:
+
+ID: 199904001003
+Content:
+(a)	Solve the equation \[\lg(x-8)+\lg(\frac{9}{2})=1+\lg(\frac{x}{4})\];(b)	Solve the equation \[9^{(2x)}+2(9{x+1}))=40\];(c)	Show that the curve \[y=e^x-e^{-x}\] has no turning points. Tabulate the values of \[e^x-e^{-x}\] for values of x from x = 0 to x = 2 at intervals of 0.5. ;Hence draw, on graph paper, the curve \[y=e^x-e^{-x}\] for \[0\leq x\leq 2\] Use your graph to solve the equation \[e^{2x}-1=3e^x\]Answers:
+
+ID: 199904001004
+Content:
+(a)The table shows experimental values of two variables x and y. ;It is known that x and y are related by an equation of the form \[y=Ak^x\] where A and k are constants.;(i)	Express this equation in a form suitable for drawing a straight line graph.;(ii)	Draw this graph for the given data and use it to estimate A and k.;(iii) Estimate the value of x for which y = 600.;(b)	The variables x and y are related in such a way that, when \[y^2\] is plotted against \[x^2y\] a straight line is obtained which passes through the points (3, 5) and (5, 9). ;img;Find the two values of y for which \[x=\frac{1}{2}\sqrt5\] (Note: Please enter your answer in ascending order)Answers:
+
+ID: 199904001005
+Content:
+a) Show that \[4 \sin A\cos^3A-4\cos Asin^3A-=\sin4A\] ;img;b) The trapezium ABCD is right angled at A and at D, and AB is parallel to DC. The acute \[\angle ABC=0^{\circ}\]  AB = 10 cm and BC = 15 cm.;i) Express AD and DC in terms of \[\theta \].;ii) Find the value of \[\theta\] for which the perimeter is 45 cm.;c) Given that \[\frac{\sin(A-B)}{(\sin(A+B))}=2\], find the value of \[\tan A\cot B\]Answers:
+
+ID: 199904001006
+Content:
+(a)	Find the gradient of the tangent to the curve \[y = x \cos x \] at the point where x = 0.5, giving your answer to 2 decimal places.;(b)	Find the equation of the tangent to the curve \[y=\sqrt{x^2-6x+25} \] at the point (0, 5).;(c)	Given that \[y=\frac{(7x-2)}{(2x+3)}\] where \[x\neq 1.5\] show that \[\frac{\mathrm{d} y}{\mathrm{d} x}\] is always positive. Use your expression for \[\frac{\mathrm{d} y}{\mathrm{d} x}\] to find the approximate increase in y as x increases from 36 to 36.045. Given that x and y vary with time t, find the values of x for which \[\frac{\mathrm{d} x}{\mathrm{d} t}=4\frac{\mathrm{d} y}{\mathrm{d} t}\]Answers:
+
+ID: 199904001007
+Content:
+a) Find \[\int(7x-2)^{-2}dx\];b) Using this identity \[\cos3x=4\cos^3x-3\cos x\]  find the value of \[\int_\frac{\pi }{6}^\frac{\pi }{2}cos^3xdx\] ;img;c) The diagram shows part of the curve \[y=\frac{12}{(6-x)}\] and the rectangle OPQR, where R is (3, 0). Find the area of ;i) region A;ii) region B;Given that the area of region B can be expressed as \[\int_k^4f(y)dy\] write down the value of k and find f(y).Answers:
+
+ID: 199904001008
+Content:
+a) The parametric equations of a curve are; \[x=t^3+6t^2+10t\]; \[y=3t^2+12t+5\];i) Show that the normal to the curve, at the point where t = 0, passes through the point (6, 0);ii) Find the value of t at each of the points where the line \[x-2y +10 = 0\] intersects the curve.;(Note: Please enter your answers in ascending order);;b) The parametric equations of a curve are \[x=2\sin\theta-1\] and \[y=2\cos2\theta\] for \[\frac{-\pi }{2}\leq \theta\leq \frac{\pi }{2}\];i) Find the gradient of this curve at the point where this curve intersects the y-axis.;ii) Find the value of a and of b for which the Cartesian equation of this curve is \[y=1+ax+bx^2\]Answers:
+

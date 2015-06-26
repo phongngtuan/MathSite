@@ -1,0 +1,97 @@
+ID: 200203003001
+Content:
+img;The diagram shows the graph of y = f(x). On separate diagrams, sketch the graphs of;(i) y = | f(x) |,;(ii)  $$y^2  = f( x )$$. Answers:
+416: None
+417: None
+
+ID: 200203003002
+Content:
+You are given that the equation  $$x^3  + 3x - 10 = 0$$ has exactly one real root,  $$\alpha $$. An iteration for finding  $$\alpha $$ is  $$x_{n + 1}  = (10 - 3x_n  )^{\frac{1}{3}} $$. Use this iteration, with a first approximation  $$x_1  = 1.6$$, to find  $$\alpha $$ correct to 3 decimal places. Show that the same value of  $$\alpha $$ (to 3 decimal places) is obtained by using two iterations of the Newton-Raphson method, with a first approximation  $$x_1 = 1.6$$, applied to the equation  $$x^3  + 3x - 10 = 0$$.Answers:
+418: \alpha = "1.699".
+891: Testttttt
+
+ID: 200203003003
+Content:
+The nth term of a series is  $$2^{n - 2}  + 3n$$. Find the sum of the first N terms. Answers:
+420: Sum of the first N terms = "\frac{1}{2}(2^N - 1)+\frac{3}{2}N(N+1)".
+
+ID: 200203003004
+Content:
+Find the set of values of x such that  $$ - 1 < \frac{2x + 3}{x - 1} < 1$$. Answers:
+421:  Solution is "-4" < x < "-\frac{2}{3}".
+
+ID: 200203003005
+Content:
+(i) The complex number x + iy is such that  $$( x + iy )^2  = i$$. Find the possible values of the real numbers x and y, giving your answers in exact form.;(ii) Hence find the possible values of the complex number w such that  $$w^2  =  - i$$. Answers:
+422: Possible values of x are (1)"\frac{1}{\sqrt{2}}" and (2)"-\frac{1}{\sqrt{2}}".
+423: Possible values of y are (1)"\frac{1}{\sqrt{2}}" and (2)"-\frac{1}{\sqrt{2}}" for respective x.
+424: Possible values of w are "\frac{1}{\sqrt{2}}(1-i)" and " \frac{1}{\sqrt{2}}(-1+i)".
+
+ID: 200203003006
+Content:
+a) Write down ;(i)$$\frac{d}{dx} e^{x^2}$$ ;(ii)$$\int xe^{x^2} dx $$. ;;b)Find  $$\int_0^1 x^3 e^{x^2} dx $$.Answers:
+425: \frac{d}{dx} e^{x^2} = "2xe^{x^2}".
+426: \int xe^{x^2} dx = "\frac{1}{2} e^{x^2}"+ c.
+427: \int_0^1 x^3 e^{x^2} dx = "\frac{1}{2}".
+
+ID: 200203003007
+Content:
+a)  Find the number of different arrangements of the eleven letters of the word ABRACADABRA.;;b) A girl wishes to phone a friend but cannot remember the exact number. She knows that it is a five-digit number, that it is even, and that it consists of the digits 2, 3, 4, 5 and 6 in some order. Using this information, find   the largest number of different wrong telephone numbers she could try. Answers:
+428: No of different arrangement = "83160".
+429: Largest no. of different wrong telephone numbers she could try = "71".
+
+ID: 200203003008
+Content:
+Find the general solution of the differential equation  $$(1 - x^2)\frac{dy}{dx}- xy = 1$$,  $$| x | < 1$$. Answers:
+430: General solution = "\frac{\sin^{-1} {x}}{\sqrt{1-x^2}}".
+
+ID: 200203003009
+Content:
+In triangle ABC,  $$\angle B = \theta $$,  $$\angle C = \theta  + \alpha $$, AB = 2 and AC = 1.;(i) Show that  $$\tan \theta  = \frac{\sin \alpha}{2 - \cos \alpha}$$.;(ii) Hence show that the largest possible value of  $$\theta $$ is  $$\frac{1}{6}\pi $$. Answers:
+431: 
+432: 
+
+ID: 200203003010
+Content:
+A curve is defined by the parametric equations  $$x = t^2 $$,  $$y = t^3 $$. Prove that the equation of the tangent at the point with parameter t is  $$2y - 3tx + t^3  = 0$$. ;(i) This tangent passes through a fixed point (X, Y). Give a brief argument to show that there cannot be more than 3 tangents passing through (X, Y). ;(ii) The tangent at the point where t = 2 meets the curve again at the point where t = u. Find the value of u. Answers:
+433: 
+434: The tangent is a "cubic" equation in the parameter t.
+435: ii) u = "-1".
+
+ID: 200203003011
+Content:
+Express  $$f(x) = \frac{x^3+2}{x^2-1}$$ in partial fractions. Hence find the value of  $$\int_{-4}^{-2} f(x)dx $$. Giving your answer correct to 3 significant figures.Answers:
+436: Partial functions of f(x) = "x - \frac{1}{2(x+1)} + \frac{3}{2(x-1)}".
+437: \int_{-2}^{-4} f(x) dx = "-6.22".
+
+ID: 200203003012
+Content:
+Prove by induction that  $$\sum_{r = 1}^{n} \frac{1}{r( r + 1 )( r + 2 )}  = \frac{n( n + 3 )}{4( n + 1 )( n + 2 )}$$. Show that  $$\frac{n( n + 3 )}{4( n + 1 )( n + 2 )} < \frac{1}{4}$$ for all positive integer values of n. Deduce from these results that  $$\sum_{r = 1}^{n} \frac{1}{( r + 1 )^3} < \frac{1}{4}$$. Answers:
+438: 
+
+ID: 200203003013
+Content:
+Express  $$\cos 3\theta  + \cos \theta $$ as a product, and hence show that  $$\cos 3\theta  = 4c^3  - 3c$$, where c denotes  $$\cos \theta $$. Show that  $$\theta  = \frac{4}{5}\pi $$ satisfies the equation  $$\cos 3\theta  = \cos 2\theta $$, and deduce that  $$\cos \frac{4}{5}\pi $$ is a root of the equation  $$4c^3  - 2c^2  - 3c + 1 = 0$$. Solve this cubic equation and hence find the value of  $$\cos \frac{4}{5}\pi$$, giving your answer in exact surd form. Answers:
+439: \cos 3\theta  + \cos \theta  = "2\cos{2\theta}\cos{\theta}".
+440: 
+441: 
+442: 
+443: \cos \frac{4}{5}\pi = "-\frac{1}{4}-\frac{\sqrt{5}}{4}".
+
+ID: 200203003014
+Content:
+It is given that  $$f( x ) = 10\cos ^2 x - 8\sin x\cos x + 4\sin ^2 x$$. Express f(x) in the form a cos 2x + b sin 2x + c, where a, b and c are constants. Hence or otherwise show that the greatest and least values of f(x) are 12 and 2 respectively. Find;(i) the general solution of the equation f(x) = 2,;(ii) the set of values of x, in the interval  $$0^{\circ}  < x < 180^{\circ} $$, such that  $$2 \le f( x ) \le \frac{9}{2}$$. Answers:
+838: a = "3".
+839: b = "-4".
+840: 
+841: c = "7".
+842: x = "180n+63.4"^{\circ}.
+843: For 2 \le f( x ) \le \frac{9}{2}, in the interval 0^{\circ}  < x < 180^{\circ} , "33.4" ^{\circ} \leqx\leq"93.4"^{\circ}.
+
+ID: 200203003015
+Content:
+O is the origin and A is the point on the curve y = tan x where  $$x = \frac{1}{3}\pi $$.;(i) Calculate the area of the region R enclosed by the arc OA, the x-axis and the line  $$x = \frac{1}{3}\pi $$, giving your answer in an exact form.;(ii) The region S is enclosed by the arc OA, the y-axis and the line  $$y = \sqrt 3 $$. Find the volume of the solid of revolution formed when S is rotated through  $$360^0 $$ about the x-axis, giving your answer in an exact form.;(iii) Find  $$\int_0^{\sqrt 3} \tan ^{-1} y dy $$. Answers:
+444: Area of region R = "\ln{2}" units^2.
+445: Volume = "(\frac{4}{3}*(\pi^2))-(\sqrt{3}*\pi)" units^3.
+446: \int_0^{\sqrt 3} \tan^{-1}{y} \space dy . = "(\frac{1}{\sqrt{3}}*\pi)-\ln{2}".
+

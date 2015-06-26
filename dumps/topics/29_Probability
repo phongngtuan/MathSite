@@ -1,0 +1,131 @@
+ID: 199704003006
+Content:
+In this question give each of your answers either as an exact fraction in its lowest terms or as a decimal corrects to 3 places.  There are 36 people at a gathering of two families. There are 25 people with the name Lee and 11 people with the name Chan. Of the 25 people named Lee, 4 are single men, 5 are single women and there are 8 married couples. Of the 11 people named Chan, 2 are single men, 3 are single women and there are 3 married couples. Two people are chosen at random from the gathering. ;(i) Show that the probability that they both have the name Lee is  .;(ii) Find the probability that they are married to each other.;(iii) Find the probability that they both have the name Lee, given that they are married to each other.;(iv) Find the probability that they are a man and a woman with the same name.;(v) Find the probability that they are married to each other, given that they are a man and a woman with the same name Answers:
+41: P(they both have the name Lee) = "\frac{10}{21}".
+42: P(they are married to each other) = "\frac{11}{630}" .
+43: P(they both have the name Lee | they are married to each other) = "\frac{8}{11}".
+44: P(they are a man and a woman with the same name) = "\frac{31}{105}".
+45: P(they are married to each other | they are a man and a woman with the same name) = "\frac{11}{186}".
+
+ID: 199804003006
+Content:
+A Personal Identification Number (PIN) consists of 4 digits in order, each of which is one of the digits 0,1,2,...,9. Susie has difficulty remembering her PIN. She tries to remember her PIN and writes down what she thinks it is. The probability that the first digit is correct is 0.8 and the probability that the second digit is correct is 0.86. The probability that the first two digits are both correct is 0.72. Find;(i) the probability that the second digit is correct given that the first digit is correct,;(ii) the probability that the first digit is correct and the second digit is incorrect,;(iii) the probability that the first digit is incorrect and the second digit is correct,;(iv) the probability that the second digit is incorrect given that the first digit is incorrect. The probability that all four digits are correct is 0.7. On 12 separate occasions Susie writes down independently what she thinks is her PIN. Find the probability that the number of occasions on which all four digits are correct is less than 10.  Answers:
+128: P(second digit is correct given that the first digit is correct) = "0.9".
+129: P(first digit is correct and the second digit is incorrect) = "0.08".
+130: P(first digit is incorrect and the second digit is correct) = "0.14".
+131: P(second digit is incorrect given that the first digit is incorrect) = "0.3".
+132: P(all four digit are correct is less than 10) = "0.747".
+
+ID: 199904003006
+Content:
+A set of 30 cards is made up of cards chosen from a number of packs of ordinary playing cards. The numbers of cards of each type are given in the following table.;img; Thus, for example, there are 2 Kings of Spades and 3 Jacks of Diamonds.  ;;a) One card is taken at random from the set. Events H, K, J are defined as follows. ;H: The card taken is a Heart. ;K: The card taken is a King. ;J: The card taken is a Jack. ;(i) Describe in words what the event K $$\cup$$ H represents and state the probability of this event.;(ii) Describe in words what the event J' $$\cap$$ H' represents and state the probability of this event. ;(iii) Find the conditional probability that the card is a Diamond, given that it is a King.;;b) Two cards are taken from the set, at random and without replacement. Find the probability that both cards are Jacks. Give your answer correct to 3 places of decimals.;;c) Three cards are taken from the set, at random and without replacement. Find the probability that both cards are Jacks. Give your answer correct to 3 places of decimals.Answers:
+203: P(K \cup H) = "\frac{7}{15}".
+204: P(J^' \cap H^') = "\frac{8}{15}".
+205: P(card is a Diamond | K) = "\frac{1}{9}".
+206: P(both cards are Jacks) = "0.064".
+207: P(3 Kings or 3 Queens or 3 Jacks) = "0.105".
+
+ID: 200004003008
+Content:
+A large number of tickets are sold in a lottery. Each ticket can win either a small prize or a large prize, but no ticket can win two prizes. 10% of tickets win a small prize and 0.1% of tickets win a large prize.;a) If Charlie has 20 tickets, find the probability that    ;(i) he wins at least 1 prize,   ;(ii)) he wins at most 3 prizes.;;b) If Mary has 400 tickets, use suitable approximations to find the probability that ;(i) she wins at most 35 small prizes,;(ii) she wins at most 2 large prizes. Answers:
+294: P(he wins at least 1 prize) = "0.881".
+295: P(he wins at most 3 prizes) = "0.863".
+296: P(she wins at most 35 small prizes) = "0.227".
+297: P(she wins at most 2 large prizes) = "0.992".
+
+ID: 200004003011
+Content:
+In a probability experiment, three containers have the following contents. A jar contains 2 white dice and 3 black dice. A white box contains 5 red balls and 3 green balls. A black box contains 4 red balls and 3 green balls. One die is taken at random from the jar. If the die is white, two balls are taken from the white box, at random and without replacement. If the die is black, two balls are taken from the black box, at random and without   replacement. Events W and M are defined as follows. W: A white die is taken from the jar. M: One red ball and one green ball are obtained. Show that  $$P( M|W ) = \frac{15}{28}$$. Find, giving each of your answers as an exact fraction in its lowest terms,;(i)  $$P( M \cap W )$$;(ii) $$P(W | M)$$;(iii)  $$P( W \cup M )$$;All the dice and balls are now placed in a single container, and four objects are taken at random, each object being replaced before the next one is taken. Find the probability that one object of each colour is obtained. Answers:
+304: P(one object of each colour taken) = "\frac{243}{5000}".
+305: P(M \cap W) = "\frac{3}{14}".
+306: P(W|M) = "\frac{15}{13}".
+307: P(M \cup W) = "\frac{26}{35}".
+
+ID: 200104003011
+Content:
+a)  Events A and B are such that  $$P(A) = \frac{1}{3}$$,  $$P(B|A) = \frac{1}{4}$$ and  $$P( A' \cap B' ) = \frac{1}{6}$$. Find;(i)  $$P( A \cup B )$$,;(ii) P(B).;;b) A man writes 5 letters, one each to A, B, C, D and E. Each letter is placed in a separate envelope and sealed. He then addresses the envelopes, at random, one each to A, B, C, D and E.;(i) Find the probability that the letter to A is in the correct envelope and the letter to B is in an incorrect envelope.;(ii) Find the probability that the letter to A is in the correct envelope, given that the letter to B is in an incorrect envelope.;(iii) Find the probability that both of the letters to A and B are in incorrect envelopes.  Answers:
+386: P(A \cup B) = "\frac{5}{6}".
+387: P(B) = "\frac{7}{12}".
+388: P(A \cap B^{'}) = "\frac{3}{20}".
+389: P(A|B^{'}) = "\frac{3}{16}".
+390: P(A^{'}\cap B^{'}) = "\frac{13}{20}".
+
+ID: 200204003025
+Content:
+A box contains 4 red balls and 2 green balls. Three balls are taken at random from the box, without replacement. The number of green balls obtained is denoted by G. Show that P(G=2) = $$\frac{1}{5}$$, and find the probability distribution of G. Find the variance of G. Answers:
+467: 
+468: None
+469: Var(G) = "\frac{2}{5}".
+
+ID: 200204003030
+Content:
+A room contains n randomly chosen people.;a) Assume that a randomly chosen person is equally likely to have been born on any day of the week. The probability that the people in the room were all born on different days of the week is denoted by P.   ;(i) Find P in the case $$n = 3$$.  ;(ii) Show that P = $$\frac{120}{343}$$ in the case $$n = 4$$.  ;;b)Assume bow that a randomly chosen person is equally likely to have been born in any month of the year. Find the smallest value of n such that the probability that the people in the room were all born in different months of the year is less than $$\frac{1}{2}$$. ;;c) Assume now that a randomly chosen person is equally likely to have been born on any of the 365 days in the year. It is given that, for the case $$n = 21$$, the probability that the people in the room were all born on different days of the year is 0.55631, correct to 5 places of decimals. Find the smallest value of n such that the probability that at least two of the people were born on the same day of the year exceeds $$\frac{1}{2}.$$  Answers:
+480: If n = 3, P = "\frac{30}{49}".
+481: 
+482: Smallest value of n = "5".
+483: Smallest value of n = "23".
+
+ID: 200304003025
+Content:
+In the first state of a computer game, the player chooses, at random, one of 5 icons, only one of which is correct. If the correct icon is chosen then, in the second stage, the player chooses, at random, one of 8 icons, only one of which is correct. If an incorrect icon is chosen in the first stage then, in the second stage, the player chooses, at random, one of 10 icons, only one of which is correct. The events A and B are defined as follows. A: the first icon chosen is correct. B:the second icon chosen is correct. Find;(i) $$P(A \cap B)$$;(ii) $$P(B)$$;(iii) $$P(A \cup B)$$;(iv) $$P(A|B)$$Answers:
+534: P ( A \cap B )  = "\frac{1}{40}".
+535: P(B) = "\frac{21}{200}".
+536: P ( A \cup B )  = "\frac{7}{25}".
+
+ID: 200404003023
+Content:
+A and B are events such that $$P(A \cup B) = 0.9$$, $$P (A|B)=0.8$$. Find $$P(A)$$ and $$P(B')$$.Answers:
+588: P(A) = "0.85".
+589: P(B') = "0.75".
+
+ID: 200504003028
+Content:
+Three balls are taken, at random and without replacement, from a box containing 3 red snooker balls and n white snooker balls, where $$n \geq 3$$. The random variable R is the number of red balls taken and the random variable W is the number of white balls taken. Determine the probability distribution of R, simplify the probabilities as far as possible. Find $$E(R)$$ and show that $$Var\left(R\right) = \frac{9 n^2}{{\left(n + 3\right)}^2 \left(n + 2\right)}$$ Hence write down the expressions for E(W) and Var(W). ;Answers:
+665: P(R = 0) = "\frac{n(n-1)(n-2)}{(n+3)(n+2)(n+1)}" .
+666: P(R = 1) = "\frac{9n(n-1)}{(n+3)(n+2)(n+1)}".
+667: P(R = 2) = "\frac{18n(n-1)}{(n+3)(n+2)(n+1)}".
+668: P(R = 3) = "\frac{6(n-1)(n-2)}{(n+3)(n+2)(n+1)}".
+669: E(R) = "\frac{9}{(n+3)}".
+670: 
+671: E(W) = "\frac{3n}{n+3}".
+672: Var(W) = "\frac{9n^2}{(n+3)^2(n+2)}".
+
+ID: 200604003023
+Content:
+Two fair dice, one red and the other green, are thrown. A is the event: The score on the red die is divisible by 3. B is the event: The sum of the two scores is 9. Justifying your conclusion, determine whether A and B are independent.  Find $$P(A \cup B)$$. Answers:
+720: A and B are "not independent" (independent/not independent).
+721: P(A \cup B) = "\frac{7}{18}".
+
+ID: 200604003024
+Content:
+A group of 10 pupils consists of 6 girls and 4 boys. The random variable X is the number of girls minus the number of boys in a random sample of 3 pupils from the group. For example, if there are 2 boys and 1 girl in the sample then X = -1. Find the probability distribution of X, giving each probability as a fraction in its lowest terms. Find Var(|X|). Answers:
+722: P(X=-3) = "\frac{1}{30}".
+723: P(X=-1) = "\frac{3}{10}".
+724: P(X=1) = "\frac{1}{2}".
+725: P(X=3) = "\frac{1}{6}".
+726: Var(|X|) = "0.64".
+
+ID: 200704003008
+Content:
+Chickens and turkey are sold by weight. The masses, in kg, of chickens and turkeys are modelled as having independent normal distributions with means and standard deviations as shown in the table.;img;;Chickens are sold at $3 per kg and turkeys at $5 per kg.;(i) Find the probability that a randomly chosen chicken has a selling price exceeding $7.;(ii) Find the probability of the even that both a randomly chosen chicken has a selling price exceeding $7 and a randomly chosen turkey has a selling price exceeding $55.;(iii) Find the probability that the total selling price of a randomly chosen chicken and a randomly chosen turkey is more than $62.;(iv) Explain why the answer to part (iii) is greater than the answer to part (ii)Answers:
+800: The probability that a randomly chosen chicken costs more than $7 = "0.395".
+801: Probability that both a random chicken costs more than $7 and random turkey costs more than $55 = "0.160".
+802: The probability that the total selling price of a randomly chosen chicken and a randomly chosen turkey is more than $62 = "0.392".
+803: The condition for part(iii) is "less" (more/less) restrictive than the condition for part(ii).
+
+ID: 200704003009
+Content:
+A group of 12 people consists of 6 married couples.;(i) The group stand in a line.;a) Find the number of different possible orders;b) Find the number of different possible orders in which each man stands next to his wife;(ii) The group stand in a circle.;a) Find the number of different possible arrangements;b) Find the number of different possible arrangements if men and women alternate.;c) Find the number of different possible arrangements if each man stands next to his wife and men and women alternateAnswers:
+804: Number of different possible arrangement = "479001600".
+805: Number of different possible orders in which each man stands next to his wife = "46080".
+806: Number of different possible arrangement = "39916800".
+807: Number of different possible arrangement if men and women alternate = "86400".
+808: Number of different possible arrangements if each man stand next to his wife and men and women alternate = "240".
+
+ID: 200704003010
+Content:
+A player throws three darts at a target. The probability that he is successful in hitting the target with his first throw is $$\frac{1}{8}$$. For each of his second and third throws, the probability of success is ;- twice the probability to success on the preceding throw if that throw was successful;- the same as the probability of success on the preceding throw if that two was unsuccessful;Construct a probability tree showing this information.;;Find;(i) the probability that all three throws are successful;(ii) the probability that at least two throws are successful;(iii) the probability that the third throw is successful given that exactly two of the three throws are successfulAnswers:
+809: The probability that all three throws are successful = "\frac{1}{64}".
+810: The probability that at least two throws are successful = "\frac{21}{256}".
+811: The probability that the 3^{rd} shot is successful given exactly 2 of the three shots are successful = "\frac{13}{17}".
+

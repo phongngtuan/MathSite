@@ -1,0 +1,40 @@
+ID: 200904002001
+Content:
+a) An athlete spends $$1 \frac{1}{2}$$ hours at a sports centre. ; The ratio of the times he spends changing, warming up and running is 2 : 3 : 7. ; Calculate;;a-i) The time he spends warming up;;a-ii) The percentage of the $$1 \frac{1}{2}$$ hours at the sports centre he spends running;;b) In 2008, his best time to run 3000 m was 9 minutes 30 seconds.;;b-i) Calculate his speed in kilometers per hour.;;b-ii) In 2009 his best time was 10% less than his time in 2008. ; Calculate, in minutes and seconds, his best time in 2009.;;b-iii) In 2008 his time of 9 minutes 30 seconds was 5% less than his best time in 2007. ; Calculate, in minutes and seconds, his best time in 2007.Answers:
+
+ID: 200904002002
+Content:
+a-i) Factorise $$25 - p^2$$.;;a-ii) Simplify $$\frac{25 - p^2}{15 + 3p}$$;;b) Express as a single fraction in its simplest form ; $$\frac{3}{(x+2)^2} - \frac{4}{x + 2}$$.;;c) It is given that $$v^2 = u^2 - 2gh$$.;;c-i) Find v when u = 30, g = 9.8 and h = 24.;;c-ii) Express u in terns of g, h, and v.Answers:
+
+ID: 200904002003
+Content:
+img;A crane stands on level ground. ; It may be represented by a vertical tower AE of height 6 m and a jib AB of length 12 m. ; A vertical cable hangs from B and is attached to a load on the ground at the point D. The jib inclined at an angle of $$20^{\circ}$$ to the horizontal line AC.;;a) Calculate BD.;;b) The load is lifted from D as the jib is rotated in a vertical plane about A. ; When the jib is in the position AG, the load is lowered to the point F on the ground, vertically below G. ; The line AC cuts GF at N. ; EF = 5m. ; Calculate;;b-i) GN,;;b-ii) The angle through which the jib has rotated.Answers:
+
+ID: 200904002004
+Content:
+img;The line BE is a diameter of the circle ABCDE. When produced, the lines AC and ED meet at F. ; Angle BAF = $$33^{\circ}$$.;;a) Find;;a-i) Angle BEC,;;a-ii) Angle EBC;;a-iii) Angle CDE;;b) Show that triangles FAE and FDC are similar;;c) Given also that DF = 4 cm, CF = 3 cm and ED = 8 cm, calculate AC.Answers:
+
+ID: 200904002005
+Content:
+a) $$ \xi$$ = {integer $$x: 1 \leq x \leq 16$$} ; P = {integer that are perfect squares} ; S = {integer divisible by 3};;a-i) Draw a Venn Diagram to illustrate this information.;;a-ii) List the elements contained in the set $$A \cap B$$;;a-iii) Write down $$n(A \cup B)$$.;;b) On every weekday morning (from Monday to Friday) a bus carries 10 adult passengers and 30 children. ; On every weekday afternoon it carries 20 adults and 10 children. ; This information may be represented by the matrix C = $$\begin{bmatrix}Adults&Children\\10&30\\20&10\end{bmatrix}\begin{bmatrix}Morning\\Afternoon\end{bmatrix}$$. ; On Saturday morning it carries 25 adults and 15 chilren. ; On Saturday afternoon it carries 10 adults and 30 children. ;;b-i) Represent the number of passengers carried on Saturday by a matrix D.;;b-ii) Evaluate E = 5C + D;;b-iii) State what the elements of E represent.;;b-iv) The fare for an adult is 25c and the fare for a child is 15c.;;b-iv-a) Evaluate the matrix F = C \begin{bmatrix}35\\15\end{bmatrix}.;;b-iv-bAnswers:
+
+ID: 200904002006
+Content:
+Answer the whole of this question on a sheet of graph paper. ; The variables x and y are connected by equation y = $$\frac{1}{10} (60 - x^2 - \frac{80}{x})$$. ; Some corresponding values of x and y, correct to 2 decimal places are given in the table below.;img;;a) Calculate the value of p.;;b) Using a scale of 2 cm to represent 1 unit on each axis, draw a horizontal x-axis for $$1 \leq x \leq 6$$ and a vertical y-axis for $$-3 \leq y \leq 3$$. ; On your axes, plot the points given in the table and join them with a smooth curve.;;c) Use your graph to find the values of x in $$1 \leq x \leq 6$$ for which $$\frac{1}{10}(60 - x^2 - \frac{80}{x}) = 2$$;;d) By drawing a tangent, find the gradient of the curve at (1.5, 0.44).;;e) Use your graph to find the largest value of y in $$1 \leq x \leq 6$$ and the value of x for which this occurs.Answers:
+
+ID: 200904002007
+Content:
+img;The diagram shows an ornament which is made of wire. ; It consists of a regular pentagon, ABCDE, of side 4 cm, five equal semicircles with diameter 4 cm and an outer circle, centre O. ; Each semicircle touches the outer circle as shown.;;a) Find the length of the perpendicular from O to AB.;;b) Show that the radius of the outer circle is 4.75 cm, correct to three significant figures.;;c) Find the total length of wire needed to make the ornament.;;d) Show that the area enclosed by the wire pentagon is $$27.5 cm^2$$, correct to three significant figures.;;e) Find the area of the region shaded on the diagram.Answers:
+
+ID: 200904002008
+Content:
+img;In the diagram, A is a point at sea level at the foot of a vertical cliff. ; Two buoys, B and C are on the surface of the sea. ; AB = 550 m and AC = 645 m. ; The bearings of B from A is $$062^{\circ}$$ and the bearing of C from A is $$100^{\circ}$$.;;a) Calculate;;a-i) BC,;;a-ii) angle ACB,;;a-iii)Bearing C from B;;b) D is a point at the top of the cliff vertically above A. The angle of elevation of D from C is $$7^{\circ}$$. Calculate;;b-i) AD,;;b-ii) The greatest possible angle of elevation of D from a point on BC.Answers:
+
+ID: 200904002009
+Content:
+img;The diagram shows the cross-section of an open rectangular box ABCD. ; Two cylinders touch each other and fit exactly into the box. ; The larger cylinder touches AB at S and the sides BC and CD. ; The smaller cylinder touches AB at T and the side AD. P and Q are the centres of the circles. ; R lies on QS and angle PRQ = $$90^{\circ}$$. ; AB = 17 cm, BC = 14 cm and the radius of the smaller cylinder is x centimeters.;;a) Show that ST = (10 - x) cm.;;b) Find, in terms of x,;;b-i) PQ;;b-ii) QR;;c) Form an equation in x and show that it reduces to $$x^2 - 48x + 100 = 0$$;;d) Solve the equation $$x^2 - 48x + 100 = 0$$, giving both answers correct to two decimal places.;;e) Find the diameter of the smaller cylinder, giving the answer correct to the nearest millimeter.Answers:
+
+ID: 200904002010
+Content:
+a) The thirty pupils in a class each took a Mathematics test. ; Their scores are shown in the table below.;img;;a-i) Construct a frequency table from this information.;;a-ii) Calculate;;a-ii-a) The mean score;;a-ii-b) The standard deviation.;;b) A box of chocolate contains 5 chocolates with hard centres and 4 with soft centres. ; Ann takes a chocolate, selected at random, from the box;;b-i) Draw a tree diagram to show the probabilities of the possible outcomes ;;b-ii) Find, as a fraction in its simplest form, the probability that ;;b-ii-a) Ann and Ben both choose a chocolate with a hard centre;;b-ii-b) Ben chooses a chocolate with a soft centre,;;b-ii-c) One of them chooses a chocolate with a hard centre and the other chooses one with soft centreAnswers:
+

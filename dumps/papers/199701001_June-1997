@@ -1,0 +1,68 @@
+ID: 199701001001
+Content:
+Solve the simultaneous equations;\[y=x^2+5x-3\] and \[2y=3x-2\];(Note: Please enter the answer with smaller value of x first in the form of coordinates)Answers:
+
+ID: 199701001002
+Content:
+The points A, B and C have coordinates (-2, 1), (3, 11) and (-1, 8) respectively. The line from C which is perpendicular to AB meets AB at the point N.;(a)	Find the equation of AB and of CN.;(b)	Calculate the coordinates of N.Answers:
+
+ID: 199701001003
+Content:
+Prove the identity \[\frac{(1+\cos A)}{(1-\cos A)}-\frac{(1-\cos A)}{(1+\cos A)}-=4\cot A \csc A\] Answers:
+
+ID: 199701001004
+Content:
+Find the gradient of the curve \[y=x^2+\frac{24}{x}\] at the point P(2, 16). The tangent to the curve at P meets the x-axis at A and the y-axis at B . Calculate the area of the triangle AOB, where O is the origin.Answers:
+
+ID: 199701001005
+Content:
+A circular cylinder has radius r cm, height 4r cm and volume \[V cm^3\] Express V in terms of r and hence find \[\frac{\mathrm{d} V}{\mathrm{d} r}\];The radius increases by a small amount, p cm, from 5cm to (5 + p) cm. Use a calculus method to find in terms of p, the approximate increase in V. Hence find the approximate percentage increase in V.Answers:
+
+ID: 199701001006
+Content:
+A curve is such that \[\frac{\mathrm{d}y}{\mathrm{d} x}=4x-7\] The line y = 2x meets the curve at the point P. Given that the gradient of the curve at P is 5. Find;(a)	the coordinate of P,;(b)	the equation of the curve.Answers:
+
+ID: 199701001007
+Content:
+A particle moves in a straight line so that ,t seconds after passing a fixed point O, its velocity, \[vcms^{-1}\] is given by \[v=t^2-5t+4\];Find,;i) the values of t when the particle is at instantaneous rest;(Note: In the case of multiple answers, please enter the answer in ascending order);ii) the distance between the positions at which the particle is at instantaneous rest.Answers:
+
+ID: 199701001008
+Content:
+The coefficient of \[x^3\] in the expansion of \[(2+ax)(1-3x)^6\] is 405. Find the value of a.Answers:
+
+ID: 199701001009
+Content:
+(a)	Calculate the range of values of x for which \[x^2+4x-5 > 5x-3\];(b)	Calculate the range of values of c for which \[3x^2-9x+c > 2.25\] for all values of x.Answers:
+
+ID: 199701001010
+Content:
+The position vectors of points A, B and C, relative to an origin O, are a, b and c respectively. The mid-point of AB is M.;(a)	Find the position vector of M, in terms of a and b. ;The point D lies on the line CM such that \[\vec{CD}=2\vec{DM}\] ;(b)	Find the position vector of D, in terms of a, b and c.Answers:
+
+ID: 199701001011
+Content:
+Functions f and g are defined by. ; \[f:x \mapsto  4x-17\] \[g:x \mapsto \frac{5}{(2x-7)} \] \[x\neq 3.5\];Solve the equation;(i) \[f^2(x)=gf(7)\];(ii) \[f^{-1}(x)=g^{-1}(x)\]Answers:
+
+ID: 199701001012
+Content:
+img;The diagram shows a container consisting of a square open top with rectangular sides, each 10x cm by h cm, and an inverted regular pyramid. The perpendicular height of the pyramid is 12\[x\] cm.;(a)	Find an expression, in terms of x, for the area of a triangular face of the pyramid.;The container is made of sheet metal whose area is \[1200cm^2\];(b)	Show that  \[h=\frac{(60-13x^2)}{(2x)}\];The volume of a pyramid is \[\frac{1}{3}\] \[\times\] base area \[\times\] perpendicular height ;(c)	Show that the volume, \[V cm^3\] of the container is given by \[V=3000x-250x^3\];(d)	Given that \[x\] can vary, find the value of \[x\] for which \[V\] has a stationary value. Find this value of \[V\] and determine whether it is a maximum or a minimum.Answers:
+
+ID: 199701001013
+Content:
+Find all the angles between \[0^{\circ}\] and \[360^{\circ}\]which satisfy the equation;(a) \[5\cos^2x-8\sin x\cos x=0\] ;(b) \[5\tan^2y+7=11\sec y\];(c) \[1+2\sin(\frac{3z}{2}+75^{\circ})=0^{\circ}\];(Note: Please enter your answers in ascending order)Answers:
+
+ID: 199701001014
+Content:
+Solutions to this question by accurate drawing will not be accepted.;img;The diagram shows a triangle ABC, where A is (6, 9), B is (-2, 3) and C is (h, -5). Given that AB = BC, and that h is positive,;a)	find the value of h,;b)	show that \[ \angle ABC=90^{\circ}\];The midpoint of AB is M. The line through M, parallel to BC, meets AC at the point P and the x-axis at the point Q. Find;c)	the coordinates of M, P and Q,;d)	the ratio MP : PQ.Answers:
+
+ID: 199701001015
+Content:
+img;The diagram shows the shape XAYBX formed by two intersecting circles. The radii of the circles, centres P and Q, are 5 cm and 3 cm respectively. At each of the points of intersection, A and B, the radius of one circle is perpendicular to the radius of the other.;(a)	Show that angle APB is approximately 1.08 radians.;(b)	Find the perimeter of the shape XAYBX.;(c)	Find the area of the shape XAYBX.Answers:
+
+ID: 199701001016
+Content:
+img;a) The diagram shows parts of the curves \[y=x^2-4x+7\]  and \[y=6x-x^2-5\] intersecting at the points (2, 3) and (3, 4). Find the area of the shaded region enclosed by the two curves.;img;b) The diagram shows part of the line y = x + 4 and of the curve \[y=2x+\frac{3}{x}\] intersecting at the points (1, 5) and (3, 7). Find, in terms of \[\pi \] the volume generated when the shaded region is rotated through \[360^{\circ}\] about the x-axis.Answers:
+
+ID: 199701001017
+Content:
+The position vectors of points A and B, relative to an origin O, are \[\vec{OA}=10i+9j\] and \[\vec{OB}=-14i+2j\];(a)	Use a vector method to find  \[\angle AOB\]; A third point, P, has position vector \[\vec{OP}=pi+13j\];(b)	Find the vectors \[\vec{AP}\] and \[\vec{BP}\]in terms of p, I and j.;(c)	Use a vector method to find the values of p for which AP and BP are perpendicular.;(d)	Find the value of p for which AP and BP are equal in length.Answers:
+

@@ -101,10 +101,7 @@ class Question(models.Model):
         return self.id
 
     class Meta:
-        managed = False
         db_table = 'question'
-
-
 
 
 class Solution(models.Model):

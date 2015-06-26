@@ -1,0 +1,56 @@
+ID: 199602002005
+Content:
+img;In the diagram, A is (0, 4), B is (3, 6) and O is the origin.;;a) Express $$\vec{AB}$$ as a column vector. [1];;b) Calculate the coordinates of the point D, where $$\vec{BD}  = \vec{2AB}$$. [2];;c) $$\vec{AC} = \begin{bmatrix}5\\-2\end{bmatrix}$$;;c-i) Calculate the length of AC. [2];;c-ii) Write down the gradient of the line AC. [1];;c-iii) Write down the equation of the line AC. [2];;c-iv) The point E lies on AC and EB is parallel to the y-axis. Calculate the coordinates of E. [2]Answers:
+
+ID: 199801002024
+Content:
+img;In the diagram, the points A, B and C have coordinates (0, 1), (1, 3) and (-1, -1).;;a) Calculate the gradient of the line AB. [1];;b) Find the equation of the line AB. [1];;c) The point (10, k) lies on the line AB produced. Find the value of k. [1];;d) The length of the line segment AB is $$\sqrt{l}$$. Calculate the value of l. [1];;e) The triangle BCD has line of symmetry y = x. Write down the coordinates of D. [2]Answers:
+
+ID: 199901002006
+Content:
+a) Find the gradient of the straight line 5x + y = 14. [1];;b) The point (p, 2p) lies on the straight line x + 4y = 36. Calculate the value of p. [2]Answers:
+
+ID: 200101002006
+Content:
+A is the point (1, -2) and B is the point (7, 6). Find;;a) the coordinates of the mid-point of AB, [1];;b) the length of the line segment AB. [1]Answers:
+
+ID: 200301002015
+Content:
+img;The lines x + y = 2 and x - 3y = 6 are shown on the diagram.;;a) Find the gradient of the line x - 3y = 6. [1];;b) On the diagram, shade the region defined by the inequalities $$x+y\leq2$$, $$x-3\leq6$$ and $$x+1 \geq 0$$. [2]Answers:
+
+ID: 200303002022
+Content:
+img;The point A(-5, 5), B(1, -3) and C(4, -3) are shown in the diagram. Find;;a) the coordinates of midpoint of AC,   [1];;b) the gradient of the line AB,   [1];;c) the equation of the line which passes through (0, 3) and is parallel to AB,   [1];;d) the length of AB,   [1];;e) the value of cos $$A \hat BC$$.   [1]Answers:
+
+ID: 200404002002
+Content:
+The points A, B and C are (9, 8), (12, 4) and (4, -2) respectively.;;a) Find;;a-i) the gradient of the line through A and B, [1];;a-ii) the equation of the line through C which is parallel to AB. [2];;b) Calculate the length of the line segment;;b-i) AB, [1];;b-ii) BC. [1];;c) Show that AB is perpendicular to BC. [1];;d) Calculate the area of triangle ABC. [1]Answers:
+
+ID: 200503002021
+Content:
+img;PQRS is a parallelogram. P is (-4, 0), Q is (1, 0) and R is (9, 4).;;a) Find the coordinates of S. [1];;b) Find the coordinates of the midpoint of PR. [1];;c) Find the equation of the line RS. [1];;d) Find the equation of the line QR. [2];;e) Calculate the area of the parallelogram PQRS. [1]Answers:
+
+ID: 200604002002
+Content:
+The points A and B are (5, 3) and (13, 9) respectively.;;a) Find;;a-i) the midpoint of AB, [1];;a-ii) the gradient of the line through A and B, [1];;a-iii) the length of the line AB. [1];;b) C is the point (-8, 5). The point D is such that $$\vec{DC}=\begin{bmatrix}4\\3\end{bmatrix}$$;;b-i) Find the coordinates of D. [2];;b-ii) What type of quadrilateral is ABCD? [1]Answers:
+
+ID: 200703002011
+Content:
+The points P and Q are (-3, 1) and (5, -5) respectively. Find;;a) the midpoint of PQ, [1];;b) the length of the line PQ. [1]Answers:
+
+ID: 200803002008
+Content:
+The line $$3x + 2y = 9$$ crosses the y-axis at the point A. Find;;a) The coordinates of the point A,;;b) The gradient of the line.Answers:
+
+ID: 200903002025
+Content:
+img;On the axes shown, A is (0, 1), B is (6, 3) and C is (0, -2). Find;;a) The gradient of AB;;b) The equation of the line AB;;c) The area of triangle ABC;;d) The coordinates of two possible points D, such that the four points A, B, C and D are the four vertices of a parallelogram.Answers:
+
+ID: 201003002019
+Content:
+a);img;Sketch the graph of $$y = 4 - (x - 1) ^2$$;;b-i);img;Sketch the graph of y = (x - 1)(x + 4);;b-ii) Write down the equation of the line of symmetry of y = (x - 1)(x + 4)Answers:
+
+ID: 201004002004
+Content:
+The points A, B and C are the vertices of a triangle. The point A is (-5, 4) and the gradient of the line AB is $$\frac{4}{3}$$.;;a) Find the equation of the line AB.;;b) The equation of the line BC is 2x + 9y = 68. ; Find the coordinated of B.;;c) It is given that $$\vec{AE}$$ is $$\begin{bmatrix}6\\1\end{bmatrix}$$.;;c-i) Calculate $$\mid\vec{AE}\mid$$;;c-ii) Find the coordinates of E.;;c-iii) Given also that D is (4, 2), express as a column vector;;c-iii-a) $$\vec{DE}$$;;c-iii-b) $$\vec{DB}$$;;c-iv) What two facts can be deduced about D, E and B?Answers:
+

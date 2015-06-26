@@ -1,0 +1,97 @@
+ID: 199703003014
+Content:
+a) A piece of wire of length 8 cm is cut into two pieces, one of length x cm, the other of length (8 - x) cm. The piece of length x cm is bent to form a circle with circumference x cm. The other piece is bent to form a square with perimeter (8 - x) cm. Show that, as x varies, the sum of the areas enclosed by these two pieces of wire is a minimum when the radius of the circle is \[\frac{4}{4 + \pi}\] cm.;;b) A spherical balloon is being inflated in such a way that its volume is increasing at a constant rate of \[150cm^{3}s^{-1}\]. At time t seconds, the radius of the balloon is r cm.;(i) Find \[\frac{\mathrm{d} r}{\mathrm{d} t}\] when r = 50.;(ii) Find the rate of increase of the surface area of the balloon when its radius is 50cm. ;[The formulae for the volume and surface area of a sphere are \[V = \frac{4}{3}\pi r^{3}\], \[A = 4\pi r^{2}\].]Answers:
+18: 
+19: \frac{dr}{dx} = "\frac{0.015}{\pi}".
+20: "6" cm^2/s
+
+ID: 199703003016
+Content:
+a) O is the origin and A is the point on the curve \[y = \tan x\] where \[x = \frac {1}{4} \pi\]. Show that the area of the region enclosed by the chord OA and the arc OA of the curve is \[\frac {1}{8} \pi - \ln \sqrt{2}\].;;b) A portion of the curve \[ay = x^{2}\], where a is a positive constant, is rotated about the vertical axis Oy to form the curved surface of an open bowl. The bowl has a horizontal circular base of radius r and a horizontal circular rim of radius 3r. Prove that the depth of the bowl is \[\frac {8r^{2}}{a}\].  Find the volume of the bowl in terms of r and a. Given that the volume of the bowl is \[\frac {1}{10} \pi a^{3}\], find the depth of the bowl in terms of a only.Answers:
+25: 
+26: 
+27: Volume of the bowl in terms of r and a = "\frac{40 \pi r^4}{a}".
+28: Depth of bowl = "\frac{2a}{5}".
+
+ID: 199803003007
+Content:
+A spherical balloon is being inflated and, at the instant when its radius is 3m, its surface area is increasing at the rate of $$2 m^2 s^{- 1}$$. Find the rate of increase, at the same instant, of  ;(i)the radius ;(ii)the volume. [The formulae for the surface area and volume of a sphere are $$A = 4\pi r^2$$  and $$V = \frac{4}{3}\pi r^3$$.]Answers:
+88: Rate of increase, at the same instant, of the radius = "\frac{1}{12}" ms^{-1}
+89: Rate of increase, at the same instant, of the volume = "3" m^3s^{-1}
+
+ID: 199803003019
+Content:
+a) Find, correct to 3 significant figures, the coordinates of the turning point of the curve $$y = x + 3 sin x$$ for which $$0 \leq x \leq \pi$$. Hence sketch the curve for $$0 \leq x \leq \pi$$. ;;b)Find, in terms of $$\pi$$ ;(i)$$\int^{\pi}_0 {\sin}^2 x dx$$ ;(ii)$$\int^{\pi}_0 x \sin x dx$$. ;;c)The region bounded by the curve $$y = x + 3 sin x$$, the x-axis and the line $$x = \pi$$ is rotated through $$2\pi$$ radians about the x-axis. Find the volume of the solid of revolution so formed, giving your answer in terms of  . Answers:
+123: Coordinates of the turning point = ("1.91","4.74").
+124: None
+125: \int_0^{\pi} \sin^{2} x dx = "\frac{\pi}{2}".
+126: \int_0^{\pi} x \sin x dx = "\pi".
+127: Volume generated about the x-axis = "(\pi^2)*(\frac{\pi^2}{3} + \frac{21}{2})".
+
+ID: 199903003003
+Content:
+img; The diagram shows a curve passing through the points (1, 1),(1.5, 3.4),(2, 3.7),(2.5, 2.6) and (3, 0). Use the trapezium rule, with intervals of width 0.5, to estimate the area of the shaded region.Answers:
+167: Area of shaded region = "5.1".
+
+ID: 200003003009
+Content:
+The region R is bounded by the curve \[y = (x^3 + 1)^{\frac{1}{4}}\], the lines x = 1 and x = 3, and the x-axis. Express as an integral the volume V of the solid formed when R is rotated completely about the x-axis. Use the trapezium rule with 4 intervals to estimate V, giving your answer correct to 2 decimal places.Answers:
+254: V = "\pi\int_1^3(x^3 +1)^{\frac{1}{2}}" dx.
+255: Estimate V = "19.67" units^3.
+
+ID: 200003003017
+Content:
+img;The diagram shows the circle, centre O and radius r, with equation \[x^2 + y^2 = r^2\]. The points A, B, C, D on the circle form a rectangle with sides parallel to the axes. Angle AOD = angle BOC = \[2\alpha\]. The region bounded by the line AB, the line DC and the circular arcs BC and AD is rotated about the x-axis to form a solid of revolution S.;(i) Show that the volume obtained by rotating the shaded part of the region about the x-axis is \[\frac{1}{3} \pi r^3 (\cos^3 \alpha - 3\cos \alpha + 2)\].;(ii) Show that the total volume of S is \[\frac{4}{3} \pi r^3 (1 - \cos^3 \alpha)\].;(iii) Given that the volume of S is half the volume of a sphere of radius r, find the value of \[\alpha\].Answers:
+275: 
+276: 
+277: Value of \alpha = "37.5" { }^{\circ}.
+
+ID: 200103003017
+Content:
+a) A circular cylinder is expanding in such a way that, at time t seconds, the length of the cylinder is 20x cm and the area of the cross-section is  x $$cm^2$$. Given that, when $$x = 5$$, the area of the cross-section is increasing at a rate of 0.025 $$cm^2 s^{-1}$$, find the rate of increase at this instant of;(i) the length of the cylinder,;(ii) the volume of the cylinder,;(iii) the radius of the cylinder.;;b)The region R is bounded by the y-axis and by the curves $$y = \sin{x}$$ and $$y = \cos{x}$$ for  \[0 \le x \le \frac{1}{4}\pi\]. Find the volume of the solid of revolution formed when R is rotated through 4 right angles about the x-axis. Answers:
+357: Rate of increase of the length of the cylinder = "0.5" cm/s.
+358: Rate of increase of the volume of the cylinder = "5" cm^3/s.
+359: Rate of increase of the radius of the cylinder = "0.00315" cm/s.
+360: Volume of the solid of revolution = "\frac{\pi}{2}".
+
+ID: 200103003018
+Content:
+a) Find the exact value of  $$\int_0^1 \frac{1}{1 + x^2}dx $$.;;b);img;The graph of  $$y = \frac{1}{1 + x^2}$$, for  $$0 \le x \le 1$$, is shown in the diagram. Rectangles, each of width  $$\frac{1}{n}$$, are drawn under the curve. Show that the total area A of all n rectangles is given by $$A = \frac{1}{n\left(\frac{1}{1 + (\frac{1}{n})^2}\right)} + \frac{1}{1 + (\frac{2}{n})^2} + \frac{1}{1 + (\frac{3}{n})^2} + ... + \frac{1}{2}$$. State the limit of A as  $$n \to \infty $$.;;c) It is given that $$B = \frac{1}{n\left(\frac{1}{1 + (\frac{1}{n})^4}\right)} + \frac{1}{1 + (\frac{2}{n})^4}+ \frac{1}{1 + (\frac{3}{n})^4}+ ... + \frac{1}{2}$$. Find an approximate value for the limit of B as  $$n \to \infty $$ by considering an appropriate graph and using the trapezium rule with 5 intervals. Give your answer correct to 2 decimal places.Answers:
+361: \int_0^1 \frac{1}{1+x^2} dx = "\frac{\pi}{4}".
+362: 
+363: Limit of A as n\rightarrow\infty = "\frac{\pi}{4}".
+364: Approximate value of the limit of B as n\rightarrow\infty = "0.86".
+
+ID: 200203003015
+Content:
+O is the origin and A is the point on the curve y = tan x where  $$x = \frac{1}{3}\pi $$.;(i) Calculate the area of the region R enclosed by the arc OA, the x-axis and the line  $$x = \frac{1}{3}\pi $$, giving your answer in an exact form.;(ii) The region S is enclosed by the arc OA, the y-axis and the line  $$y = \sqrt 3 $$. Find the volume of the solid of revolution formed when S is rotated through  $$360^0 $$ about the x-axis, giving your answer in an exact form.;(iii) Find  $$\int_0^{\sqrt 3} \tan ^{-1} y dy $$. Answers:
+444: Area of region R = "\ln{2}" units^2.
+445: Volume = "(\frac{4}{3}*(\pi^2))-(\sqrt{3}*\pi)" units^3.
+446: \int_0^{\sqrt 3} \tan^{-1}{y} \space dy . = "(\frac{1}{\sqrt{3}}*\pi)-\ln{2}".
+
+ID: 200503003008
+Content:
+img; The region R is bounded by the curve  $$y = \frac{1}{{( x^2 + 1 )}^{\frac{1}{3}}}$$, the positive x- and y-axes, and the line x = 1 (see diagram). ;Give your answer correct to 3 decimal places,;(i) Use the trapezium rule, with 4 intervals of width 0.25, to estimate the area of R,;(ii) Expand $${( x^2 + 1 )}^{- \frac{1}{3}}$$  in ascending powers of x up to, and including, the term in $$x^4$$. Use this expansion to find a second estimate for the area of R. Answers:
+621: Area of R = "0.917".
+622: Expand (x^2 + 1)^{-\frac{1}{3}} in asceding powers of x up to, and including, the term in x^4 = "1-\frac{1}{3}x^2 + \frac{2}{9}x^4".
+623: Second estrimate for the area of R = "0.933".
+
+ID: 200504003002
+Content:
+The surface area of a sphere of radius r metres is decreasing at a rate of  $$0.4m^2 s^{-1} $$ at an instant when r = 0.25. ;(i) Calculate the rate of decrease, at this instant, of the radius of the sphere. ;(ii) Show that, during a short time  $$\delta t$$ seconds immediately after this instant, the volume will decrease by approximately  $$0.05\delta tm^3 $$.  [The surface area of a sphere of radius r is  $$4\pi r^2 $$ and the volume is  $$\frac{4}{3\pi r^3} $$.] Answers:
+642: Rate of decrease of the radius of the sphere = "-\frac{1}{5*\pi}"m/s.
+643: 
+
+ID: 200603003007
+Content:
+img;A hollow cone of semi-vertical angle $$45^{\circ}$$ is held with its axis vertical and vertex downwards (see diagram). At the beginning of an experiment, it is filled with $$390 cm^{3}$$ of liquid. The liquid runs out through a small hole at the vertex at a constant rate of $$2 cm^{3}s^{-1}$$. Find the rate at which the depth of the liquid is decreasing 3 minutes after the start of the experiment. Give your answer correct to 3 significant figures.Answers:
+688: Rate at which depth of the liquid is decreasing "0.0680" cm/s.
+
+ID: 200704003004
+Content:
+(i) Find the exact value of $$\int^{\frac{2}{3}\pi}_{0} \sin^{2}{x}$$ dx, Hence find the exact value of $$ \int^{\frac{5}{3}\pi}_{0} \cos^{2}{x}$$ dx.;(ii) The region R is bounded by the curve $$ y = x^2\sin{x}$$, the line $$ x = \frac{1}{2}\pi$$ and the part of the x-axis between 0 and $$\frac{1}{2}\pi$$. Find;a) the exact area of R;b) the numerical value of the volume of revolution formed when R is rotated completely about the x-axis, giving your answer correct to 3 decimal places.Answers:
+789: The exact value of \int^{\frac{2}{3}\pi}_{0} \sin^{2}{x} dx is "(\frac{5}{6}*\pi) + \frac{\sqrt{3}}{8}".
+790: The exact value of  \int^{\frac{5}{3}\pi}_{0} \cos^{2}{x} dx is "(\frac{5}{6}*\pi) - \frac{\sqrt{3}}{8}".
+791: The exact area of R is "\pi - 2" units^2.
+792: The numerical value of colume of revolution = "5.391" units^3.
+

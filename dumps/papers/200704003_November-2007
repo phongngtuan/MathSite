@@ -1,0 +1,82 @@
+ID: 200704003001
+Content:
+Four friends buy three different kinds of fruit in the market. When the get home they cannot remember the individual prices per kilogram, but three of them can remember the total amount that they each paid. The weights of fruit and the total amounts paid are shown in the following table,;img;;Assuming that for each variety of fruit, the price per kilogram paid by each of the friends is the same calculate the total amount that Lee Lian paid.Answers:
+785: Total amount paid by Lee Lian is $"7.65".
+
+ID: 200704003002
+Content:
+A sequence $$u_1, u_2, u_3, ...$$ is such that $$u_1 = 1$$ and $$u_{n+1} = u_n - \frac{2n+1}{n^2(n+1)^2}$$ for all n > 1.;(i) Use the method of mathematical induction to prove that $$u_n = \frac{1}{n^2}$$;(ii) Hence find $$\sum^{N}_{n=1} \frac{2n+1}{n^2(n+1)^2} $$;(iii) Give a reason why the series in part(ii) is convergent and state the sum to infinity;(iv) Use your answer to part(ii) to find  $$ \sum^{N}_{n=1} \frac{2n+1}{n^2(n+1)^2} $$Answers:
+858: 
+859: \sum^{N}_{n=1} \frac{2n+1}{n^2(n+1)^2}  = "1 - \frac{1}{(N+1)^2}".
+860: Sum to infinity is "1".
+861: Using the answer from part (ii), \sum^{N}_{n=1} \frac{2n+1}{n^2(n+1)^2}  = "1-\frac{1}{N^2}".
+
+ID: 200704003003
+Content:
+(i) By successively differentiating $$(1+x)^n$$, find Maclaurin's series for $$(1+x)^n$$, up to and including the term in $$x^3$$;(ii) Obtain the expansion of $$(4-x)^{\frac{3}{2}}(1+2x^2)^{\frac{3}{2}}$$ up to and including the term in $$x^3$$;(iii) Find the set of values of x for which the expansion in part (ii) is validAnswers:
+786: The Maclaurin's series for (1+x)^n, up to and including x^3, is y \approx"1+ nx + \frac{n(n-1)}{2!}x^2+\frac{n(n-1)(n-2)}{3!}x^3".
+787: The expansion of (4-x)^{\frac{3}{2}(1+2x^2)^{\frac{3}{2}} } up to and including x^3 is "8 - 3x + \frac{387}{16}x^2-\frac{1153}{128}x^3".
+788: The set of values of x = "-\frac{\sqrt{2}}{2}" < x < " \frac{\sqrt{2}}{2}", where x\in \mathbb{R}.
+
+ID: 200704003004
+Content:
+(i) Find the exact value of $$\int^{\frac{2}{3}\pi}_{0} \sin^{2}{x}$$ dx, Hence find the exact value of $$ \int^{\frac{5}{3}\pi}_{0} \cos^{2}{x}$$ dx.;(ii) The region R is bounded by the curve $$ y = x^2\sin{x}$$, the line $$ x = \frac{1}{2}\pi$$ and the part of the x-axis between 0 and $$\frac{1}{2}\pi$$. Find;a) the exact area of R;b) the numerical value of the volume of revolution formed when R is rotated completely about the x-axis, giving your answer correct to 3 decimal places.Answers:
+789: The exact value of \int^{\frac{2}{3}\pi}_{0} \sin^{2}{x} dx is "(\frac{5}{6}*\pi) + \frac{\sqrt{3}}{8}".
+790: The exact value of  \int^{\frac{5}{3}\pi}_{0} \cos^{2}{x} dx is "(\frac{5}{6}*\pi) - \frac{\sqrt{3}}{8}".
+791: The exact area of R is "\pi - 2" units^2.
+792: The numerical value of colume of revolution = "5.391" units^3.
+
+ID: 200704003005
+Content:
+(i) Give a real-life example of a situation in which quota sampling could be used. Explain why quota sampling would be appropriate in this situation, and describe briefly any disadvantage that quota sampling has.;(ii) Explain briefly whether it would be possible to use stratified sampling in the situation you have described in part(i)Answers:
+
+ID: 200704003006
+Content:
+In a large population, 24% have a particular gene, A, and 0.3% have gene B. Find the probability that, in a random sample of 10 people from the population, at most 4 have gene A.;;A random sample of 1000 people is taken from population, Using appropriate approximation, find;(i) the probability that between 230 and 260 inclusive have gene A,;(ii) the probability that at least 2 but fewer than 5 have gene B.Answers:
+793: The probability that our of 10, at most 4 have gene A = "0.933".
+794: The probability that between 230 and 260, inclusive have A = "0.717".
+795: The probability that at least 2 but fewer than 3 have gene B = "0.616".
+
+ID: 200704003007
+Content:
+A large number of students in a college have completed a geography project. The time, x hours, taken by a student to complete the project i noted for a random sample of 150 students. The result are summarized by $$ \sum x = 4626, \sum x^2 = 147691$$. ;;Find unbiased estimates of the population mean and variance.;Test, at the 5% significance level, whether the population mean time for a student to complete the project exceeds 30hours.;State, giving a reason, whether any assumptions about the population are needed in order for the test to be valid.Answers:
+796: Unbiased estimate of mean, \mu = "30.84".
+797: Unbiased estimate of population variance, s^2 = "33.7".
+798: "reject" (Do not reject/Reject) H_0 and conclude that, at the 5% level of significance, there is "sufficient" (sufficient/insufficient) evidence that the mean time for a student to complete the project exceeds 30hours.
+799: "No assumption" (No assumption/Assumption) is needed in order for the test to be valid because the sample size is " large" (small/large), by Central Limit Theorem, the sample mean is approximately " normally" distributed.
+
+ID: 200704003008
+Content:
+Chickens and turkey are sold by weight. The masses, in kg, of chickens and turkeys are modelled as having independent normal distributions with means and standard deviations as shown in the table.;img;;Chickens are sold at $3 per kg and turkeys at $5 per kg.;(i) Find the probability that a randomly chosen chicken has a selling price exceeding $7.;(ii) Find the probability of the even that both a randomly chosen chicken has a selling price exceeding $7 and a randomly chosen turkey has a selling price exceeding $55.;(iii) Find the probability that the total selling price of a randomly chosen chicken and a randomly chosen turkey is more than $62.;(iv) Explain why the answer to part (iii) is greater than the answer to part (ii)Answers:
+800: The probability that a randomly chosen chicken costs more than $7 = "0.395".
+801: Probability that both a random chicken costs more than $7 and random turkey costs more than $55 = "0.160".
+802: The probability that the total selling price of a randomly chosen chicken and a randomly chosen turkey is more than $62 = "0.392".
+803: The condition for part(iii) is "less" (more/less) restrictive than the condition for part(ii).
+
+ID: 200704003009
+Content:
+A group of 12 people consists of 6 married couples.;(i) The group stand in a line.;a) Find the number of different possible orders;b) Find the number of different possible orders in which each man stands next to his wife;(ii) The group stand in a circle.;a) Find the number of different possible arrangements;b) Find the number of different possible arrangements if men and women alternate.;c) Find the number of different possible arrangements if each man stands next to his wife and men and women alternateAnswers:
+804: Number of different possible arrangement = "479001600".
+805: Number of different possible orders in which each man stands next to his wife = "46080".
+806: Number of different possible arrangement = "39916800".
+807: Number of different possible arrangement if men and women alternate = "86400".
+808: Number of different possible arrangements if each man stand next to his wife and men and women alternate = "240".
+
+ID: 200704003010
+Content:
+A player throws three darts at a target. The probability that he is successful in hitting the target with his first throw is $$\frac{1}{8}$$. For each of his second and third throws, the probability of success is ;- twice the probability to success on the preceding throw if that throw was successful;- the same as the probability of success on the preceding throw if that two was unsuccessful;Construct a probability tree showing this information.;;Find;(i) the probability that all three throws are successful;(ii) the probability that at least two throws are successful;(iii) the probability that the third throw is successful given that exactly two of the three throws are successfulAnswers:
+809: The probability that all three throws are successful = "\frac{1}{64}".
+810: The probability that at least two throws are successful = "\frac{21}{256}".
+811: The probability that the 3^{rd} shot is successful given exactly 2 of the three shots are successful = "\frac{13}{17}".
+
+ID: 200704003011
+Content:
+Research is being carried out into how the concentration of a drug in the bloodstream varies with time, measured from when the drug is given. Observations at successive times give the data shown in the following table.;img;;It is given that the value of the product moment correlation coefficient for this data is -0.912, correct to 3 decimal places. The scatter diagram for the data is shown below.;img;;Calculate the equation of the regression line of x on t.;Calculate the corresponding estimated value of x when t = 300, and comment on the suitability of linear model.;The variable y is defined by $$y = \ln x$$. For the variables y and t,;(i) calculate the product moment correlation coefficient and comment on its values,;(ii) calculate the equation of the appropriate regression line.;Use a regression line to give the ebst estimate that you can of the time when the drug concentration is 15 micro grams per litre.Answers:
+812: Equation of the regression line of x on t: x = "-0.260t + 66.2".
+813: Corresponding estimated value of x when t = 300 is "-11.7".
+814: "not a good" (Not a good/Good) model because the concentration of the drug in the bloddsteam cannot be " negative" (negative/positive).
+815: The product moment correlation coefficient is "-0.994".
+816: This indicates a "stronger" (weaker/stronger) correlation is between y and t as it is "closer" (further/closer) to 1 than the value obtained from linear model.
+817: Equation of regression line of y on t is y = "-0.0123t+4.62".
+818: The best estimate of time when drug concentration is 15 mg \ell^{-1} is "155" min.
+

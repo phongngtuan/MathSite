@@ -1,0 +1,15 @@
+ID: 200103003013
+Content:
+a) Solve each of the following inequalities.;(i)  $$x > \frac{2}{x}$$.;(ii) |2x - 3| < |x + 1|.;;b) Use induction to prove that  $$3( 1! ) + 7( 2! ) + 13( 3! ) + ... + ( n^2  + n + 1 )( n! ) = ( n + 1 )^2 ( n! ) - 1$$.Answers:
+844: Solution is "-\sqrt{2}" < x < "0" or x > "\sqrt{2}".
+845: Solution is "\frac{2}{3}" < x < "4".
+846: 
+
+ID: 200704003002
+Content:
+A sequence $$u_1, u_2, u_3, ...$$ is such that $$u_1 = 1$$ and $$u_{n+1} = u_n - \frac{2n+1}{n^2(n+1)^2}$$ for all n > 1.;(i) Use the method of mathematical induction to prove that $$u_n = \frac{1}{n^2}$$;(ii) Hence find $$\sum^{N}_{n=1} \frac{2n+1}{n^2(n+1)^2} $$;(iii) Give a reason why the series in part(ii) is convergent and state the sum to infinity;(iv) Use your answer to part(ii) to find  $$ \sum^{N}_{n=1} \frac{2n+1}{n^2(n+1)^2} $$Answers:
+858: 
+859: \sum^{N}_{n=1} \frac{2n+1}{n^2(n+1)^2}  = "1 - \frac{1}{(N+1)^2}".
+860: Sum to infinity is "1".
+861: Using the answer from part (ii), \sum^{N}_{n=1} \frac{2n+1}{n^2(n+1)^2}  = "1-\frac{1}{N^2}".
+

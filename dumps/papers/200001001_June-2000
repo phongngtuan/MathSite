@@ -1,0 +1,68 @@
+ID: 200001001001
+Content:
+Find the coordinates of the points of intersection of the line 2y = 3x - 3 with the curve xy = 3.;(Note: Please enter the answer with smaller value of x first)Answers:
+
+ID: 200001001002
+Content:
+Find the gradient of the curve \[y=4x^2-20x+27\] at the point P(2, 3). ;The tangent to the curve at P meets the x-axis at A. Calculate the area of the triangle AOP, where O is the origin.Answers:
+
+ID: 200001001003
+Content:
+(a)	Find the range of values of x for which \[x^2+3x-4>5x-1\];(b)	Find the range of values of c, given that, for all values of x, \[x^2-5x+c>2\]Answers:
+
+ID: 200001001004
+Content:
+(a)	In the expansion of \[(1-ax)^{13}\] where a is a positive constant, the coefficient of \[x^2\] is 702.;(i)	Find the value of a,;(ii) Evaluate the coefficient of \[x^3\];(b) Find the term independent of x in the expansion of \[(x+\frac{1}{(2x)})^8\]Answers:
+
+ID: 200001001005
+Content:
+The points A and B lie on the circumference of a circle, centre O and radius 5 cm. The tangents at A and B meet at P and the angle AOB is 1.2 radians, as shown in the diagram.;img; Calculate;(a)the length of the perimeter of the shaded region,;(b)the area of the shaded region.Answers:
+
+ID: 200001001006
+Content:
+The points M and N lie on a circle, centre O and radius 2. The position vectors of M and N, relative to O, are 1.92i + mj and ni + 1.6j respectively, where m and n are positive numbers.;(a) Find the value of m and of n.;(b)Use a scalar product to find the \[\angle MON\]Answers:
+
+ID: 200001001007
+Content:
+Given that \[y=\frac{3}{(2-5x)^2}\] obtain an expression for \[\frac{\mathrm{d} y}{\mathrm{d} x}\] Hence find, in terms of p, where p is small, the approximate change in y as x increases from 0.3 to 0.3 + p.Answers:
+
+ID: 200001001008
+Content:
+The points P(1, 4) and Q(2, 1) lie on the curve \[y=\frac{4}{(x^2)}\] as shown in the diagram.;img;(a)	Find the equation of the line PQ in the form y = mx + c.;(b)	Calculate the volume obtained when the shaded region is rotated \[360^{\circ}\] about the x-axis.Answers:
+
+ID: 200001001009
+Content:
+Show that \[(1-\sin A+\cos A)^2-=2(1-\sin A)(1+\cos A)\]Answers:
+
+ID: 200001001010
+Content:
+Solutions to this question by accurate drawing will not be accepted.;The points P(-3, 0), Q(-2, q), R(5, 6) and S are such that the perpendicular bisector of PR is QS, as shown in the diagram.;img;(a)	Find the value of q.;(b) Show that the area of triangle PQR is \[25units^2\];(c)	Find the coordinates of S, given that the area of the quadrilateral PQRS is \[75units^2\];d)	Find the length of the perimeter of PQRS.Answers:
+
+ID: 200001001011
+Content:
+a) The position vectors, relative to an origin O, of the three points P, Q and C are 3a, 2b and c respectively. Given that \[\vec{PC}=k\vec{PQ}\] express c in terms of a, b and k. Given also that a and b are the position vectors, relative to O, of the points A and B respectively, and that \[\vec{AC}=m\vec{AB}\] find the value of k and of m.;(b) ABCD is a rectangle whose diagonals intersect at O, and L is a point in the plane of ABCD. Show that \[\vec{AL}+\vec{BL}+\vec{CL}+\vec{DL}=4\vec{OL}\]Answers:
+
+ID: 200001001012
+Content:
+(a) Find all the angles between \[0^{\circ}\] and \[360^{\circ}\] which satisfy the equation;(i)	\[8 \sin x \cos x = \sin x\];(ii) \[5\tan^2y+5\tan y=2\sec^2y\];(b)	Find the value of z between 0 and \[2\pi\] for which \[\sin(\frac{z}{3}+5)=\frac{1}{2}\];(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200001001013
+Content:
+img;The diagram shows a solid body which consists of a hemisphere fixed, with no overlap, to the end of a right circular cylinder of radius r cm and height h cm. Given that the total volume of the solid is \[360\pi cm^3\] express h in terms of r.;Hence show that the total surface area, \[A cm^2\] of the solid is given by \[A=5\pi(\frac{144}{r}+\frac{r^{2}}{3})\] ;Given that r can vary, find;(a)	the value of r for which A has a stationary value,;(b)	the overall height of the body when A has a stationary value,;(c)	the stationary value of A.;Determine whether the stationary value of A is a maximum or a minimum.Answers:
+
+ID: 200001001014
+Content:
+A particle P moves in a straight line so that, t seconds after passing through a fixed point O, its velocity \[vcms^{-1}\] is given by \[3t^2-15t+18\];Find;i) the value of t when the velocity of P is equal to its initial velocity,;ii) the values of t for which P is instantaneously at rest,;iii) an expression, in terms of t, for the distance of P from O at time t,;iv) the total distance travelled by P in the first 4 seconds after passing through O,;v) the distance P from O when the acceleration of P is zero.Answers:
+
+ID: 200001001015
+Content:
+A curve passes through the point P(0, 3.5) and is such that \[\frac{\mathrm{d} y}{\mathrm{d} x}=2-x\] The normal to the curve at P meets the curve again at Q. Find;i) the coordinates of Q,;ii) the area of the region between the curve and the line PQ.Answers:
+
+ID: 200001001016
+Content:
+The functions f and g are defined by; $$f:x \mapsto  x-3$$;$$g:x \mapsto \frac{1}{(3x)},x\neq 0  where (x\epsilon \mathbb{R})$$ Find;(i)	an expression, in terms of x, for \[f^2(x)\]  and for \[fg(x)\] ;(ii)	the values of x, to two decimal places, for which \[f^2(x)=fg(x)\]Answers:
+
+ID: 200001001017
+Content:
+Draw on graph paper, using a scale of 2 cm for 1 unit on each axis, the graph of y = |5 - 2x| - 2, for. Find the range of values of x for which \[0\leq x\leq 5\] ;(i) y is negative;(ii) |y|<=1Answers:
+

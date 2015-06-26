@@ -1,0 +1,56 @@
+ID: 200404001001
+Content:
+Given that $$A=\binom{2,3}{-5,4} find A^{-1}$$ and hence solve the simultaneous equations, 2x+3y+4=0,-5x+4y+13=0Answers:
+
+ID: 200404001002
+Content:
+Given that $$\sqrt{a+b \sqrt3}= \frac{13}{(4+\sqrt3)}$$, where a and b are integers, find, without using a calculator, the value of a and of b .Answers:
+
+ID: 200404001003
+Content:
+img;The diagram shows part of the curve $$y = 3 \sin  2x + 4 \cos  x$$. ;Find the area of the shaded region, bounded by the curve and the coordinate axes.Answers:
+
+ID: 200404001004
+Content:
+Find the values of k for which the line y = x + 2 meets the curve $$y^2+(x+k)^2=2$$.Answers:
+
+ID: 200404001005
+Content:
+Solve the equation $$\log_16(3x-1)=\log_4(3x)+\log_4(0.5)$$Answers:
+
+ID: 200404001006
+Content:
+Given that $$x=3\sin \theta - 2\cos  \theta$$ and $$y=3\cos  \theta + 2\sin  \theta$$;(i)	find the value of the acute angle $$\theta$$ for which x = y,;(ii)	show that $$x^2+y^2$$ is constant for all values of $$\theta$$Answers:
+
+ID: 200404001007
+Content:
+Given that $$6x^3+5ax-12a$$ leaves a remainder of -4 when divided by x- a, find the possible values of a.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200404001008
+Content:
+A motor boat travels in a straight line across a river which flows at \[3ms^{-1}\] between straight parallel banks 200m apart. The motor boat, which has a top speed of \[6 ms^{-1}\] in still water, travels directly from a point A on one bank to a point B, 150 m downstream of A, on the opposite bank. Assuming that the motor boat is travelling at top speed, find, to the nearest second, the time it takes to travel from A to B .Answers:
+
+ID: 200404001009
+Content:
+In order that each of the equations;(i) $$y=ab^x$$;(ii) $$y=Ax^{(k)}$$;(iii) px + qy = xy;where a, b, A, k, p and q are unknown constants, may be represented by a straight line, they each need to be expressed in the form Y = mX + c, where X and Y are each functions of x and/or y, and m and c are constants. ;Copy the following table and insert in it an expression for Y, X, m and c for each case.;img;Answers:
+
+ID: 200404001010
+Content:
+The function f is defined by $$f: x \mapsto |x^2-8x+7|$$ for the domain $$3\leq x\leq8$$.;(i) By first considering the stationary value of the function $$x \mapsto x^2-8x+7$$,;Show that the graph of y=f(x) has a stationary point at x=4 and determine the nature of this stationary point.;(ii) Sketch the graph of y = f(x);(iii) Find the range of f.;The function g is defined by $$g: x \mapsto |x^2-8x+7|$$;For the domain $$3\leq x\leq k$$;(iv) Determine the largest value of k for which $$g^{-1}$$ exists.Answers:
+
+ID: 200404001011
+Content:
+The diagram shows a trapezium OABC, where O is the origin. ;The equation of OA is y = 3x and the equation of OC is y + 2x = 0. The line through A perpendicular to OA meets the y-axis at B and BC is parallel to AO. Given that the length of OA is $$\sqrt{250}$$ units, calculate the coordinates of A, of B and of C.Answers:
+
+ID: 200404001012
+Content:
+Each member of a set of curves has an equation of the form $$y=ax+\frac{b}{x^{^{2}}}$$ where a and b are integers.;For the curve where a = 3 and b = 2, find the area bounded by the curve, the x-axis and the lines x = 2 and x = 4.Answers:
+
+ID: 200404001013
+Content:
+Each member of a set of curves has an equation of the form $$y=ax+\frac{b}{x^{^{2}}}$$ where a and b are integers.;Another curve of this set has a stationary point at (2, 3).;Find the value of a and of b in this case and determine the nature of the stationary point.Answers:
+
+ID: 200404001014
+Content:
+A particle, travelling in astraight line, passes a fixed point O on the line with a speed of $$0.5ms^{-1}$$.;The acceleration, $$ams^{-2}$$, of the particle, t s after passing O, is given by a=1.4-0.6t.;(i)	Show that the particle comes instantan to rest when t=5.;(ii)	Find the total distance travelled by the particle between t=0 and t=10.Answers:
+

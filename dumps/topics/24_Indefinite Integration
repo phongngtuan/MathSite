@@ -1,0 +1,98 @@
+ID: 199703003018
+Content:
+Find;(i) \[\int \frac {1}{1 + \cos 2x} dx\],;(ii) \[\int x^{2} e^{3x} dx\],;(iii)\[\int_{0}^{2} \frac {x^{2}}{1 + x^{6}} dx\], by using the substitution \[y = x^{3}\], giving your answer correct to 3 decimal places.Answers:
+33: $\int \frac{1}{1+\cos 2x} dx$ = "\frac{1}{2} \tan{x}"+ c.
+34: $\int x^2 e^{3x} dx$ = "\frac{x^2}{3} e^{3x} - \frac{2x}{9} e^{3x} + \frac{2}{27} e^{3x}"+ c.
+35: $\int_0^2 \frac{x^2}{1+x^6} dx$ = "0.482".
+
+ID: 199803003018
+Content:
+a)  Given that $$x + 2 = A (2x + 2) + B$$ for all values of x, find the constants A and B.;Hence or otherwise find $$\int \frac{x + 2}{x^2 + 2x + 5} dx$$. ;;b)If  $$x = 4 {\cos}^2 \theta + 7 {\sin}^2 \theta$$, show that $$7 - x = 3 {\cos}^2 \theta$$, and find a similar expression for $$x - 4$$. By using the substitution $$= 4 {\cos}^2 \theta + 7 {\sin}^2 \theta$$, evaluate $$\int^7_4 \frac{1}{\sqrt{{ ( x - 4 ) ( 7 - x ) }}} dx$$. Answers:
+117: Constants A = "\frac{1}{2}".
+118: Constants B = "1".
+119: \int \frac{x+2}{x^2 +2x + 5} dx = "\frac{1}{2} \ln{(x^2+2x+5)} + \frac{1}{2} \tan^{-1}{\frac{x+1}{2}}"+ c.
+120: 
+121: Similiar expression for x-4 = "3 \sin^{2}{\theta}".
+122: \int_4^7 \frac{1}{\sqrt{(x-4)(7-x)}} dx = "\pi".
+
+ID: 199903003011
+Content:
+Use the substitution \[u = e^x + 2\] to find \[\int \frac {e^{2x}}{e^x + 2} dx\].Answers:
+179: \int \frac{e^{2x}}{e^{x}+2} dx = "(e^x +2)-2 \ln{(e^x +2)}"+ c.
+
+ID: 199903003019
+Content:
+(i) Prove that \[\frac{\mathrm{d} }{\mathrm{d} x} [\ln (\sec x + \tan x)] = \sec x\].;(ii) Find \[\int x\sin x dx\].;(iii) Find the exact value of \[\int_{0}^{\frac {1}{4} \pi} x\sin x\ln(\sec x + \tan x) dx\].Answers:
+200: 
+201: \int x \sin x dx = "\sin{x} - x \cos{x}"+ c.
+202: \int_0^{\frac{1}{4}\pi} x \sin x \ln (\sec x + \tan x) dx = "(\frac{1}{\sqrt{2}} - (\frac{1}{4*\sqrt{2}}*\pi))*(\ln{\sqrt{2} + 1})-(\frac{1}{2}*\ln{2})+(\frac{1}{32} *(\pi^2))".
+
+ID: 200003003010
+Content:
+Find;(i) \[\int \cos^2 3x dx\] ;(ii) \[\int \tan^2 2x dx\].Answers:
+256: \int \cos^2 3x dx = "\frac{1}{2}x + \frac{1}{12} \sin{6x}"+ c.
+257: \int \tan^2 2x dx = "\frac{1}{2} \tan{2x} - x"+ c.
+
+ID: 200203003011
+Content:
+Express  $$f(x) = \frac{x^3+2}{x^2-1}$$ in partial fractions. Hence find the value of  $$\int_{-4}^{-2} f(x)dx $$. Giving your answer correct to 3 significant figures.Answers:
+436: Partial functions of f(x) = "x - \frac{1}{2(x+1)} + \frac{3}{2(x-1)}".
+437: \int_{-2}^{-4} f(x) dx = "-6.22".
+
+ID: 200303003006
+Content:
+Use the substitution  $$x = \tan \theta $$ to find the exact value of  $$\int_0^1 \frac{1-x^2}{( 1 + x^2  )^2} dx $$. Answers:
+495: \int_0^1 \frac{1-x^2}{(1+x^2)^2} dx = "\frac{1}{2}".
+
+ID: 200303003014
+Content:
+img; The region bounded by the axes and the curve $$y = \cos x$$ from $$x = 0$$ to  $$x = \frac{1}{2}\pi $$ is divided into two parts, of areas  $$A_1 $$ and  $$A_2 $$, by the curve $$y = \sin x$$ (see diagram). Prove that  $$A_2  = \sqrt 2 A_1 $$. The two curves meet at P. The line through P parallel to the x-axis meets the y-axis at Q. The region OPQ, bounded by the arc OP and the lines PQ and QO, is rotated through 4 right angles about the y-axis to form a   solid of revolution of volume V. It is given that  $$V = \pi \int_0^{\frac {1}{\sqrt 2}} \sin^{-1} y^2 dy $$. ;(i) By substituting  $$u = \sin ^{-1} y$$, show that  $$V = \pi \int_0^{\frac{1}{4}\pi} u^2 \cos udu $$. ;(ii) Show that  $$\frac{d}{du} ( u^2 \sin u + 2u\cos u - 2\sin u) = u^2 \cos u$$. ;(iii) Hence find the exact value of V.  Answers:
+513: 
+514: 
+515: Exact value of V = "\frac{\sqrt{2*\pi}}{32}*((\pi^2) + (8*\pi) - 32)" units^3.
+
+ID: 200304003002
+Content:
+Find ;(i) $$\int x^3 \ln xdx $$ ;(ii)  $$\int x^3 ( \ln x )^2 dx $$. Answers:
+520: \int x^3 \ln x dx = "\frac{1}{4} x^4 x - \frac{x^4}{16}"+ c.
+521: \int x^3 (\ln x)^2 dx = "\frac{1}{4} x^4 (\ln{x})^2 - \frac{1}{8} x^4 \ln{x} + \frac{1}{32} x^4"+ c.
+
+ID: 200403003013
+Content:
+Use partial fractions to evaluate  $$\int_2^3 \frac{9x^2}{( x - 1 )^2 ( x + 2 )}dx $$, giving your answer in an exact form. Answers:
+850: \int_2^3 \frac{9x^2}{(x-1)^2(x+2)} dx = "(\frac{3}{2}*(4*\ln{5})) - (3*\ln{2})".
+
+ID: 200404003003
+Content:
+Write down constants A and B such that, for all values of x, $$6x + 16 = A (2x + 4) + B$$. Hence find the exact value of  $$\int_{-2}^{1} \frac{6x + 16}{x^2  + 4x + 13} dx $$.Answers:
+847: A="3".
+848: B="4".
+849: \int_{-2}^{1} \frac{6x+16}{x^2+4x+13} dx = "(3*\ln{2}) + (\frac{1}{3}*\pi)".
+
+ID: 200503003003
+Content:
+(i) State the derivative of  $$\sin {x^2}$$.  ;(ii) Find $$\int x^3 \cos { x^2 } dx$$. Answers:
+851: Derivative of \sin x^2 = "2x \cos{x^2}".
+852: \int x^3 \cos x^2 dx = "\frac{1}{2}(x^2 \sin{x^2} + \cos{x^2})"+ c.
+
+ID: 200503003014
+Content:
+The indefinite integral $$\int \frac{P( x )}{x^3 + 1} dx$$, where P(x) is a polynomial in x, is deno;ated by I. ;(i) Find I when $$P( x ) = x^2$$. ;(ii) By writing $$x^3 + 1 = ( x + 1 )( x^2 + Ax + B )$$, where A and B are constants, find I when ;a)$$P(x) = x^2 - x + 1$$ ;b)$$P(x) = x + 1$$;(iii) Using the results of parts(i) and(ii), or otherwise, find I when $$P(x) = 1$$. Answers:
+636: I = "\frac{1}{3} \ln{|x^3+1|}"+ c.
+637: when P(x) = x^2 - x + 1, I = "\ln{|x+1|}"+ c.
+638: when P(x) = x + 1, I = " \frac{2}{\sqrt{3}} \tan^{-1}{\left(\frac{2x-1}{\sqrt{-3}}\right)}"+ c.
+639: when P(x) = 1, I = "\frac{1}{2} \ln{|x+1| - \frac{1}{6}\ln{|x^3+1|}} + \frac{1}{\sqrt{3}}\tan^{-1}{\frac{2x-1}{\sqrt{3}}}"+ c.
+
+ID: 200603003013
+Content:
+It is required to solve the differential equation $$(1-x^{2})\frac{dy}{dx}-xy-1=0$$. ;(i)Given that $$|x|<1$$, find the general solution. ;(ii)Given also that $$y= \frac{1}{2} \pi $$ when x = 0, find the exact value of y when $$x= \frac{1}{2} $$. ;(iii)Given instead that $$|x|>1$$, show that $$ \sqrt[y]{(x^{2}-1)} =- \int \frac{1}{\sqrt{(x^{2}-1)}} dx$$.Answers:
+697: General solution is y = "\frac{\sin^{-1}{x} + c}{\sqrt{1-x^2}}", c = constant.
+698: Exact value of y is "\frac{4}{3*\sqrt{3}}*\pi", when x = \frac{1}{2}.
+699: 
+
+ID: 200703003004
+Content:
+The current I in an electric circuit at time t satisfies the differential equation 4$$\frac{dI}{dt}=2-3I$$  Find I in terms of t, given that I = 2 when t = 0.  State what happens to the current in this circuit for large values of t. Answers:
+757: I = "\frac{2}{3}(1+2e^{-\frac{3}{4}t})".
+758: For large values of t, the current of this circuit tens to the value "\frac{2}{3}".
+

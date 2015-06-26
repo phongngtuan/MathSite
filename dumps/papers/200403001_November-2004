@@ -1,0 +1,52 @@
+ID: 200403001001
+Content:
+The position vectors of points A,B and C, relative to an origin O, are i+9j, 5i-3j and k(i+3j) respectively, where k is a constant. Given that C lies on the AB, find the value of k.Answers:
+
+ID: 200403001002
+Content:
+A youth club has facilities for members to play pool, darts and table-tennis. Every member plays at least one of the three games. P,D and T represent the sets of members who play pool, darts and table-tennis respectively. Express each of the following in set language and illustrate each by means of a Venn diagram.;(i)	The set members who only play pool.;(ii)	The set of members who play exactly 2 games, neither of which is darts.Answers:
+
+ID: 200403001003
+Content:
+Without using a calculator, solve, for x and y, the simultaneous equations;$$8^x + 2^y=64$$;$$3^{(4x)} \times (\frac{1}{9})^{y-1} = 81$$Answers:
+
+ID: 200403001004
+Content:
+img;The diagram shows a sector COD of a circle, centre O, in which $$\angle COD= \frac{4}{3} radians$$. The points A and B lie on OD and OC respectively, and AB is an arc of a circle, centre O, of radius 7 cm. Given that the area of the shaded region ABCD is $$48cm^2$$, find the perimeter of this shaded region.Answers:
+
+ID: 200403001005
+Content:
+Given that the expansion of $$(a+x)(1-2x)^n$$ in ascending powers of x is $$3-41x+bx^2+...$$, find the values of the constants a, n and b .Answers:
+
+ID: 200403001006
+Content:
+The function f is defined, for $$0< x<\pi$$, by $$f(x) = 5 + 3 \cos  4x$$ Find;(i)	the amplitude and the period of f,;(ii)	the coordinates of the maximum and minimum points of the curve y = f(x).Answers:
+
+ID: 200403001007
+Content:
+(a)	Find the number of different arrangements of the 9 letters of the word SINGAPORE in which S does not occur as the first letter.;(b)	3 students are selected to form a chess team from a group of 5 girls and 3 boys. Find the number of possible teams that can be selected in which there are more girls than boys.Answers:
+
+ID: 200403001008
+Content:
+The function f is defined, for $$ x\in \mathbb {R}$$, by $$f:x \mapsto \frac{(3x+11)}{(x-3)}, x \neq 3, x in RR$$ ;(i) Find $$f^{-1}$$ in terms of x and explain what this implies about the symmetry of the graph of $$y= f(x)$$.;The function g is defined, for $$ x\in \mathbb {R}$$, by $$g: x \mapsto \frac{(x-3)}{2}$$;(ii) Find the values of x for which $$f(x)=g^{-1}(x)$$.;(iii) State the value of x for which gf(x)=-2.Answers:
+
+ID: 200403001009
+Content:
+(a)	Solve, for $$0^{\circ}\leq\theta\leq360^{\circ}$$, the equation $$\sin ^2x=3\cos ^2x+4\sin x$$;(b)	Solve, for 0 < y < 4, the equation $$\cot (2y)=0.25$$, giving your answers in radians correct to 2 decimal places.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200403001010
+Content:
+A curve has the equation $$y=x^3\ln x$$, where x > 0.;(i)	Find an expression for $$\frac{\mathrm{d} y}{\mathrm{d} x}$$;Hence;(ii) Calculate the value of ln x at the stationary point of the curve,;(iii) Find the approximate increase in y as x increases from e to e+p, where p is small,;(iv) find $$\int x^2\ln x dx$$Answers:
+
+ID: 200403001011
+Content:
+The line 4y = 3x + 1 intersects the curve xy = 28x - 27y at the point P(1, 1) and at the point Q. The perpendicular bisector of PQ intersects the line y = 4x at the point R. Calculate the area of triangle PQR.Answers:
+
+ID: 200403001012
+Content:
+(a)	At the beginning of 1960, the number of animals of a certain species was estimated at 20 000. This number increased so that, after a period of n years, the population was \[20000e^{(-0.05n)}\]. Estimate;(i) the population at the beginning of 1970.;(ii) the year in which the population would be expected to have first increased to 2000.;(b) Solve the equation \[3^{(x+1)}-2=8 xx 3^{(x-1)}\]Answers:
+
+ID: 200403001013
+Content:
+A curve has the equation $$y=e^{\frac{1}{2x}}+3e^{\frac{-1}{2x}}$$;(i)	Show that the exact value of the y-coordinate of the stationary point of the curve is $$2\sqrt3$$;(ii)	Determine whether the stationary point is a maximum or a minimum.;(iii)	Calculate the area enclosed by the curve, the x-axis and the lines x = 0 and x = 1.Answers:
+

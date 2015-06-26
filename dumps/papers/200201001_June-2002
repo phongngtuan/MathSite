@@ -1,0 +1,56 @@
+ID: 200201001001
+Content:
+Find the coordinates of the points at which the straight line y + 2x = 7 intersects the curve $$y^2=xy-1$$ (Note: Please enter the answer with smaller value of x first)Answers:
+
+ID: 200201001002
+Content:
+A curve has gradient $$e^{4x}+e^{-x}$$ at the point (x, y). Given that the curve passes through the point (0,3), find the equation of the curve.Answers:
+
+ID: 200201001003
+Content:
+A rectangle has sides of length $$(2+\sqrt18)$$metres and $$(5-\frac{4}{\sqrt{2}}))$$metres. Express, in the form $$a+b\sqrt2$$, where a and b are integers,;(a)	the value of A, where A square metres is the area of the rectangle,;(b)	the value of $$D^2$$, where D metres is the length of the diagonal of the rectangle.Answers:
+
+ID: 200201001004
+Content:
+The points P, Q and R are such that $$\vec{QR}=4\vec{PQ}$$. Given that the position vectors of P and Q relative to an origin O are $$\binom{6}{7}$$ and $$\binom{9}{20}$$ respectively, find the unit vector parallel to $$\vec{OR}$$Answers:
+
+ID: 200201001005
+Content:
+(a)	Sketch, on the same diagram and for $$0 \leq x \leq 2\pi$$, the graphs of $$y= \frac{1}{4}+\sin x$$ and $$y= \frac{1}{2}\cos 2x$$;(b)	The x-coordinates of the points of intersection of the two graphs referred to in part (a) satisfy the equation $$2 \cos  2x-k \sin  x = 1$$. Find the value of k.Answers:
+
+ID: 200201001006
+Content:
+(a)	Calculate the number of different 6-digit numbers which can be formed using the digits 0, 1, 2, 3, 4, 5 without repetition and assuming that a number cannot begin with 0.;(b)	A committee of 4 people is to be chosen from 4 women and 5 men. The committee must contain at least 1 woman. Calculate the number of different committees that can be formed.Answers:
+
+ID: 200201001007
+Content:
+Obtain;(a)	the expansion, in ascending powers of x, of $$(2-x^2)^5$$;(b)	the coefficient of $$x^6$$ in the expansion of $$(1+x^2)(2-x^2)^5$$Answers:
+
+ID: 200201001008
+Content:
+img;The diagram shows a square PQRS of side 1 m. The points X and Y lie on PQ and QR respectively such that PX = x m and QY = qx m, where q is a constant such that q > 1.;(a)	Given that the area of triangle SXY is $$A m^2$$, show that $$A=1/2(1-x+qx^2)$$;(b)	Given that x can vary, show that QY = YR when A is a minimum and express the minimum value of A in terms of q.Answers:
+
+ID: 200201001009
+Content:
+Given that $$y=(x-5)\sqrt{2x+5}$$;(a)	show that $$ \frac{\mathrm{d} y}{\mathrm{d} x}$$ can be written in the form $$\frac{(kx)}{(\sqrt{2x+}5)}$$ and state the value of k,;(b)	find the approximate change in y as x decreases from 10 to 10 - p, where p is small,;(c)	find the rate of change of x when x = 10, if y is changing at the rate of 3 units per second at this instant.Answers:
+
+ID: 200201001010
+Content:
+img;A toothpaste firm supplies tubes of toothpaste to 5 different stores. The number of tubes of toothpaste supplied per delivery to each store, the sizes and sale prices of the tubes, together with the number of deliveries made to each store over a 3-month period are shown in the table below.;(a)	Write down two matrices such that the elements of their product under matrix multiplication would give the volume of toothpaste supplied to each store per delivery.;(b)	Write down two matrices such that the elements of their product under matrix multiplication would give the number of tubes of toothpaste of each size supplied by the firm over the 3-month period. Find this product.;(c)	Using the matrix product found in part (b) and a further matrix, find the total amount of money which would be obtained from the sale of all the tubes of toothpaste delivered over the 3-month period.Answers:
+
+ID: 200201001011
+Content:
+Express $$2x^2-8x+5$$ in the form $$a(x+b)^2+c$$ where a, b and c are integers.;The function f is defined by $$f: x \mapsto2x^2-8x+5$$ for the domain $$0\leq x\leq 5$$;i) Find the range of f.;ii) Explain why f does not have a inverse.;The function g is defined by $$g: x \mapsto2x ^2-8x+5$$ for the domain $$x\geq k$$;iii) Find the smallest value of k for which g has an inverse.;iv) For this value of k, find an expression for $$g^{-1}$$Answers:
+
+ID: 200201001012
+Content:
+The curve $$y=ax^n$$ where a and n are constants, passes through the points (2.25, 27), (4, 64) and (6.25, p). Calculate the value of a, of n and of p.Answers:
+
+ID: 200201001013
+Content:
+The mass, m grams, of an radioactive substance is given by the formula $$m=m_0e^{-kt}$$ where t is the time given in days after the mass was first recorded and $$m_0$$ and k are constants.;img;The table gives experimental values of t and m.;Plot ln m against t and use your graph to estimate the value of $$m_0$$ and of k.Answers:
+
+ID: 200201001014
+Content:
+Solutions to this question by accurate drawing will not be accepted;img;The diagram, which is not drawn to scale, shows a trapezium ABCD in which BC is parallel to AD. The side AD is perpendicular to DC. Point A is (1, 2), B is (4, 11) and D is (17, 10). Find;(a)	the coordinates of C.;The lines AB and DC are extended to meet at E. Find;(b)	the coordinates of E,;(c)	the ratio of the area of triangle EBC to the area of trapezium ABCD.Answers:
+

@@ -1,0 +1,112 @@
+ID: 199704003001
+Content:
+Particle MathematicsAnswers:
+
+ID: 199704003002
+Content:
+Particle MathematicsAnswers:
+
+ID: 199704003003
+Content:
+Particle MathematicsAnswers:
+
+ID: 199704003004
+Content:
+Particle MathematicsAnswers:
+
+ID: 199704003005
+Content:
+Particle MathematicsAnswers:
+
+ID: 199704003006
+Content:
+In this question give each of your answers either as an exact fraction in its lowest terms or as a decimal corrects to 3 places.  There are 36 people at a gathering of two families. There are 25 people with the name Lee and 11 people with the name Chan. Of the 25 people named Lee, 4 are single men, 5 are single women and there are 8 married couples. Of the 11 people named Chan, 2 are single men, 3 are single women and there are 3 married couples. Two people are chosen at random from the gathering. ;(i) Show that the probability that they both have the name Lee is  .;(ii) Find the probability that they are married to each other.;(iii) Find the probability that they both have the name Lee, given that they are married to each other.;(iv) Find the probability that they are a man and a woman with the same name.;(v) Find the probability that they are married to each other, given that they are a man and a woman with the same name Answers:
+41: P(they both have the name Lee) = "\frac{10}{21}".
+42: P(they are married to each other) = "\frac{11}{630}" .
+43: P(they both have the name Lee | they are married to each other) = "\frac{8}{11}".
+44: P(they are a man and a woman with the same name) = "\frac{31}{105}".
+45: P(they are married to each other | they are a man and a woman with the same name) = "\frac{11}{186}".
+
+ID: 199704003007
+Content:
+In a large population the proportion having blood group A is 35%. Specimens of blood from the first five people attending a clinic are to be tested. It can be assumed that these five people are a random sample from the population. The random variable X denotes the number of people in the sample who are found to have blood group A.;;a) Show that $$P(X \leq 2) = 0.765$$, correct to 3 decimal places.;b)Three such samples of five people are taken. Find;(i) The probability that each of these three samples has more than two people with blood group A;(ii) The probability that one of these three samples has exactly one person with blood group A, another has exactly two people with blood group A, and the remaining sample has more than two people with blood group A. One hundred such samples of five people are taken. Using a suitable approximation, find the probability that the number of these samples that contain two or fewer people with blood group A will be at least 70. Answers:
+46: 
+47: P((no. of samples out of 3 with X > 2 )= 3) = "0.013".
+48: P(X=1, X=2 and X > 2) = "0.148".
+49: P(Y \ge 70) = "0.951".
+
+ID: 199704003008
+Content:
+a) 1.8 and the corresponding figure for 'Xanadu' sets is 2.7. Sales take place independently at random times.;(i) Find the probability that exactly 2 'Kubla' sets are sold in a given week.;(ii) Find the probability that exactly 4 'Kubla' sets are sold in a given two-week period.;(iii) Find the probability that total number of television sets sold in a given week is at least 4.;;b) The random variable X has a Poisson distribution with mean $$\lambda$$. Denoting  by $$P(X = r)$$ by $$P_r$$ show that $$\frac{P_r + 1}{P_r} = \frac{\lambda}{r+1}$$, deduce that $$P_r + 1 > P_r$$ when  $$r < \lambda + 1$$. Deduce the values of r for which $$p_r$$ is greatest in the cases;(i)  $$\lambda = 12.3$$;(ii) $$\lambda = 15$$Answers:
+50: P(K=2) = "0.258".
+51: P(K_2=4) ="0.191".
+52: P(Y \ge 4) = "0.658".
+53: 
+54: 
+55: When \lambda > 12.3, p_r is greatest when r = "12".
+56: When \lambda = 15, p_r is greatest when r = "14".
+
+ID: 199704003009
+Content:
+The random variable X has probability density function f given by $$F(x) = \frac{3}{32} ( 4-x^{2})  -2 \leq x \leq 2  F(x) = 0$$ otherwise Show that $$Var (x) = \frac{4}{5}$$ The random variable Y is defined by $$Y = aX + b$$, where a and b are positive constants. It is given that $$E(Y)=50$$ and $$Var(Y)=80$$. Find a and b. A random sample consists of 160 independent observations of Y. Find an approximate value for the probability that the sample mean lies between 49.0 and 50.5. Answers:
+57: 
+58: a = "10".
+59: b = "50".
+60: P(49.0 < \overline{Y} < 50.5) = "0.681".
+
+ID: 199704003010
+Content:
+A horticulturist takes a random sample of 80 bean seeds of a particular variety, and sows them under standard laboratory conditions. The number of the seeds that germinate is 64. Find an approximate 90% confidence interval for the probability that a randomly chosen bean seed of the particular variety will germinate under the same conditions. The total crop weight, x kg, of each of the 64 plants is measured, with the following summarized results: $$\sum x = 3003.4$$  $$\sum x^{2} = 1615.96$$  . Find unbiased estimates of the population mean and variance of crop weight per plant. The horticulturist wishes to test the hypothesis that the mean crop weight per plant is 5kg, against the alternative hypothesis that the mean crop weight per plant is less than 5kg. Carry out the test at the 10% level of significance. Find the largest level of significance at which the test would result in rejection of the null hypothesis. Answers:
+61: The 90% confidence interval for p is = ["0.726","0.873"].
+62: Population mean of x = "4.74".
+63: Variance of x = "2.82".
+64: "do not reject" (Do not reject/Reject) H_0 and conclude that, at the 10% level of significance, there is " insufficient" (sufficient/insufficient) evidence that the mean crop weight is less than 5kg..
+65: Largest significance level for rejection = "10.8"%.
+
+ID: 199704003011
+Content:
+img;The diagram (not drawn to scale) shows a sketch of the curve C with polar equation \[r = a(1 + 6\cos \theta), -\beta \leq \theta \leq \beta\], where a is a positive constant and \[\cos \beta = - \frac {1}{6}\]. Cartesian axes are taken at the pole O, with Ox along the initial line, and Oy along the line \[\theta = \frac {1}{2} \pi\]. Express y in terms of \[\theta\] and hence show that the maximum value of y on C is ;\[(\frac {5}{3} \sqrt{5})a\]. Express x in terms of \[\cos \theta\] and, by completing the square or otherwise, show that the minimum value of x on C is \[- \frac {1}{24}a\]. \[A = a^{2}\int_{0}^{\frac {1}{2} \pi} (19 + 12\cos \theta + 18 \cos 2\theta)d \theta\]. Hence find A.Answers:
+
+ID: 199704003012
+Content:
+a);img; The diagram shows a sketch of the graph of y = f(x). On separate diagrams sketch the graphs of;(i) \[y = |f(x)|\],;(ii) \[y^{2} = -f(x)\].;;b) A graph has equation \[y = \frac {8}{(3x - 2)(x + 2)}\]. Find the coordinates of the stationary point of the graph. State the equations of all the asymptotes and hence sketch the graph.Answers:
+66: None
+67: None
+68: Coordinates of stationary point is ("-\frac{2}{3}","-\frac{3}{2}").
+69: When x = "0", y = "-2".
+70: When x > "\frac{2}{3}" or x < " -2", y > " 0".
+71: When "-2" < x < " \frac{2}{3}", y < " 0".
+72: None
+
+ID: 199704003013
+Content:
+On a single diagram sketch the graphs of \[y = \pi \sin x\] and \[y = \pi - x\], for \[-3\pi \leq x\leq 3\pi\], and hence state the number of real roots of the equation \[\pi \sin x = \pi - x\]. The smallest positive root is denoted by \[\alpha\] and the largest positive root is denoted by \[\beta\].;(i) Express \[\beta\] in terms of \[\alpha\].;(ii) Find an approximate value for \[\beta\] by using linear interpolation on the interval \[\frac {3}{2}\pi \leq x \leq 2\pi\].;(iii) Taking \[\frac {1}{4} \pi\] as a first approximation to \[\alpha\], apply the Newton-Raphson process once to find a second approximation to  \[\alpha\], giving three decimal places in your answer. Giving a reason, determine whether \[\alpha\] is greater or less than this second approximation.Answers:
+73: None
+74: \pi \sin x=\pi -x has "3" real roots.
+75: \beta = "2\pi - \alpha".
+76: Linear interpolation on \left[ \frac{3}{2}\pi ,2\pi  \right], \space \beta = "\frac{5}{3}*\pi".
+77: Second approximation to  \[\alpha\] is "0.827".
+78: f(x) is "increasing" (increasing/decreasing) and concave "downwards" (upwards/downwards), therefore, \alpha is "greater" (lesser/greater) than the second approximation .
+
+ID: 199704003014
+Content:
+a) Find the general solution of the differential equation \[\frac{\mathrm{d}^{2} y}{\mathrm{d} x^{2}} + 2 \frac{\mathrm{d} y}{\mathrm{d} x} + 5y = 13 + 20y\].;;b) On a single Argand diagram sketch the loci given by;(i) \[|z - 3| = 4\],;(ii) \[|z - 3 - 3i| = |z|\]. ;Hence, or otherwise, find the exact values of all the complex numbers z that satisfy both (i) and (ii).Answers:
+79: General solution of the differential equation \frac{d^2y}{dx^2}+2\frac{dy}{dx}+5y=13+20y is y = "e^{-x}(A \sin{2x} + B \cos{2x})+(1+4x)".
+80: None
+81: None
+82: Complex Numbers z = "3 \pm 2\sqrt{2} \mp 2\sqrt{2i}".
+
+ID: 199704003015
+Content:
+The plane \[\prod \] passes through the origin O and is perpendicular to 2i + 2j + k. The line L has cartesian equation \[\frac {x - 4}{1} = \frac {y - 8}{3} = \frac {z - 4}{2}\]. The points A and B have position vectors i + 2j - 3k and 3i + 5j + 2k respectively.;(i) State a cartesian equation for \[\prod \].;(ii) The point C on L has position vector c, where c.k = 0. Find c, and hence state an alternative equation for L of the form \[\frac {x - p}{1} = \frac {y - q}{m} = \frac {z}{n}\], giving numerical values for p, q, l, m and n.;(iii) Find the exact value of the length of the perpendicular from A to L.;(iv) Find, in either order, the exact value of the length of the projection of \[\overrightarrow{AB}\] onto;a) the normal to  \[\prod \],;b) the plane  \[\prod \].Answers:
+862: A cartesian equation for \prod is "2x+2y+z" = "0".
+863: c = "2i+2j".
+864: p="2".
+865: q="2".
+866: l="1".
+867: m="3".
+868: n="2".
+869: Length of perpendicular from A to L = "\sqrt{\frac{13}{2}}".
+870: Length of the projection of \overrightarrow{AB} onto the normal to  \prod = "5" units.
+871: Length of the projection of \overrightarrow{AB} onto the plane  \prod = "\sqrt{13}" units.
+

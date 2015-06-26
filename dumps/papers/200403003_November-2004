@@ -1,0 +1,98 @@
+ID: 200403003001
+Content:
+The equation x sin x + cos x = 1.015 has a positive root  $$\alpha $$ close to zero. Use small-angle approximations for sin x and cos x to obtain an approximation to  $$\alpha $$. Give your answer correct to 3 significant figures.  Answers:
+549: Approximation to  \alpha  = "0.173".
+
+ID: 200403003002
+Content:
+Find the general solution, in radians, of the equation  $$6\cos ^2 x + 7\sin x = 1$$. Answers:
+550: General solution, in radians,  x = "n\pi +{{(-1)}^{n}}(-\frac{1}{6}\pi)".
+
+ID: 200403003003
+Content:
+Referred to an origin O, the position vectors of four non-collinear points A, B, C and D are a, b, c and d respectively. Given that a - b = d - c, show that ABCD is a parallelogram. Given also that |a - c| = |b - d|, identify the shape of the parallelogram ABCD, justifying your answer.  Answers:
+551: None
+
+ID: 200403003004
+Content:
+Use the substitution  $$t = \sqrt{x + 1} $$ to find the exact value of  $$\int_0^3 x\sqrt {x + 1}dx $$.  Answers:
+552: \int_0^3 x\sqrt{x+1} dx = "7+\frac{11}{15}".
+
+ID: 200403003005
+Content:
+The numbers x and y satisfy the equation  $$4x^2  + 16xy + y^2  + 16x + 14y + 13 = 0$$. If a real value of x is substituted, the equation becomes a quadratic equation in y. Given that two distinct real values of y may be found from this equation, show that  $$5x^2  + 8x = 3 > 0$$, and hence find the set of possible values of x. Answers:
+553: 
+554: "-\frac{3}{5}" < x < "-1".
+
+ID: 200403003006
+Content:
+Find the positive integer n such that the cubic equation  $$x^3  - 9x - 12 = 0$$ has a root between n and n + 1. Use linear interpolation once to find an approximation to this root. Give your answer correct to 3 significant figures.  Answers:
+587: Linear Interpolation on [n,n+1] \approx "3.33".
+
+ID: 200403003007
+Content:
+Given that  $$y = x^3 e^x $$, prove by induction that, for all positive integers n,  $$\frac{d^n y}{dx^n}= e^x ( x^3  + 3nx^2  + 3n( n - 1 )x + n( n - 1 )( n - 2 ) )$$. Hence find  $$\int e^x ( x^3  + 24x^2  + 168x + 336 )dx $$. Answers:
+555: 
+556: \int e^x ( x^3  + 24x^2  + 168x + 336 )dx  = "{{e}^{x}}({{x}^{3}}+21{{x}^{2}}+126x+210)" + c.
+
+ID: 200403003008
+Content:
+The base ABCD of a cuboid lies in a horizontal plane. The edges AE, BF, CG and DH are vertical and EFGH is the top of the cuboid. AB = 10 cm, AD = 8 cm and AE = 5 cm. Find, give your answers correct to 1 decimal place,;(i) the angle between the line BH and the plane BFGC,;(ii) the angle between the planes AEGC and DHGC,;(iii) the angle between the skew lines BG and HC. Answers:
+557: \angle HBG = "46.7"^{\circ}.
+558: \angle ACD = "38.7"^{\circ}.
+559: \angle AHC = "76.3"^{\circ}.
+
+ID: 200403003009
+Content:
+Find how many positive integers, less than 1000, are;(i) odd numbers,;(ii) odd numbers which are not divisible by 5. Find the sum of the odd numbers, less than 1000, which are not divisible by 5.  Answers:
+560: N_{odd} = "500".
+561: N_{odd}, not 5 = "400".
+562: Sum of the odd numbers, less than 1000, which are not divisible by 5 = "200000".
+
+ID: 200403003010
+Content:
+The function f is defined for $$x \geq  0$$ by $$ f: x \mapsto \frac{6x}{x+3} $$;(i) Find $$f'(x)$$;(ii) State the range of f.;(iii) Sketch the curve $$y = f(x)$$ and state the equation of its asymptote.;(iv) Find the area of the finite region bounded by the curve $$y = f(x)$$, the x-axis and the line $$x = 6$$. Give your answer in an exact form. Answers:
+563: f'(x) = "\frac{3x}{6-x}".
+564: Range of f is "0" \leq x \leq "6".
+565: None
+566: Equation of its asymptote is y = "6".
+567: Area of bounded region = "36-(18*\ln{3})".
+
+ID: 200403003011
+Content:
+a)  Expand  $$(1 + y)^8 $$ in ascending powers of y, up to and including the term in  $$y^3 $$. In the expansion of  $$( 1 + x + kx^2  )^8 $$ in ascending powers of x, the coefficient of  $$x^3 $$ is zero. Find the value of the constant k.;;b) Find the first two terms in the expansion of  $$\frac{(9 + x)^{\frac{1}{2}}}{1 + 2x}$$ in ascending powers of x. Answers:
+568: k = "-1".
+569: First two terms in the expansion of  \frac{(9 + x)^{\frac{1}{2}}}{1 + 2x} in ascending power of x = "3-\frac{35}{6}x".
+
+ID: 200403003012
+Content:
+a)  Express  $$(3 - i) ^2 $$ in the form a + ib. Hence or otherwise find the roots of the equation  $$( z + i )^2  =  - 8 + 6i$$.;;b) Given that  $$z_1  = 2 - 3i$$ and  $$z_2  =  - 2 - i$$, find;(i)  $$| z_1  - z_2  |$$,;(ii) $$\arg ( z_1  + z_2  )$$. Answers:
+570: Roots of ( z + i )^2  =  - 8 + 6i, z = "1+2i".
+571: | z_1  - z_2  | = "\sqrt{20}".
+572: \arg(z_1+ z_2) = "-\frac{1}{2}*\pi".
+
+ID: 200403003013
+Content:
+Use partial fractions to evaluate  $$\int_2^3 \frac{9x^2}{( x - 1 )^2 ( x + 2 )}dx $$, giving your answer in an exact form. Answers:
+850: \int_2^3 \frac{9x^2}{(x-1)^2(x+2)} dx = "(\frac{3}{2}*(4*\ln{5})) - (3*\ln{2})".
+
+ID: 200403003014
+Content:
+Find the x-coordinates of all the stationary points on the curve  $$y = \frac{x^3}{(x + 1 )^2} $$ stating, with reasons, the nature of each point. Answers:
+573: x-coordinates of the stationary points of y are (1)"-3" and (2)"0".
+574: Nature of each point "maximum point" (point of inflexion/minimum point/ maximum point) for point(1) and " point of inflexion" (point of inflexion/minimum point/ maximum point) for point(2).
+
+ID: 200403003015
+Content:
+Show that the substitution  $$z = \frac{1}{y^2}$$ reduces the differential equation  $$\frac{dy}{dx}+y = xy^3 $$ to  $$\frac{dz}{dx}-2z = -2x$$. Hence find the general solution of the differential equation  $$\frac{dy}{dx} + y = xy^3 $$. Find the particular solution for which  $$y = \sqrt 2 $$ when $$x = 0$$, giving your answer in the form $$y = f(x)$$.  Answers:
+575: 
+576: General solution of the differential equation is \frac{1}{y^2} = "\frac{1}{2} + x + ce^{2x}".
+577: Particular solution is y = "\sqrt{\frac{2}{1+2x}}".
+
+ID: 200403003016
+Content:
+The equation of the line L is  $$r =  \begin{pmatrix} 1\\ 3\\ 7 \end{pmatrix} + t \begin{pmatrix} 2\\ -1\\ 5 \end{pmatrix}$$. The points A and B have position vectors  $$ \begin{pmatrix} 9\\ 3\\ 26 \end{pmatrix}$$ and  $$ \begin{pmatrix} 13\\ 9\\ \alpha \end{pmatrix}$$ respectively. The line L intersects the line through A and B at P. Find  $$\alpha $$ and the acute angle between line L and AB. Give your answer correct to 1 decimal place. The point C has position vector  $$ \begin{pmatrix} 2\\ 5\\ 1 \end{pmatrix}$$ and the foot of the perpendicular from C to L is Q. Find the length of CQ. ;Answers:
+820: \alpha = "34".
+821: \theta = "44.6" ^{\circ}.
+822: |\overrightarrow{CQ}| = "\sqrt{11}" units.
+

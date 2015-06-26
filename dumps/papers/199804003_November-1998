@@ -1,0 +1,98 @@
+ID: 199804003001
+Content:
+Particle MathematicsAnswers:
+
+ID: 199804003002
+Content:
+Particle MathematicsAnswers:
+
+ID: 199804003003
+Content:
+Particle MathematicsAnswers:
+
+ID: 199804003004
+Content:
+Particle MathematicsAnswers:
+
+ID: 199804003005
+Content:
+Particle MathematicsAnswers:
+
+ID: 199804003006
+Content:
+A Personal Identification Number (PIN) consists of 4 digits in order, each of which is one of the digits 0,1,2,...,9. Susie has difficulty remembering her PIN. She tries to remember her PIN and writes down what she thinks it is. The probability that the first digit is correct is 0.8 and the probability that the second digit is correct is 0.86. The probability that the first two digits are both correct is 0.72. Find;(i) the probability that the second digit is correct given that the first digit is correct,;(ii) the probability that the first digit is correct and the second digit is incorrect,;(iii) the probability that the first digit is incorrect and the second digit is correct,;(iv) the probability that the second digit is incorrect given that the first digit is incorrect. The probability that all four digits are correct is 0.7. On 12 separate occasions Susie writes down independently what she thinks is her PIN. Find the probability that the number of occasions on which all four digits are correct is less than 10.  Answers:
+128: P(second digit is correct given that the first digit is correct) = "0.9".
+129: P(first digit is correct and the second digit is incorrect) = "0.08".
+130: P(first digit is incorrect and the second digit is correct) = "0.14".
+131: P(second digit is incorrect given that the first digit is incorrect) = "0.3".
+132: P(all four digit are correct is less than 10) = "0.747".
+
+ID: 199804003007
+Content:
+A computer can give independent observations of a random variable X with probability distribution given by $$P(X=0) = \frac{3}{4}$$ and $$P(X=2) = \frac{1}{4}$$. It is programmed to output a value for the random variable Y defined by $$Y = X1+X2$$, where X1 and X2 are independent observations of X. Tabulate the probability distribution of Y, and show that $$E(Y) = 1$$.  The random variable T is defined by $$T = Y2$$. Find $$E(T)$$ and show that $$Var(T) = \frac{63}{4}$$.  The computer is programmed to produce a large number n of independent values for T and to calculate the mean M of these values. Fine the smallest value of n such that $$P(M < 3) > 0.99$$.Answers:
+133: P(Y=0) = "\frac{9}{16}".
+134: P(Y=2) = "\frac{6}{16}".
+135: P(Y=4) = "\frac{1}{16}".
+136: 
+137: E(T) = "\frac{5}{2}".
+138: The smallest value of n is "341".
+
+ID: 199804003008
+Content:
+The continuous random variable X is such that img Show that $$P(X > 1) = \frac{8}{27}$$.  Find the probability density function of X, and hence find $$E(X)$$.  108 independent observations are taken of X.;(i) The number of observations greater that 2 is denoted by N. Using a suitable approximation, find $$P(3 < N < 6)$$.;(ii) The number of observations greater than 1 is denoted by R. Using a suitable approximation, find $$P(24 < R < 40)$$. Answers:
+139: 
+140: Probability density function of X = "\frac{1}{9}(3-x)^2".
+141: E(x) = "\frac{3}{4}".
+142: P(X > 2) = "\frac{1}{27}".
+143: P(3<N<6) = "0.352".
+144: P(X>1) = "\frac{8}{27}".
+145: P(24<R<40) = "0.886".
+
+ID: 199804003009
+Content:
+The random variable X has a normal distribution with mean 3 and variance 4. The random variable S is the sum of 100 independent observations of X, and the random variable T is the sum of a further 300 independent observations of X. Giving your answers to 3 places of decimals, find;(i) $$P(S > 310)$$;(ii) $$P(3S > 50+T)$$ The random variable N is the sum of n independent observations of X. State the approximate value of $$P(N > 3.5n)$$ as n becomes very large, justifying your answer.  Answers:
+146: P(S>310) = "0.308".
+147: P(3S > 50+T) = "0.235".
+148: P(N > 3.5n) \approx "0", as n becomes very large.
+
+ID: 199804003010
+Content:
+A coin is chosen at random from a population of recently produced coins. The discrete random variable X is the age, in years, of the coin. The population mean of X is denoted by $$\mu$$, the population standard deviation is denoted by $$\sigma$$, and the population proportion for which $$X \leq 1 $$is denoted by p. A random sample of 120 independent observations of X was taken and the results can be summarized as follows.;img;(i) Calculate unbiased estimates of $$\mu, \sigma^2$$ and p.;(ii) Find a symmetric 95% confidence interval for $$\mu$$.;(iii) It is desired to find a symmetric 95%confidence interval for $$\mu$$, of width 0.2, using a random sample of n coins. Estimate the smallest possible value for n.;(iv) Using a 10%significance level, test the null hypothesis $$p = 0.4$$ against the alternative hypothesis $$p < 0.4$$. Answers:
+149: \mu = "2.5".
+150: \sigma^2 = "15.75".
+151: p = "0.333".
+152: Symmetric 95% confidence interval for \mu is ["2.21","2.79"].
+153: Smallest possible value for n = "1014".
+154: "reject" (Do not reject/Reject) H_0 and conclude that, at the 10% level of significance, there is " sufficient" (sufficient/insufficient) evidence that p < 0.4.
+
+ID: 199804003011
+Content:
+a) The curve C has polar equation \[r = \frac {a}{\theta}\], for \[0 < \theta \leq 2\pi\],  where a is a positive constant. Give a reason why, if r is large, \[r\sin \theta \approx a\].Deduce the cartesian equation of the asymptote of C.Sketch C. Find the area of the sector bounded by C and the lines \[\theta = \frac {1}{2} \pi\] and \[\theta = \frac {3}{2} \pi\].;;b) The cartesian equation of a curve is \[3(x - 1)^2 + 4y^2 = 12\]. Show that \[-1 \leq x \leq 3\], and find the range of possible values of y. Find the polar equation of this curve, expressing r in terms of \[\theta\].Answers:
+
+ID: 199804003012
+Content:
+a) By eliminating w, or otherwise, solve the simultaneous equations \[z - w + 3i + 2, z^2 -iw + 5 - 2i = 0\].;;b) The complex number q is given by \[q = \frac {e^{i\theta}}{1 - e^{i\theta}}\], where \[0 < \theta < 2\pi\]. In either order,;(i) find the real part of q,;(ii) show that the imaginary part of q is \[\frac {1}{2} \cot (\frac {1}{2}\theta)\].Answers:
+155: z = (1)"-1" or (2)"2i".
+156: w = (1)"-2-4i" or (2)"-2-i" for respective z.
+157: q = "i\frac{1}{2} \cot(\frac{1}{2}\theta)-\frac{1}{2}".
+158: 
+
+ID: 199804003013
+Content:
+a) Find the general solution of the differential equation \[\frac{\mathrm{d} y}{\mathrm{d} x} + 3x(y^2 + 4) = 0\], expressing y in terms of x.;;b) Find the value of the constant a such that \[y=axe^{3x}\] is a particular integral of the differential equation ;\[\frac{\mathrm{d}^2 y}{\mathrm{d} x^2} + \frac{\mathrm{d} y}{\mathrm{d} x} - 12y = 7e^{3x}\]. Solve the differential equation given that when x = 0, y = 3 and \[\frac{\mathrm{d} y}{\mathrm{d} x} = - 4\].Answers:
+159: General solution of the differential equation \frac{dy}{dx} + 3x(y^2 + 4) = 0, expressing y in terms of x. Therefore y = "2 \tan{(- 3{x}^{2} + c)}".
+
+ID: 199804003014
+Content:
+Find the equations of the asymptotes of the graph \[y = \frac {3 - 2x}{x - 2}\], and sketch the graph. On the same diagram sketch the graph of \[y = 1 - e^{-2x}\]. Show that, where the graphs intersect, \[(3x + 5)e^{2x} = x - 2\], and hence state the number of real roots of this equation. Taking x = 1.7 as a first approximation, use the Newton-Raphson method once to obtain a second approximation to one of the roots of the equation. Give 3 significant figures in your answer. Use the method of linear interpolation once, on the interval [-0.5, -0.4], to obtain an approximation to another root of the equation. Give 3 significant figures in your answer.Answers:
+160: Equation of the asymptotes are x = "2" and y = "-2".
+161: None
+162: The graph has "2" real roots..
+163: Second approximation to one of the roots = "1.67".
+164: An approximation to another root = "-0.478".
+
+ID: 199804003015
+Content:
+img; Three vertical flagpoles, OF, AG, BH, stand with their bases on horizontal ground. The flagpoles have heights 10m, 14m, 18m, and their bases are O, A, B respectively, where OA = 4m and OB = 8m, and angle AOB is a right angle. The point O is taken as the origin, with unit vectors i along OA, j along OB and k vertically upwards.;(i) Find, in the form ax + by + cz = 10, the equation of the plane FGH.;(ii) Find the angle between the plane FGH and the horizontal, giving your answer correct to the nearest \[0.1^{\circ}\].;(iii) Find the perpendicular distance from the mid-point of AF to the line GH, giving 3 significant figures in your answer.Answers:
+165: Perpendicular distance from AF to GH = "8.77" units.
+

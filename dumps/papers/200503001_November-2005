@@ -1,0 +1,52 @@
+ID: 200503001001
+Content:
+Find the set of values of x for which $$(x-6)^2>x$$Answers:
+
+ID: 200503001002
+Content:
+img;img;img;For each of the Venn diagram above,express the shaded region in set notation.;(i) Copy the Venn diagram above and shade the region that represents $$A\cap B\cap C'$$.;(ii) Copy the Venn diagram above and shade the region that represents $$A'\cap (B\cup C)$$.Answers:
+
+ID: 200503001003
+Content:
+Find the values of the constant c for which the line 2y = x + c is a tangent to the curve $$y=2x+\frac{6}{x}$$.(Note: Please enter the smaller value of the answer first)Answers:
+
+ID: 200503001004
+Content:
+A cuboid has a square base of side $$(2-\sqrt3)$$m and has a volume of $$(2\sqrt3-3)m^3$$. Find the height of the cuboid in the form $$(a+\frac{b}{\sqrt{3}})$$m, where a and b are integers.Answers:
+
+ID: 200503001005
+Content:
+img;The diagram which is not drawn to scale, shows a horizontal rectangular surface. One corner of the surface is taken as the origin O and I and j are unit vectors along the edges of the surface.;A fly, F, starts at the point with position vector (i+12j) cm and crawls across the surface with a velocity of \[(3i+2j) cms^{-1}\]. At the instant that the fly starts crawling, a spider, S, at the surface with a velocity of \[(-5i+kj) cms^{-1}\] where k is a constant. Given that the spider catches the fly, calculate the value of k.Answers:
+
+ID: 200503001006
+Content:
+A particle starts from rest at a fixed point O and moves in a straight line towards a point A. The velocity, \[v m s^{-1}\] of the particle, t seconds after leaving O, is given by $$v=6-6e^{-3t}$$;Given that the particle A reaches A when t = ln 2, find;i) the acceleration of the particle at A,;ii) the distance OAAnswers:
+
+ID: 200503001007
+Content:
+(a) Solve $$\log_7(17y+15)=2+\log_7(2y-3)$$;(b) Evaluate $$\log_p 8 \times \log_16 p$$Answers:
+
+ID: 200503001008
+Content:
+A curve has the equation $$y=\frac{(x+2)}{\sqrt{x-1})}$$;(i)	Show that $$\frac{\mathrm{d} y}{\mathrm{d} x}=\frac{(kx)}{(\sqrt x-1)}$$, where k is a constant, and state the value of k.;(ii)	Hence evaluate $$\int_2^5=\frac{x}{(\sqrt{x-1})}dx$$Answers:
+
+ID: 200503001009
+Content:
+(a) Find all the angles between $$0^{\circ}$$ and $$360^{\circ}$$ which satisfy the equation 3 cos  x = 8 tan  x.;(b)	Given that, $$4\leq y\leq6$$, find the value of y for which $$2\cos (\frac{2y}{3})+\sqrt3=0$$;(Note; Please enter your answer in ascending order)Answers:
+
+ID: 200503001010
+Content:
+Solutions to this question by accurate drawing will not be accepted;;The diagram, which is not drawn to scale, shows a quadrilateral ABCD in which A is (0, 10), B is (2, 16) and C is (8, 14).;(a) Show that triangle ABC is isosceles.;The point D lies on the x-axis and is such that AD = CD. Find;(b) the coordinates of D,;(c) the ratio of the area of triangle ABC to the area of triangle ACD.Answers:
+
+ID: 200503001011
+Content:
+A function f is defined by $$f:x \mapsto |2x-3|-4$$, for $$-2\leq x\leq3$$.;i) Sketch the graph of y = f(x).;ii)	State the range of f.;iii) Solve the equation f(x) = -2.;A function g is defined by $$g:x \mapsto |2x-3|-4$$, for $$-2\leq x\leq k$$ ; (iv) State the largest value of k for which g has an inverse.;(v) Given that g has an inverse, expressing in the form $$g:x \mapsto ax+b$$, where a and b are constant.Answers:
+
+ID: 200503001012
+Content:
+Variables x ands y are related by the equation $$yx^n=a$$, where a and n are constants. The table below shows measured values of x and y.;img;i)	On graph paper plot lg y against lg x using a scale of 2 cm to represent 0.1 on the lg x axis and 1 cm to represent 0.1 on the lg y axis. Draw a straight line graph to represent the equation $$yx^n=a$$.;ii)	Use your graph to estimate the value of a and n.;iii)On the same diagram, draw the line representing the equation $$y = x^2$$;and hence find the value of x for which $$x^{(n+2)}=a$$.Answers:
+
+ID: 200503001013
+Content:
+img;The diagram shows a semicircle, centre O, of radius 8 cm. The radius OC makes an angle of 1.2 radians with the radius OB . The arc CD of a circle has centre A and the point D lies on OB . Find the area of;i)	sector COB;ii)	sector CAD;iii)	the shaded region.Answers:
+

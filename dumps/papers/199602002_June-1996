@@ -1,0 +1,44 @@
+ID: 199602002001
+Content:
+img;In each of the diagrams above, the point R represents a rock on the bottom of a lake, the point B represents a boat on the surface, directly above the rock, and the point D represents the position of a diver. Both the diver and the rock are 22 m below the surface and the bottom of the lake is horizontal. The diver is connected to the boat by a thin rope. This rope is kept straight and is represented by the line DB. Each of the Diagrams I, II and III represents a different situation.;;a-i) In Diagram I, the rope makes an angle of $$38^{\circ}$$ with the vertical. Calculate DR,	the distance from the diver to the rock. [2];;a-ii) In Diagram II, the length of the rope is 50 m. calculate $$D \hat BR$$, the angle the rope makes with the vertical. [2];;a-iii) In Diagram III, the rope makes an angle of $$70^{\circ}$$ with the horizontal. Calculate DB, the length of the rope. [3];;b) Describe the set of points (in three dimensions), which the diver D can reach, given that the boat B is fixed and the rope DB is 15 mAnswers:
+
+ID: 199602002002
+Content:
+An equipment hire company, "Alpha", hires out diggers. For the use of a digger, "Alpha" charges $80 for each of the first 7 days plus $50 per day for each extra day.;;a-i) Find the hire charge for 11 days. [1];;a-ii) Find the number of days for which the charge is $1010. [2];;b) A second company, "Beta", charges $70 each day ;;b-i) Given that $$x > 7$$, write down an expression in terms of x for the number of dollars charged for x days;;b-i-a) by Alpha;;b-i-b) by Beta;;b-ii) For x days, Beta charges $250 more than Alpha. Write down and solve an equation in x. [2];;b-iii) Check your value of x by calculating the charge made by each company. [1]Answers:
+
+ID: 199602002003
+Content:
+a) A car uses 1 litre of petrol when travelling 8 km on dirt tracks and 1 litre when travelling 14 km on ordinary roads. On a particular journey of 180 km, 40 km was on dirt tracks and the remainder was on ordinary roads. Calculate;;a-i) the number of litres of petrol used on this journey. [2];;a-ii) the average number of kilometers travelled per litre of petrol. [2];;a-iii) the average speed in kilometers per hour for this journey, given that it took 3 hours 20 minutes. [2];;b) ;img; The diagram represents a gauge showing how much petrol is in a tank. The tank holds 42 litres when it is full.;;b-i) Estimate the number of litres in the tank when the needle is in the position shown. [1];;b-ii) It is given that OP = OQ = 5 cm and  $$P \hat OQ = 90^{\circ}$$. Arc AB has radius 3 cm and centre O. Calculate the shaded area ABQP. [The value of $$\pi$$ is 3.142, correct to 3 decimal places.] [3]Answers:
+
+ID: 199602002004
+Content:
+img;a) Figure I consists of a square and four identical rhombuses. Describe the symmetry of the figure. [2];;b) Figure II is the same as Figure I, with some points labeled and the line AR drawn. The angle RBC = $$56^{\circ}$$.;;b-i) Explain why AB = BR. [2];;b-ii) Find angle ARB. [2];;b-iii) Find angle SCT, giving a brief explanation for your answer [2]Answers:
+
+ID: 199602002005
+Content:
+img;In the diagram, A is (0, 4), B is (3, 6) and O is the origin.;;a) Express $$\vec{AB}$$ as a column vector. [1];;b) Calculate the coordinates of the point D, where $$\vec{BD}  = \vec{2AB}$$. [2];;c) $$\vec{AC} = \begin{bmatrix}5\\-2\end{bmatrix}$$;;c-i) Calculate the length of AC. [2];;c-ii) Write down the gradient of the line AC. [1];;c-iii) Write down the equation of the line AC. [2];;c-iv) The point E lies on AC and EB is parallel to the y-axis. Calculate the coordinates of E. [2]Answers:
+
+ID: 199602002006
+Content:
+A long ruler was fastened to a wall and used to measure the heights of 120 children. ;img; The diagram shows the cumulative frequency graph of these heights.;;a) Use the graph to estimate;;a-i) the median, [1];;a-ii)  the inter-quartile range, [2];;a-iii) the number of children whose height is greater than 170 cm. [1];;b) Several days later it was noticed that the ruler had been wrongly positioned, and that all heights should be 3 cm less. State what adjustment, if any, should be made to your results for part (a) (i) and (a) (ii) in order to give the correct value of;;b-i) the median, [1];;b-ii) the inter-quartile range. [1]Answers:
+
+ID: 199602002007
+Content:
+[The value of $$\pi$$ is 3.142, correct to 3 decimal places.] A large Traffic Marker consists of a solid cone, of height 40 cm and radius 9 cm, with a solid cylindrical base of diameter 30 cm and thickness 2 cm.;img;;a-i) Calculate the volume of the cone. [Volume of a cone = $$\frac{1}{3} \pi r^2h$$.] [2];;a-ii) Calculate the total volume of the Marker. [2];;b) Every part of the surface of the Marker is painted orange.;;b-i) Calculate the slant height of the cone and hence the area of the painted part of the cone. [Curved surface area of a cone = $$\pi r l$$, where l is the slant height.] [3];;b-ii) Calculate the area of the painted part of the base. [3];;c) A small Traffic Marker is geometrically similar to a large one, and the diameter of its base is 15 cm.;;c-i) Write down the ratio of the volume of a Small Marker to that of a Large Marker. ;;c-ii) Hence calculate the volume of a Small Marker. [2]Answers:
+
+ID: 199602002008
+Content:
+img;In the diagram, A, B and C represent three towns. They are joined by straight roads. The distance AC = 20 km, BC = 15 km and $$A \hat CB = 110^{\circ}$$.;;a) Calculate;;a-i) the area of triangle ABC, [2];;a-ii) the distance AB, [5];;a-iii) the shortest distance from C to the road AB. [2];;b) ;img;A picnic place is situated at P where $$P \hat CB = 18^{\circ}$$ and $$B \hat PC = 140^{\circ}$$. Calculate the distance BP. [3]Answers:
+
+ID: 199602002009
+Content:
+Answer the whole of this question on a sheet of graph paper. The volume of an open rectangular box, made of thin metal, is $$7500cm^3$$. The lengths of the edges of the base of the box are 30 cm and x cm.;img;;a) Find, in terms of x, an expression for;;a-i) the area of the base of the box, [1];;a-ii) the height of the box. [1];;b) The total external area, of the base and the four sides, is $$Acm^2$$. Show that $$A = 500 + 30x + \frac{15000}{x}$$. [3];;c) The table below shows some values of x and the corresponding values of A. ;img; The values of A are given correct to the nearest integer, where appropriate. Using a scale of 2 cm to 5 units draw a horizontal x axis for $$10 \leq x \leq 45$$. Using a scale of 2 cm to 100 units draw a vertical A axis for $$1800 \leq A \leq 2300$$. Plot the points represented by the values in the table and join them with a smooth curve. [3];;d) Use your graph to find;;d-i) the range of values of x for which $$A\leq 2000$$, [2];;d-ii) the minimum value of A, [1];;d-iii) the height for minimum value of AAnswers:
+
+ID: 199602002010
+Content:
+a) During a period of 60 days a weather station recorded the number of hours of sunshine each day. The results are given in the table below.;img; Calculate an estimate for the mean number of hours of sunshine each day. [3];;b) An unbiased Blue die numbered 1, 9, 10, 11, 12 and 13. An unbiased Red die is numbered 2, 3, 4, 14, 15 and 16. The possibility diagram when the two dice are thrown is shown below.;img; The letter R indicates that the number (14) thrown on the Red die is greater than the number (9) thrown on the Blue die.;;b-i) Copy the diagram. Put a letter R in each square where the number thrown on the Red die is greater than the number thrown on the Blue die. [2];;b-ii) Show that, when the two dice are each thrown once, the probability that the number thrown on the Red die is greater than the number thrown on the Blue die is $$7/12$$. [1];;b-iii) The two dice are each thrown twice. By using a tree diagram, or otherwise, calculate the probability that the number thrown on the Red die is greaterAnswers:
+
+ID: 199602002011
+Content:
+a) The diagram shows a sequence of shapes $$T_1, T_2, T_3$$;img;;a-i) Find the values of p, q and r. [2];;a-ii) Write down a formula for s in terms of n. [1];;a-iii-a) Write down an expression for $$D - n^2$$ in terms of n. [1];;a-iii-b) Hence write down a formula for D in terms of n. [1];;b) Another sequence of shapes U1, U2, U3, ... is formed using the shapes T1, T2, T3, ... and a row of shaded squares. For example $$U_2$$ is formed by joining two $$T_2$$ shapes to a row of five shaded squares.;;b-i) Write down the number of squares in the shaded row in each of the first four shapes $$U_1$$,$$U_2$$, $$U_3$$ and $$U_4$$. [1];;b-ii) Write down an expression, in terms of n, for the number of squares in the shaded row of $$U_n$$.;;b-iii) Hence, using your result in part (a)(ii), write down an expression, in terms of n, for the total number of squares in $$U_n$$. [2];;b-iv) Explaining your working clearly, test your expression for the total number of squares in U3. [1]Answers:
+

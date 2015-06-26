@@ -1,0 +1,9 @@
+ID: 199903003005
+Content:
+Find the equation of the graph obtained;(i) when the graph of \[y = x^2 + 4\] is translated -2 units in the direction of the x-axis,;(ii) when the graph of \[y = x^2 + 4\] is stretched parallel to the x-axis (with y-axis invariant) with a scale factor of 2. State precisely a sequence of geometrical transformations which would transform the graph of \[y = x^2 + 4\] onto the graph of \[y = -2x^2 - 6\].Answers:
+853: y=x^2 + 4 is translated -2 units in the direction of the x-axis \Rightarrow y = "(x+2)^2+4".
+854: y = x^2 + 4 is stretched parallel to the x-axis (with y-axis invariant) with a scale factor of 2 \Rightarrow y = "(\frac{1}{2}x)^2+4".
+855: (1) "stretched" (stretched/reflected/translated) parallel to the "y" (x/y)-axis with a scale factor of "2".
+856: (2) "reflected" (stretched/reflected/translated) in the "x" (x/y)-axis.
+857: (3) "translated" (stretched/reflected/translated) in the direction of "y" (x/y)-axis for "2" units.
+

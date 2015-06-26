@@ -1,0 +1,158 @@
+ID: 200404003001
+Content:
+img;;In triangle PQR,  $$PQ = \lambda $$ and  $$PR = \mu $$. The point X on QR is such that QX = x, XR = y and angle QPX = angle XPR =  $$\alpha $$ (see diagram). Prove that  $$\frac{x}{y} = \frac{\lambda}{\mu}$$. Answers:
+578: 
+
+ID: 200404003002
+Content:
+At the end of 1995 the population of Urbis was 46650 and by the end of 2000 it had risen to 54200. On the assumption that the populations at the end of each year form a geometric progression, find;(i) the population at the end of 2006. Give you answer to 4 significant figure.;(ii) the year in which the population reaches 100000. Answers:
+579: Population at the end of 2006 = "64570".
+580: Year in which the population reaches 100000 = "27".
+
+ID: 200404003003
+Content:
+Write down constants A and B such that, for all values of x, $$6x + 16 = A (2x + 4) + B$$. Hence find the exact value of  $$\int_{-2}^{1} \frac{6x + 16}{x^2  + 4x + 13} dx $$.Answers:
+847: A="3".
+848: B="4".
+849: \int_{-2}^{1} \frac{6x+16}{x^2+4x+13} dx = "(3*\ln{2}) + (\frac{1}{3}*\pi)".
+
+ID: 200404003004
+Content:
+img;A rectangular shed, with a door at each end, contains ten fixed concrete bases marked A, B, C, ... , J, five on each side (see diagram). Ten canisters, each containing a different chemical, are placed with one canister on   each base. In how many different ways can the canisters be placed on the bases? Find the number of ways in which the canisters can be placed;(i) if 2 particular canisters must not be placed on any of the 4 bases A, E, F and J next to a door,;(ii) if 2 particular canisters must not be placed next to each other on the same side of the shed. Answers:
+581: No. of ways to place 10 canisters on 10 bases = "3628800".
+582: No. of ways to place 2 particular canisters (not on any of the 4 bases A, E, F and J next to a door) = "1209600".
+583: No. of ways to place 2 particular canisters(not next to each other on the same side of the shed) = "2983680".
+
+ID: 200404003005
+Content:
+a) Given that  $$f( \theta  ) = \sin ^2 \theta  - 6\sin \theta  + 4$$, find the greatest and least values of  $$f( \theta  )$$ as  $$\theta $$ varies.;;b) Given that sin (A + B) = 2 cos (A - B) and  $$\tan A = \frac{1}{3}$$, find the exact value of tan B. Answers:
+584: f(\theta)_{greatest} = "11".
+585: f(\theta)_{least} = "-1".
+586: Exact value of tan B = "5" .
+
+ID: 200404003006
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003007
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003008
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003009
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003010
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003011
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003012
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003013
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003014
+Content:
+Applied MathematicsAnswers:
+
+ID: 200404003015
+Content:
+Particle MathematicsAnswers:
+
+ID: 200404003016
+Content:
+Particle MathematicsAnswers:
+
+ID: 200404003017
+Content:
+Particle MathematicsAnswers:
+
+ID: 200404003018
+Content:
+Particle MathematicsAnswers:
+
+ID: 200404003019
+Content:
+Particle MathematicsAnswers:
+
+ID: 200404003020
+Content:
+Particle MathematicsAnswers:
+
+ID: 200404003021
+Content:
+Particle MathematicsAnswers:
+
+ID: 200404003022
+Content:
+Particle MathematicsAnswers:
+
+ID: 200404003023
+Content:
+A and B are events such that $$P(A \cup B) = 0.9$$, $$P (A|B)=0.8$$. Find $$P(A)$$ and $$P(B')$$.Answers:
+588: P(A) = "0.85".
+589: P(B') = "0.75".
+
+ID: 200404003024
+Content:
+The random variable X has a normal distribution with mean $$\mu$$  and variance $$\sigma^2$$. It is given that P(X<10) = P(X>20) = 0.330. Find $$\mu$$ and $$\sigma$$.  The mean of a random sample of 100 values of X is denoted by $$\overline{X}$$ . State the values of $$E(\overline{X})$$ and $$Var(\overline{X})$$. ;Give your answer correct to 3 significant figures. Answers:
+590: \sigma = "3.38".
+591: E(\overline{X}) = \mu = "15".
+592: Var(\overline{X}) = "0.114".
+
+ID: 200404003025
+Content:
+The mass of a randomly chosen apple of variety A has a normal distribution with mean 0.125 kg and standard deviation 0.02 kg. The mass of a randomly chosen apple of variety B has a normal distribution with mean 0.100 kg and standard deviation 0.02 kg. Find the probability that the total mass of 3 randomly chosen apples of variety A is greater than the total mass of 4 randomly chosen apples of variety B.  Give your answer correct to 3 significant figures. Answers:
+593: Probability = "0.359".
+
+ID: 200404003026
+Content:
+The random variable X has distribution function given by ;img;Find the 9th percentile of X. Find also the expectation and variance of $$\sqrt X$$.Answers:
+594: 9th percentile of X = "2.7".
+595: E(\sqrt{X}) = "\frac{12}{5}".
+596: Var(\sqrt{X}) = "0.24".
+
+ID: 200404003027
+Content:
+The mass of each parcel in a batch of 60 randomly chosen parcels is accurately measured. the masses in kg are denoted by $$x_i + \frac{y_i}{1000}$$, where $$x_i$$ is an integer and $$0 \leq y_i < 1000$$, for $$i=1,2,...,60$$. Regarding $$y_1, y_2,...,y_{60}$$ as observations of a continuous random variable Y, state a suitable model for the distribution of Y. The formula $$\Sigma x_i +30$$ is proposed as an approximation for the total mass in kg of the batch. Justify this formula. Given that $$Var(Y) = \frac{106}{12}$$, find an approximate value for the probability that the formula $$\Sigma x_i+30$$ gives the total mass of the batch to within $$\pm$$ 5 kg. Give your answer correct to 3 significant figures. Answers:
+597: A suitable model for the distribution of Y is "uniform" distribution.
+598: 
+599: Approximate value = "0.975".
+
+ID: 200404003028
+Content:
+Each evening an entomologist sets a moth-trap and counts the number of 'Blue Moon' moths caught in the trap. State a condition under which a Poisson distribution would be a suitable probability model.  The mean number of Blue Moon moths caught in an evening is 3.5. Assuming a Poisson distribution, find the probability that 5 or more Blue Moon moths are caught in a randomly chosen evening.  Use a suitable approximation to find the probability that the total number of Blue Moon moths caught on 4 randomly chosen evenings is 18 or more. Give your answer correct to 3 significant figures.Answers:
+600: A condition is that the moths are caught at "randomly scattered " intervals.
+601: P(5 or more moths caught in an evening) = "0.275".
+602: P(18 or more moths caught in 4 evenings) = "0.175".
+
+ID: 200404003029
+Content:
+a) In a small school there are 3 classes, each of 30 children, and 2 classes, each of 20 children. A student takes a sample of 10 children from the school, by taking 2 children at random from each class. State, with a reason, whether this gives a random sample of 10 children from the school. ;;b) A random sample of 50 children is taken from a large school. The number of children in this sample with access to a computer at home is 34. The overall proportion of children at the school with access to a computer at home is denoted by p. Test, at the 5% significance level, the null hypothesis p = 0.8 against the alternative hypothesis p <0.8, and find a symmetric 95% confidence interval for p. Give your answer correct to 3 significant figures.Answers:
+603: The procedure "does not gives" (does not gives/gives) a random sample because the children " do not have" (do not have/have) equal chanes of being selected.
+604: 
+605: Symmetric 95% confidence interval for p is ["0.551","0.809"].
+
+ID: 200404003030
+Content:
+An unbiased red cubical die has two faces labeled 1, two faces labeled 2 and two faces labeled 3. An unbiased green cubical die has three faces labeled 1 and three faced labeled 2. The two dice are thrown and the random variable X is the product of the scores on the two dice.;(i) Find $$Var(X)$$;(ii) One hundred independent observations of X are taken, and T is the number of times $$X = 2$$ is obtained. Find an approximate value for $$P\left(T \geq 40\right)$$. Give your answer correct to 3 significant figures.Answers:
+606: Var(X) = "\frac{8}{3}".
+607: Approximate value for P\left(T \geq 40\right) = "0.0955".
+
+ID: 200404003031
+Content:
+The mean of a random variable X is denoted by $$\mu$$. A sample of 50 random observations of X is taken and the results are summarized by $$\sum x = 527.1$$.;(i) It is given that the population variance is 15. Carry out a 2-tail test of null hypothesis $$\mu = 9.5$$, at the 5% significance level.;(ii) It is given instead that $$\sum x^2 = 6172.31$$. In a 1-tail test of the null hypothesis $$\mu = 11.5$$, the alternative hypothesis is accepted. State the alternative hypothesis, and find an inequality that satisfied by the significance level of the test. Answers:
+608: "do not reject" (Do not reject/Reject) H_0 and conclude that, at the 5% leve of significance, there is "insufficient " (sufficient/insufficient) evidence that \mu \neq 9.5.
+609: Significance level of test < "2.8"%.
+

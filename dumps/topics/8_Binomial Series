@@ -1,0 +1,19 @@
+ID: 199704003013
+Content:
+On a single diagram sketch the graphs of \[y = \pi \sin x\] and \[y = \pi - x\], for \[-3\pi \leq x\leq 3\pi\], and hence state the number of real roots of the equation \[\pi \sin x = \pi - x\]. The smallest positive root is denoted by \[\alpha\] and the largest positive root is denoted by \[\beta\].;(i) Express \[\beta\] in terms of \[\alpha\].;(ii) Find an approximate value for \[\beta\] by using linear interpolation on the interval \[\frac {3}{2}\pi \leq x \leq 2\pi\].;(iii) Taking \[\frac {1}{4} \pi\] as a first approximation to \[\alpha\], apply the Newton-Raphson process once to find a second approximation to  \[\alpha\], giving three decimal places in your answer. Giving a reason, determine whether \[\alpha\] is greater or less than this second approximation.Answers:
+73: None
+74: \pi \sin x=\pi -x has "3" real roots.
+75: \beta = "2\pi - \alpha".
+76: Linear interpolation on \left[ \frac{3}{2}\pi ,2\pi  \right], \space \beta = "\frac{5}{3}*\pi".
+77: Second approximation to  \[\alpha\] is "0.827".
+78: f(x) is "increasing" (increasing/decreasing) and concave "downwards" (upwards/downwards), therefore, \alpha is "greater" (lesser/greater) than the second approximation .
+
+ID: 199804003014
+Content:
+Find the equations of the asymptotes of the graph \[y = \frac {3 - 2x}{x - 2}\], and sketch the graph. On the same diagram sketch the graph of \[y = 1 - e^{-2x}\]. Show that, where the graphs intersect, \[(3x + 5)e^{2x} = x - 2\], and hence state the number of real roots of this equation. Taking x = 1.7 as a first approximation, use the Newton-Raphson method once to obtain a second approximation to one of the roots of the equation. Give 3 significant figures in your answer. Use the method of linear interpolation once, on the interval [-0.5, -0.4], to obtain an approximation to another root of the equation. Give 3 significant figures in your answer.Answers:
+160: Equation of the asymptotes are x = "2" and y = "-2".
+161: None
+162: The graph has "2" real roots..
+163: Second approximation to one of the roots = "1.67".
+164: An approximation to another root = "-0.478".
+

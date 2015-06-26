@@ -1,0 +1,72 @@
+ID: 199901001001
+Content:
+Solve the simultaneous equations; \[2x+2y=1\];\[4x^2+y^2=5\](Note: Please enter the smaller value of x first into the answer space)Answers:
+
+ID: 199901001002
+Content:
+A is the point (2, 5) and the line joining the points A and B has the gradient of \[\frac{1}{3}\] The perpendicular bisector of AB passes through the point (4, 9). Find;i) the equation of AB;ii) the coordinates of B .Answers:
+
+ID: 199901001003
+Content:
+Find the range of values of x for which \[2(x^2-2)>7x\]Answers:
+
+ID: 199901001004
+Content:
+Find, in terms of a, the coefficient of \[x^2\] in the expansion of \[(1-3x)(1+ax)^6\] Given that the coefficient of \[x^2\] is 24 and that a is positive, evaluate;(a) a,;(b) the coefficient of x in the expansion.Answers:
+
+ID: 199901001005
+Content:
+img;The diagram shows a sector OAB of a circle, centre O and radius 20 cm. The \[\angle AOB = 0.6 radians\]and AC is perpendicular to OB . Find the area of the shaded region.Answers:
+
+ID: 199901001006
+Content:
+Two variables, x and y, are related by the equation.; \[y=x+\frac{5}{x^{2}}\];(a)	Obtain an expression for \[\frac{\mathrm{d} y}{\mathrm{d} x}\]and hence find, in terms of p, the approximate change in y as x increases from 4 to 4 + p, where p is small.;Given that y is increasing at a rate of 2.7 units per minute when x = 4, find;(b)	the rate of change of x at this instant.Answers:
+
+ID: 199901001007
+Content:
+Show that \[\frac{1}{(\sec\theta+1)}+\frac{1}{(\sec\theta-1)}-=2\csc\theta\cot\theta\]Answers:
+
+ID: 199901001008
+Content:
+The velocity \[vms^{-1}\] of a particle, travelling in a straight line, at time t s after leaving a fixed point O, is given by \[v=10+kt-3t^2\] where \[t\geq 0\] and k is a constant. When t = 0 the particle is at O and its acceleration is \[1 ms^{-2}\] Find;i) the value of k,;ii) the value of t when the particle is instantaneously at rest,;iii) the distance the particle has travelled when it is again at O.Answers:
+
+ID: 199901001009
+Content:
+Find the range of values of k for which the graph of \[y=x^2+(k-4)x+1\] lies entirely above the x-axis.Answers:
+
+ID: 199901001010
+Content:
+Find the value of the constant c for which the line 3y = x + c is a normal to the curve \[y=x^2-x+3\]Answers:
+
+ID: 199901001011
+Content:
+A closed can, in the shape of a circular cylinder, is to contain \[500cm^3\] of liquid when full. The cylinder, of radius r cm and height h cm, is made from thin sheet metal. The total external surface area of the cylinder is \[A cm^2\] ;(a) Show that \[A=2\pi r^2+\frac{1000}{r}\] `;(b) Find the value, to two significant figures, of r and of h for which A has a stationary value.;(c) Calculate the stationary value of A and determine whether it is a maximum or a minimum.Answers:
+
+ID: 199901001012
+Content:
+(a)	The gradient at any point (x, y) on a curve is \[3+\frac{1}{x^{3}}\] At the point on the curve where y = 0.5 the gradient is 2. Find ;(i)	the equation of the curve, ;(ii)	the equation of the tangent to the curve at the point on the curve where x = 1. ;(b) The equation of a curve is \[y=3x^2-kx+2\] where k is a constant. The tangent to the curve, at the point where x = 2, passes through (5, 5). Find the value of k.Answers:
+
+ID: 199901001013
+Content:
+img;(a) The diagram shows part of the curve \[y=\frac{1}{x}\] The shaded region is bounded by the curve, the x-axis and the lines x = 1 and x = k. Given that the volume of the solid of revolution, obtained by rotating the shaded region through  \[360^{\circ}\]   about the x-axis, is \[\frac{\pi}{6}units^3\] evaluate k.;img;(b) The diagram shows part of the curve \[y=9-x^2\] The points P and Q lie on the curve and have x-coordinates 1 and 3 respectively. The line PQ divides the area between the curve and the positive axes into two regions, A and B . Show that the area of A is 12.5 times the area of B .Answers:
+
+ID: 199901001014
+Content:
+Find all the angles between \[0^{\circ}\]  and  \[360^{\circ}\]   which satisfy;(a) \[\sin(2x-30^{\circ})=\cos30^{\circ}\];(b) \[3\sin y\cos y=2\cos^2y\];(c) \[2\tan^2z+11\sec z+7=0\](Note: Please enter your answers in ascending order)Answers:
+
+ID: 199901001015
+Content:
+img;In the diagram the points A(11, 5), B(5,11), C and D are the vertices if a parallelogram. The points P(17, 8) and Q(21, 16) lie on AD and CD respectively.;i) Find the equation of AD and of CD;ii) Find the ratio DC:QC;iii) Show that triangle PDQ is isosceles and determine its area.Answers:
+
+ID: 199901001016
+Content:
+img;The diagram shows the positions of the points A, B, C and D relative to the origin O.;The position vectors of A and B relative to O are 7i + 4j and I + 8j respectively. The point C is such that \[\vec{OC}=\frac{3}{2}\vec{AB}\] Find;i) \[\vec{OC}\];ii) \[\vec{CB}\];The point D is such that \[\vec{CD}=\lambda \vec{CB}\]  where \[\lambda >1\];iii) Obtain an expression, in terms of i, j and \[\lambda\] for \[\vec{OD}\];Given that \[\vec{AB}\]is perpendicular to \[\vec{OD}\];iv) use a scalar product to find the value of \[\lambda\];v) show that \[\vec{OD}\] bisects \[\vec{AB}\]Answers:
+
+ID: 199901001017
+Content:
+Functions f and g are defined by ; \[f:x \mapsto 1+2x\] ; \[g:x \mapsto \frac{1}{(1-x)},x\neq 1\] where  \[x\epsilon \mathbb{R}\]; \[fg(x)=g^2(x)\] Find x.Answers:
+
+ID: 199901001018
+Content:
+a) Sketch the graph of y = 3 - 3|3 - 2x| for \[-1\leq x\leq -4\] and state the values of x for which y > 1.;b) The graph y = f(x) is a smooth curve passing through the points (3, 0), (4, 4), (5, 6), (6, 7), (8, 8) and (12, 9).;i) Draw, on graph paper, the graph of y = f(x) using a scale of 1 cm to 1 unit on each axis.;ii) On the same diagram, draw the graph of $$y =f^{-1}(x)$$ for 0 < x < 9.Answers:
+

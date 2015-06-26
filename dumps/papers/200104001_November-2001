@@ -1,0 +1,40 @@
+ID: 200104001001
+Content:
+(a)	The expression $$2x^4-5x^2+ax+b$$ has a factor of x + 2 and leaves a remainder of 6 when divided by $$x - 1$$. Calculate the value of a and of b .;(b)	The straight line $$y = 11x - 6$$ intersects the curve $$y=x^2(2x-3)$$ at three points. Calculate the x-coordinate of each point of intersection.;(Note: Please enter your answers in ascending order);(c)	Find the value of k for which a - 3b is a factor of $$a^4-7a^2b^2+kb^4$$. Hence, for this value of k, factorise $$a^4-7a^2b^2+kb^4$$completely.Answers:
+
+ID: 200104001002
+Content:
+img;(a)	The table shows experimental values of two variables x and y. ;It is known that x and y are related by an equation of the form $$y=\frac{(ax)}{(x+b)}$$. Using the vertical axis for y and the horizontal axis for $$=\frac{x}{y}$$, draw a straight line graph of y against for the given data. Use the graph to estimate;(i)	the value of a and of b,;(ii)	the value of x for which y = 3x.;img;(b)	The diagram shows part of a straight line graph drawn to represent the equation cx + dy = xy. ;Find ;(i)	the value of c and of d,;(ii)	the value of y when x = 0.2.Answers:
+
+ID: 200104001003
+Content:
+(a)	Differentiate with respect to x;(i)	\[\ln [(x + 1)(2x + 3)]\];(ii)	$$x^3\sin 2x$$;(b)	Find the equation of the normal to the curve $$ y=\frac{(2x+4)}{(x-1)}$$ at the point where the curve meets the x-axis.;(c)	Given that $$y=Ae^{kx}$$, where A and k are constants, find and expression for $$ [\frac{\mathrm{d} \frac{\mathrm{d} y}{\mathrm{d} x}}{\mathrm{d} x}]$$. Hence find the value of k and of A for which $$ [\frac{\mathrm{d} \frac{\mathrm{d} y}{\mathrm{d} x}}{\mathrm{d} x}]-3y=4e^{2x}$$Answers:
+
+ID: 200104001004
+Content:
+a) Evaluate ;i) $$\int_3^4 \frac{1}{(x-2)^3}dx $$;ii) $$\int_0^1 \sin 2xdx$$;b) Find the value of k for which $$\int_4^k \frac{1}{(2x-5)}dx=\ln 2$$;c) Use the formula $$\cos 2A=2\cos^2A-1$$ to express $$\cos^2 2x$$ in terms of cos 4x.;Hence find, to 2 decimal places, the area of the region enclosed by the curve $$y=6\cos^2 2x$$, the x-axis and the lines x = 0 and $$x=\frac{\pi}{8} $$Answers:
+
+ID: 200104001005
+Content:
+a) Find all the angles from $$0 ^{\circ}$$ to $$180 ^{\circ}$$ inclusive, which satisfy the equation;i) $$\tan 2x=3\tan x$$;ii) $$3+10\sin y\cos y=0$$;b)i) Express $$4\cos\theta-3\sin\theta$$ in the form $$R\cos(\theta+\alpha)$$ where $$0<\alpha<\frac{\pi}{28} $$;ii) Find, in radians, the value of $$\theta$$, where $$0<\theta<\pi$$ for which $$4cos\theta-3\sin\theta=2$$;c) Given that \sin(A + B) = 2 \sin(A - B), express tan A in terms of tan B .;(Note:Please enter your answers in ascending order)Answers:
+
+ID: 200104001006
+Content:
+The parametric equations of a curve are $$x=t^2-4t+5, y=t^2+4$$;i) Express $$\frac{\mathrm{d} y}{\mathrm{d} x}$$ in terms of t.;A is the point on the curve where t = 1. The tangent to the curve at A meets the x- axis at B .;ii) Find the area of triangle AOB, where O is the origin.;C is the minimum point on the curve and D is the point on the curve at which the tangent is parallel to the y- axis.;iii) Find the coordinates of C and D and show that AC = AD.;iv) Find the value of the constant k for which the cartesian equation of the curve is $$(y-x+1)^2=16(y-k)$$Answers:
+
+ID: 200104001007
+Content:
+Solve the equation;i) lg(2x + 5) = 1 + lg x.;ii) $$\log_4y +\ log_2y=12$$Answers:
+
+ID: 200104001008
+Content:
+Differentiate $$xe^{2x}$$ with respect to x.;ii) Find the x-coordinate of the stationary point of the curve $$y=xe^{2x}$$;iii) Using your answer from part i) show that $$\int4xe^{2x}dx=2xe^{2x}-e^{2x}+c$$, where c is a constant.;Hence find the area of the region enclosed by the curve $$y=4xe^{2x}$$, the x-axis and the lines x = 1 and x = 2.Answers:
+
+ID: 200104001009
+Content:
+a) Given that $$(a+\sqrt5)(3+b\sqrt5)=26+11\sqrt5$$, find the possible values of a and of b;(Note: Please enter your answer in ascending order);b) Find the gradient of the curve $$y=\sqrt{x^3}-(\frac{96}{\sqrt[3]{(x^2)}})$$ at the point where x = 64.Answers:
+
+ID: 200104001010
+Content:
+A particle moves so that, t s after passing through a fixed point O, its velocity, $$vms^{-1}$$, is given by $$v=Ae^{-kt}$$, where A and k are constants. Given that when t = 0 the velocity is $$5 ms^{-1}$$ and that when t = 10 the velocity is $$3ms^{-1}$$,find ;i) the value of A and k,;ii) the acceleration of the particle when t = 10.Answers:
+

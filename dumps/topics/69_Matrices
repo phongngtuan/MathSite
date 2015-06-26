@@ -1,0 +1,48 @@
+ID: 199601002021
+Content:
+A store sells large and small tins of both yellow and blue paint. The selling price of a large tin of either colour is $l and of a small tin of either colour is $s. The numbers of tins of each type that were sold one day are given in the following table. ;img; The total income from the sale of the yellow paint was $84 and from the blue paint was $104. It is given that A = $$\begin{bmatrix}5&3\\6&4\end{bmatrix}$$, B = $$\begin{bmatrix}l\\s\end{bmatrix}$$  and C = $$\begin{bmatrix}84\\104\end{bmatrix}$$.;;a) Write down an equation connecting A, B and C. [1];;b) Find $$A^{-1}$$. [2];;c) Calculate $$A^{-1} C$$. [1];;d) Explain the significance of your answer to part (c). [1]Answers:
+
+ID: 199701002003
+Content:
+Given that matrix $$A=\begin{bmatrix}2&1\\1&3\end{bmatrix}$$,;;a) calculate the value of the determinant of A, [1];;b) write down $$A^{-1}$$ . [1]Answers:
+
+ID: 199703002010
+Content:
+X = $$(2, 1)$$, Y =$$\begin{bmatrix}3\\p\end{bmatrix}$$, Z =$$\begin{bmatrix}4&2\\-5&-2\end{bmatrix}$$. Find;;a) the value of p, given that XY = (2), [1];;b) the inverse of Z. [2]Answers:
+
+ID: 199803002016
+Content:
+A = $$\begin{bmatrix}1&-2\\0&x\end{bmatrix}$$, B = $$\begin{bmatrix}1&4\\y&2\end{bmatrix}$$.;;a) Find AB. [2];;b) Given that B is the inverse of A, write down the value of x and the value of y. [1]Answers:
+
+ID: 199901002003
+Content:
+Given that matrix $$A=\begin{bmatrix}4&1\\7&3\end{bmatrix}$$,;;a) calculate the value of the determinant of A, [1];;b) write down $$A^{-1}$$. [1]Answers:
+
+ID: 199903002018
+Content:
+Given that A = $$\begin{bmatrix}3&-1\\-4&2\end{bmatrix}$$ and B = $$\begin{bmatrix}1&-3\\-4&0\end{bmatrix}$$,;;a) Find ;;a-i) A-B, [1];;a-ii) The inverse of matrix A, [2];;b) Write down $$BB^{-1} \begin{bmatrix}5&6\\7&8\end{bmatrix}$$. [1]Answers:
+
+ID: 200001002011
+Content:
+The matrix $$A=\begin{bmatrix}1&x\\-1&2\end{bmatrix}$$.;;a) Write down an expression, in terms of x, for the determinant of A. [1];;b) Given that the determinant of A is 5,;;b-i) calculate the value of x, [1];;b-ii) Write down $$A^{-1}$$. [1]Answers:
+
+ID: 200001002016
+Content:
+Three brands of cat food are sold at two stores. The following tables show the price of each brand at each store.;img;The prices are given in cents per 100 g. Data is given for the months May and June. It is given that $$X=\begin{bmatrix}9.4&9.6\\10.2&10.4\\11.4&11.0\end{bmatrix}$$ and $$Y=\begin{bmatrix}9.8&10.0\\10.2&10.2\\12.0&12.0\end{bmatrix}$$.;;a-i) Evaluate Y - X. [1];;a-ii) Explain what the numbers in your answer represent. [1];;The cat food is sold in tins containing 500 g. Write down the matrix M such that the product XM will show, for each brand, the total cost, in cents, of buying ten tins at both stores during May. [2]Answers:
+
+ID: 200104002006
+Content:
+Answer the whole of this question on a sheet of graph paper.;Triangle A has vertices (6, -2), (8, -2) and (6, -5).;;a) Using a scale of 1 cm to represent 1 unit on each axis, draw axes for values of x and y in the ranges $$-6 \leq x \leq 12$$ and $$-6 \leq y \leq 6$$.;Draw and label triangle A.;;b) The translation T is represented by the column vector $$\begin{bmatrix}4\\3\end{bmatrix}$$.;The translation T maps triangle A onto triangle B, so that T(A)=B.;Draw and label triangle B.;;c) The transformation R is a rotation through $$90^{\circ}$$ clockwise, centre (3, 4).;The transformation R maps triangle A onto triangle C, so that R(A)=C.;Draw and label triangle C.;;d) Given that TR(A)=D, draw and label triangle D.;;e) Triangle E has vertices (2, -2), (4, -2) and (-4, -5).;The single transformation H maps triangle A onto triangle E.;Describe fully the transformation H.Answers:
+
+ID: 200201002023
+Content:
+A transformation S is represented by the matrix  $$\begin{bmatrix}2&0\\0&1\end{bmatrix}$$. ;;a) The shape A has vertices (1, 0), (0, 1), (-1, 0) and (0, -1). Shape A is shown on the grid.;img; By calculating $$\begin{bmatrix}2&0\\0&1\end{bmatrix}\begin{bmatrix}1&0&-1&0\\0&1&0&-1\end{bmatrix}$$ or otherwise, draw and label the shape S(A). [2];;b) Find the matrix which represents the transformation $$S^{2} $$. [1];;c) On the grid below, draw and label $$S^{2} (A)$$. [1];img;;d) On the grid below, draw and label $$S^{3} (A)$$. [1];img;;e) Write down the matrix which represents $$S^{n}$$. [1]Answers:
+
+ID: 200803002010
+Content:
+img;Sandy and Roger took a multiple choice test. ; The matrices show the results of the test and the marks awarded.;;a) Find $$\begin{bmatrix}14&5&1\\15&0&5\end{bmatrix} \begin{bmatrix}2\\0\\1\end{bmatrix}$$.;;b) Explain what your answer to (a) represent.Answers:
+
+ID: 201003002015
+Content:
+The matrices below show the results for two football teams and the points awarded. ; 1st row: City, 2nd row: United, 1st column: Won, 2nd column: Draw, 3rd column: Lost ; $$\begin{bmatrix}7&2&3\\6&6&2\end{bmatrix}$$ ;Column: Points, 1st row: Won, 2nd row: Draw, 3rd row: Lost; $$\begin{bmatrix}3\\1\\0\end{bmatrix}$$;;a) Find $$\begin{bmatrix}7&2&3\\6&6&2\end{bmatrix} \begin{bmatrix}3\\1\\0\end{bmatrix}$$.;;b) Explain what your answer to (a) representAnswers:
+

@@ -1,0 +1,64 @@
+ID: 199803001001
+Content:
+The line 2y + x = 5 intersects the curve \[y^2+xy=6\] at the points A and B. Find;(a)the coordinates of A and B,;(b)the distance ABAnswers:
+
+ID: 199803001002
+Content:
+Find the equation of the curve which passes through the point (3, 6) and for which \[\frac{\mathrm{d} y}{\mathrm{d} x}=2x(x-3)\]Answers:
+
+ID: 199803001003
+Content:
+(a)Find the range of values of x for which \[x(10-x)\geq 24\];(b) Find the value of k for which 2y + x = k is a tangent to the curve \[y^2+4x=20\]Answers:
+
+ID: 199803001004
+Content:
+A curve has the equation \[y=\frac{6}{(1-2x)}\] Find an expression for \[\frac{\mathrm{d} y}{\mathrm{d} x}\] ;(i) Hence find the equation of the normal to the curve at the point where x = 2.;(ii) Hence find the approximate increase in y as x increases from 2 to 2 + p, where p is small.Answers:
+
+ID: 199803001005
+Content:
+(a) Find the coefficient of x in the expansion of \[(\frac{x^2-3}{x})^5\];(b) Obtain the first 4 terms in the expansion of \[(1+p)^7\] in ascending powers of p. Hence find the coefficient of \[x^3\] in the expansion of \[(1+x+2x^2)^7\]Answers:
+
+ID: 199803001006
+Content:
+img;The diagram shows a vertical cross-section of a container in the form of an inverted cone of height 60 cm and base radius 20 cm. The circular base is held horizontal and uppermost. Water is poured into t he container at a constant rate of \[40cm^3s^{-1}\]; i) Show that, when the depth of water in the container is x cm, the volume of water in the container is \[\frac{(\pi x^3)}{27cm^3}\]; ii) Find the rate of increase of x at the instant when x = 2.Answers:
+
+ID: 199803001007
+Content:
+img;The diagram shows two points A and B on a straight line, where AB = 4m. A particle P moves along the line so that the velocity, \[vms^{-1}\] is given by \[v=t^2-4t-5 \] \[t\geq 0\] where t is the time in seconds after leaving B . Initially particle P is at B, moving towards A.;Find an expression, in terms of t, for ;i) the acceleration of P;ii) the distance of P from A.;Find ;iii) the distance from A of the point where P comes to instantaneous to rest.;iv) the total distance travelled by P in the time interval t = 0 to t = 10.Answers:
+
+ID: 199803001008
+Content:
+Given that \[\sin\beta=p\] where \[\beta\] is an acute angle measured in degrees, obtain an expression, in terms of p, for;(a) \[\tan\beta\];(b) \[\sin(90^{\circ}-\beta)\];(c) \[\sin(180^{\circ}+\beta)\]Answers:
+
+ID: 199803001009
+Content:
+Prove the identity \[(1+\csc \theta)(1-\sin\theta)-=\cos\theta\cot\theta\]Answers:
+
+ID: 199803001010
+Content:
+img;In the diagram, OAB is a sector of a circle, centre O, of radius 8 cm and angle AOB = 0.92 radians. ;The line AD is the perpendicular from A to OB . The line AC is perpendicular to OA and meets OB produced at C. Find;(a)	the perimeter of the region ADB, marked P,;(b)	the area of the region ABC, marked Q.Answers:
+
+ID: 199803001011
+Content:
+Solutions to this question by accurate drawing will not be accepted.;img;The diagram shows a parallelogram ABCD in which A is (8, 2) and B is (2, 6). The equation of BC is 2y = x + 10 and X is the point on BC such that AX is perpendicular to BC. Find;(a)	the equation of AX,;(b)	the coordinates of X.;Given also that BC = 5 BX, find;(c)	the coordinates of C and of D.;(d)	the area of the parallelogram ABCD.Answers:
+
+ID: 199803001012
+Content:
+(a)	Find all the angles between \[0^{\circ}\]  and \[360^{\circ}\]   which satisfy the equation;(i)	\[2 \sin 2x + 1 = 0\];(ii)	\[\sec y(1 + \tan y) = 6 \csc y\]; (b)	Find all the values of t between 0 and 10, for which \[\cos(\frac{\pi t}{5})=0.6\] where \[\frac{\pi t}{5}\]is measured in radians.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 199803001013
+Content:
+img;The diagram shows part of the curve \[y=\frac{4}{x^2}\] and part of the line \[y = 7 -3x\] intersecting at A(1, 4) and B(2, 1). Find ;i) the area of the shaded region;ii) the volume generated, in terms of \[\pi\] when the shaded region is rotated through \[360^{\circ}\]   about the x-axis.Answers:
+
+ID: 199803001014
+Content:
+(a)	Find the coordinates of the stationary points on the curve \[y=27+12x+3x^2-2x^3\] and deduce the nature of each of these points.(Note: Please enter the answer with smaller value of x first);(b)	A hollow closed rectangular tank is made from sheet metal of negligible thickness. The tank has length 2x m, width x m and a total external surface area of \[48m^2\] Express, in terms of x,; (i)	the height of the tank,;(ii)	the volume of the tank.;Given that x can vary, find the dimensions of the tank for which the volume is a maximum.Answers:
+
+ID: 199803001015
+Content:
+The position vectors of the points L, M and N, relative to an origin O, are d, e and 2d + 2e respectively. The point P lies on LM and is such that \[\vec{LP}=\frac{2}{5}\vec{LM}\] The line OP is produced to meet the line LN and Q. Given that \[\vec{OQ}=\lambda\vec{OP}\] and that \[\vec{LQ}=\mu\vec{LN}\]express \[\vec{OQ}\] in terms of;(a) \[\lambda, d,e\];(b) \[\mu,d,e\]; Hence determine the value of \[\lambda\] and \[\mu\]Answers:
+
+ID: 199803001016
+Content:
+(a)	Find the range of the function \[f:x \mapsto \frac{18}{x}+8x\] for the domain \[1\leq x \leq 3\];(b)	The function g is defined by \[g:x \mapsto 8-3x\] Find;(i)	an expression for \[g^{-1}(x)\]and for \[g^2(x)\];(ii) the value of x for which \[g^{-1}(x)=g^2(x)\];(c)	The function h is defined by \[h:x \mapsto ax+b\] \[a\neq 1\] for the domain \[0\leq x\leq 5\] Given that the graph of y = h(x) passes through the point (8, 5) and that the graphs of \[y=h(x) \]and \[y=h^{-1}(x) \]intersect at the point whose x-coordinate is 3, find the value of a and of b Answers:
+

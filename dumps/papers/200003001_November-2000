@@ -1,0 +1,68 @@
+ID: 200003001001
+Content:
+Solve the simultaneous equations;$$3x-2y=1$$;$$9x^2+y=7$$;(Note: Please enter the answer with smaller value of x first in the answer space)Answers:
+
+ID: 200003001002
+Content:
+The points A and B have coordinates (2, 2) and (10, 8) respectively. Find the equation of the perpendicular bisector of AB .Answers:
+
+ID: 200003001003
+Content:
+(a) Find the value of k for which \[8y = x + 2k\] is a tangent to the curve \[2y^2=x+k\];(b) Find the range of values of x for which \[(2x + 1)(4 - x) > 4\]Answers:
+
+ID: 200003001004
+Content:
+Find the coefficient of \[x^3\] in the expansion of \[(10-7x)(1+\frac{x}{5})^8\]Answers:
+
+ID: 200003001005
+Content:
+The gradient at any point (x, y) on a curve is given by \[6x^2+6x-5\];Given that the curve passes through the point (2, 12). Find the equation of the curve.Answers:
+
+ID: 200003001006
+Content:
+img;The diagram shows a major segment of a circle, centre O, radius 10 m. The chord AB is of length 12 m. ;Calculate;(a)	the perimeter of the segment,;(b)	the area of the segment.Answers:
+
+ID: 200003001007
+Content:
+A particle moves in a straight line so that, t seconds after leaving a fixed point O, its displacement, s metres from O, is given by \[s=9y^2+6t^3-2t^4\];Find;i) the positve value of t for which the particle is instantaneously at rest,;ii) the total distance travelled by the particle from t = 0 to t = 4.;iii) the acceleration of the particle when t = 1.Answers:
+
+ID: 200003001008
+Content:
+The equation of a curve is \[y=\frac{10}{(1+x^2)}\] Find the equation of the normal to the curve at the point where x = 3.Answers:
+
+ID: 200003001009
+Content:
+Find the value of each of the constants a and b for which \[\sin x\cos x(5\tan x+2\cot x)-=a+b\sin^2x\]Answers:
+
+ID: 200003001010
+Content:
+(a) Find the positive value of p for which 0.6i + pj is a unit vector.;(b) The vector 3i + 4j is parallel to the vector a + 3b, where a = qi-j and b = i+ qj. Find the value of q.Answers:
+
+ID: 200003001011
+Content:
+img;(a)	The diagram shows the graph of y = f(x), where f is a function with domain \[-4\leq x\leq 6\] and range \[0\leq f(x)\leq 3\] Make a sketch of the diagram shown and add a sketch of the graph of \[y=f^{-1}(x)\] State the range of \[f^{-1}(x)\];( b)	The function f and g are defined for real values of x by; \[f:x \mapsto 2x-1\]; \[g:x \mapsto \frac{1}{(x-1)},x\neq 1\] ;Express;(i)	\[fg(x)\](ii)	\[g^{-1}(x)\];in the form of a single fraction in terms of x, stating in each case the value of x for which the function is not defined.;(c)	The functions f and g are defined for real values of x by ; \[f:x \mapsto x^2 \]; \[g:x \mapsto x-3\];Express each of the following in terms of f and g only.;(i) \[x \mapsto x-6\];(ii) \[xx \mapsto x^2 -6\];(iii)	\[x \mapsto (x+3)^2\]Answers:
+
+ID: 200003001012
+Content:
+(a)	Find all the angles, between \[0^{\circ}\]and \[360^{\circ}\] which satisfy the equation;(i) \[2\cos^2x=3\sin x\];(ii) \[2 \tan y = 5 \sin y\];(b)	Find, in radians, correct to 2 decimal places, the values of t between 0 and 3 for which \[\tan 3t = 2\] (Note: Please enter your answers in ascending order)Answers:
+
+ID: 200003001013
+Content:
+(a)	Given that \[y=x^3+9x\] use calculus to find, in terms of p, the approximate percentage increase in y when x increases from 3 to 3 + p, where p is small.;(b) 	Liquid is poured into a bucket at a rate of \[60cm^3s^{-1}\] The volume, \[Vcm^3\] of the liquid in the bucket, when the depth of liquid is x cm, is given by \[V=0.01x^3+2.2x^2+200x\] Find;(i)	the rate of increase in the depth of liquid when x = 10.;(ii)	The depth of liquid when the rate of increase in the depth is \[0.2 cms^{-1}\] Answers:
+
+ID: 200003001014
+Content:
+(a)	A circular cylinder, open at one end, has radius r cm and external surface area \[27\pi cm^2\];(i)	Show that the volume of the cylinder, \[Vcm^3\] is given by \[V=\frac{\pi }{2}(27r-r^3)\] ;(ii)	Given that r can vary, find the stationary value of V and determine whether this value is a maximum or a minimum.;img;(b) The diagram shows the rectangles PQRS and PXYZ, where XQ =  5 cm, PZ = x cm, ZS = 3 cm and the area of PXYZ is \[60cm^2\];(i)	Show that the area, \[Acm^2\] of PQRS is given by \[A=5x+75+\frac{180}{x}\] Given that x can vary,;(ii)	find an expression for \[\frac{\mathrm{d} A}{\mathrm{d} x}\];(iii)	show that when A takes its minimum value the rectangles PQRS and PXYZ are similar.Answers:
+
+ID: 200003001015
+Content:
+img;The region R shown in the diagram is bounded by the line y = 3x, the curve \[y=4-x^2\] and the x-axis. ;(a) Find the area of R.;img;(b) The diagram shows two regions whose areas are \[A_1\] and \[A_2\];The region whose area is \[A_1\]  is bounded by the curve \[y=(\frac{x}{a})^2\] x = a and the x-axis.;(i)Find \[A_1\]   in terms of a.;The region whose area is \[A_2\] is bounded by the curve \[y=(\frac{x}{a})^2\] x = a, x = b and the x-axis.;(ii)	Find \[A_2\]in terms of a and b .;(iii)	Show that \[A_2<3A_1\] for all values of a and b for which\[0 < a < b \]Answers:
+
+ID: 200003001016
+Content:
+Solutions to this question by accurate drawing will not be accepted.;(a)	The four points O, A, B and D are such that \[\vec{OA}=\binom{8}{4}\];\[\vec{OB}=\binom{12}{6}\]; \[\vec{OC}=\binom{d}{3d}\];(i)	Show that O, A and B lie of the same straight line.;(ii)	Find the value of d given that \[|\vec{AD}|=|\vec{BD}|\];(b)	The position vectors of the points P and Q relative to an origin O are p and q respectively, The point R is such that \[\vec{OR}=\frac{3}{4}\vec{OP}\]  and the point S is the mid-point of PQ.;(i)	Express \[\vec{RQ}\] and \[\vec{OS}\] in terms of p and q.;RS is produced to meet OQ produced at the point T so that \[\vec{ST}=\lambda \vec{RS}\] and \[\vec{QT}=\mu \vec{OQ}\]  Express \[\vec{ST}\]in terms of ;(ii)	\[\lambda\], p and q,;(iii)	\[\mu\]  p and q.;Hence find the value of \[\lambda\] and of \[\mu\]Answers:
+
+ID: 200003001017
+Content:
+Given that \[f(x)-=2x^2-5x-7\];(a)	find the value of a, of b and of c for which \[f(x)-=a(x-b)^2-c\];(b)	state the minimum value of f(x).Answers:
+

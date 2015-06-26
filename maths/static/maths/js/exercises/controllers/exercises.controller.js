@@ -20,6 +20,8 @@
                             return(element.content != "");
                         });
                     });
+                    console.log("Queued")
+                    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
                 });
             }
             else if (paper){
@@ -34,6 +36,8 @@
                             return(element.content != "");
                         });
                     });
+                    console.log("Queued")
+                    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
                 });
             }
         }]);

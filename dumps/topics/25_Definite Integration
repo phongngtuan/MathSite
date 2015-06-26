@@ -1,0 +1,70 @@
+ID: 199703003002
+Content:
+img;A smooth curve passes through the points (1, 2),(1.5, 2.8),(2, 3.4),(2.5, 3.8) and (3, 3.6) as shown in the diagram. Use the trapezium rule with four intervals to find an approximate value for the area of the region between the curve, the x-axis and the lines x = 1 and x = 3. State with a reason, whether this approximate value is greater than or less than the true area of the region.Answers:
+2: Area = "6.4".
+3: Approximate value is "lesser" (lesser/greater) than the true area of the region because the curve is concave "downwards" (upwards/downwards).
+
+ID: 199803003011
+Content:
+Use the trapezium rule with 4 intervals, each of width 0.4, to find an approximate value for $$\int^{1.6}_0 x e^{x^2} dx$$, giving your answer correct to 2 decimal places. Calculate the exact value of $$\int^{1.6}_0 x e^{x^2} dx$$, giving your answer in terms of e. Answers:
+95: Approximate value of \int_0^1.6 xe^{x^2} dx = "6.96".
+96: Exact value of \int_0^1.6 xe^{x^2} dx = "\frac{1}{2}*(e^{2.56} -1)".
+
+ID: 199903003004
+Content:
+(i) Solve the inequality \[x^2 + 2x - 3 < 0\].;(ii) Evaluate \[\int_{0}^{2} |x^2 + 2x - 3| dx\].Answers:
+168: Solution is "-3" < x < "1".
+169: \int_0^2 |x^2 + 2x - 3| dx = "4".
+
+ID: 199903003009
+Content:
+img;The diagram shows two circles, of radii 1 and 3, each with centre O. The angle between the lines OAC and OBD is \[\theta\] radians. The shaded region R is bounded by the minor arc AB and the lines AC, CD and DB.;(i) Find the area of R.;(ii) Find the value of \[\theta\] for which the area of R is greatest.;(iii) Find the greatest value of \[\theta\] which ensures that the whole of the line segment CD lies between the two circles.Answers:
+174: Area of R = "\frac{9}{2} \sin{\theta} - \frac{1}{2}\theta".
+175: Value of \theta = "1.46".
+176: Greatest value of \theta = "2.46".
+
+ID: 200003003005
+Content:
+By means of a suitable substitution, or otherwise, evaluate \[\int_{1}^{3} \frac{x}{(2x-1)^3} dx\].Answers:
+247: \int_1^3 \frac{x}{(2x-1)^3} dx = "\frac{8}{25}".
+
+ID: 200003003013
+Content:
+The expression \[\frac{x^2}{9-x^2}\] can be written in the form \[A + \frac{B}{3 - x} + \frac{C}{3 + x}\].;(i) Find the values of the constants A, B and C.;(ii) Show that \[\int_{0}^{2} \frac{x^2}{9 - x^2} dx = \frac{3}{2}\ln 5 - 2\].;(iii) Hence find the value of \[\int_{0}^{2} \ln (9 - x^2) dx\], giving your answer in terms of ln 5.Answers:
+261: A = "-1".
+262: B = "\frac{3}{2}".
+263: C = "\frac{3}{2}".
+264: 
+265: \int_0^2 \ln(9-x^2) dx = "5*\ln{5} -4".
+
+ID: 200103003015
+Content:
+a) Use the fact that $$7\cos x - 4\sin x = \frac{3}{2( \cos x + \sin x )} + \frac{11}{2( \cos x - \sin x )}$$ to find the exact value of  $$\int_0^\frac{1}{2}\pi \frac{(7\cos x - 4\sin x)}{(\cos x + \sin x)} dx$$.;;b)Use integration by parts to find the exact value of $$\int_1^e  (\ln x) ^2 dx $$.;;c)Using the substitution  $$x = \frac{1}{y}$$, or otherwise, find $$\int \frac{1}{(x\sqrt {x^2  - 1})}dx $$. Answers:
+351: \int_0^{\frac{1}{2}} \frac{(7 \cos x - 4 \sin x)}{\cos x + \sin x} dx = "\frac{3*\pi}{4}".
+352: \int_1^e (\ln x)^2 dx = "e-2".
+353: \int \frac{1}{(x\sqrt{x^2 - 1}} dx = "-\sin^{-1} {\frac{1}{x}}"+ c.
+
+ID: 200203003006
+Content:
+a) Write down ;(i)$$\frac{d}{dx} e^{x^2}$$ ;(ii)$$\int xe^{x^2} dx $$. ;;b)Find  $$\int_0^1 x^3 e^{x^2} dx $$.Answers:
+425: \frac{d}{dx} e^{x^2} = "2xe^{x^2}".
+426: \int xe^{x^2} dx = "\frac{1}{2} e^{x^2}"+ c.
+427: \int_0^1 x^3 e^{x^2} dx = "\frac{1}{2}".
+
+ID: 200303003003
+Content:
+By sketching the graphs of  $$y = e^x $$ and  $$y = e^{-x} $$, or otherwise, solve the inequality  $$e^x  - e^{- x} > 0$$. Hence find  $$\int_{-4}^{3} |e^x  - e^{- x}|dx $$, giving your answer correct to 3 significant figures. Answers:
+491: x > "0".
+492: \int_{-4}^3 |e^x - e^{-x}| dx = "70.8".
+
+ID: 200403003004
+Content:
+Use the substitution  $$t = \sqrt{x + 1} $$ to find the exact value of  $$\int_0^3 x\sqrt {x + 1}dx $$.  Answers:
+552: \int_0^3 x\sqrt{x+1} dx = "7+\frac{11}{15}".
+
+ID: 200603003009
+Content:
+(i) Use the derivative of $$\cos \theta $$ to show that $$\frac{d}{d \theta} \sec \theta = \sec \theta \tan \theta$$. ;(ii) Use the substitution $$x=\sec \theta-1$$ to find the exact value of $$\int_{sqrt{2-1}}^{1} \frac{1}{(x+1)( sqrt{x^{2}+2x})} dx$$.Answers:
+690: 
+691: \int_{\sqrt{2}-1}^{1} \frac{1}{(x+1)(\sqrt{x^2} + 2x)} dx = "\frac{1}{12}*\pi".
+

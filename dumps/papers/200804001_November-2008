@@ -1,0 +1,44 @@
+ID: 200804001001
+Content:
+A man buys a new motorcycle. After t months its value V is given by $$V = 10000e^{-pt}$$, where p is a constant. ;(i) Find the value of the motorcycle when the man bought it.;The value of the motorcycle after 12 months is expected to be \[$4000\]. Calculate;(ii) the expected value of the motorcycle after 18 months,;(iii) the age of the motorcycle, to the nearest month, when its expected value will be \[$1000\]Answers:
+
+ID: 200804001002
+Content:
+The roots of the quadratic equation $$2x^2 -4x+3 =0$$ are $$\alpha$$ and $$\beta$$. Find the quadratic equation whose roots are $$\alpha^2 + 2$$ and $$\beta^2 +2$$.Answers:
+
+ID: 200804001003
+Content:
+i)Prove the identity $$\tan A +cot A = 2 \csc 2A$$.;ii) Find all the angles between $$0^{\circ} $$ and $$360^{\circ} $$ which satisfy the equation $$\tan A + \cot A = 3$$.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200804001004
+Content:
+Solve the equation;(i) $$2 + \log_3(3x-7) = \log_3(2x-3)$$;(ii) $$3\log_5 y - \log_5 =2$$.Answers:
+
+ID: 200804001005
+Content:
+The term containing the highest power of x in the polynomial f(x) is 2x^4. Two of the roots of the equation f(x) =0  are -1 and 2. Given that $$x^2-3x+1$$ is a quadratic factor of f(x), find;(i) an expression for f(x) in descending powers of x,;(ii) the number of real roots of the equations f(x) =0, justifying your answer,;(iii) the remainder when f(x) is divided by 2x-1.Answers:
+
+ID: 200804001006
+Content:
+img;The diagram shows a circle, center O, with diameter AB. The point C lies on the circle. The tangent to the circle at A meets BC extended at D. The tangent to the circle at C meets the line AD at E;(i) Prove that the triangle AEO and CEO are congruent.;(ii) Prove that Eis the mid-point of A.Answers:
+
+ID: 200804001007
+Content:
+The function f is defined by $$f(x) = 4\cos  2x -2$$;(i) State the amplitude of f.;(ii) State the period of f.;The equation of a curve is $$y = 4\cos 2x-2$$ for $$0^{\circ} \leq x \leq 180^{\circ} $$.;(iii) Find the coordinates of the minimum point of the curve.;(iv) Find the coordinates of the points where the curve meets the x-axis.;(v) Sketch the graph of $$y = 4\cos 2x-2$$ for $$0^{\circ}  \leq x \leq 180^{\circ} $$.;(vi) Sketch the graph of $$y =|4\cos 2x-2|$$ for $$0^{\circ}  \leq x \leq 180^{\circ} $$.Answers:
+
+ID: 200804001008
+Content:
+img;The diagram shows part of the curve $$y = x^3 -ax+b$$, where a and b are positive constants. The curve has a minimum point at (2,0). Find;(i) the value of a and of b,;(ii) the coordinates of the maximum point of the curve,;(iii) the area of the shaded region.Answers:
+
+ID: 200804001009
+Content:
+img;The diagram shows a straight road OP. A runner leaves the road at O and runs 4km in a straight line to a point A. She then turns through $$90^{\circ} $$ and runs 2km in a straight line to a point B. The angle POA is $$\theta^{\circ} $$, where $$0\leq \theta \leq 90$$, and the perpendicular distance of B from the road OP is L km.;(i) Show that $$L = 4 \sin  \theta - 2\cos  \theta$$.;(ii) Express L in the form $$R \sin (\theta - \alpha)$$, where $$R>0$$ and $$0^{\circ} <\alpha<90^{\circ} $$;(iii) Find the value of $$\theta$$ for which L =3.Answers:
+
+ID: 200804001010
+Content:
+A curve is such that $$\frac{\mathrm{d}y}{\mathrm{d} x} = 6/(2x-1)^2$$ and P(2,9) is a point on the curve. The normal to the curve at P meets the y-axis at Q and the x-axis at R$;(i) Find the coordinates of the mid-point of QR.;(ii) Find the equation of the curve.;A point (x,y) moves along the curve in such a way that the x-coordinate increases at a constant rate of 0.03 units per second.;(iii) Find the rate of change of the y coordinate as the point passes through P.Answers:
+
+ID: 200804001011
+Content:
+img;The diagram shows two circles  $$C_1$$  and  $$C_2$$ . Circle  $$C_1$$  has its centre at the origin  O . Circle  $$C_2$$  passes through  O  and has its centre at  Q . The point P(8,-6) lies on both circles and  OP  is a diameter of  $$C_2$$ .;(i) Find the equation of  $$C_1$$ .;(ii) Find the equation of  $$C_2$$ .;The line through  Q  perpendicular to  OP  meets the circle  $$C_1$$  at the point  A  and  B .;(iii) Show that the x-coordinates of  A  and  B  are  $$a + b \sqrt3$$  and  $$a - b \sqrt3$$  respectively, where  a  and  b  are integers to be found.Answers:
+

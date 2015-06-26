@@ -1,0 +1,292 @@
+ID: 199501001005
+Content:
+Prove the identity \[\left ( \cot A - \tan A \right )\cos A -=\csc A - 2\sin A\].Answers:
+
+ID: 199501001015
+Content:
+Find all the angles between \[0^{\circ}\]and \[360^{\circ}\] which satisfy the equation;;i) \[10 \sin x \cos x = \cos x\] ;;ii) \[5\tan ^{2y}=5\tan y+3\sec ^{2y}\];;iii)	\[\sec \left ( \frac{1}{2z}+107^\circ  \right )=-2\];(Note: Please enter the answers in ascending order)Answers:
+
+ID: 199502001005
+Content:
+(a) Given that \[\frac{\left ( \cos \left (A-B  \right ) \right )}{\left ( \cos \left ( A+B \right ) \right )}= \frac{7}{3}\] evaluate \[\tan A\tan B\];img;(b)In the diagram OP = 12 cm, OQ = 5 cm and \[\angle OBP=90^{\circ}\];The angles OPB and AOQ are each equal to \[\theta\] where \[\theta\] is a variable and ;\[0^{\circ}< \theta < 90^{\circ}\];(i)Obtain the values of R and \[\alpha\] for which \[AB = R\sin \left ( \theta -\alpha  \right )\] Hence find;(ii)The value of \[\theta\] for which AB = 3 cm,;(iii)The range of values of \[\theta \]  for which A is between O and BAnswers:
+
+ID: 199503001002
+Content:
+Prove the identity \[\frac{1}{\left ( \tan A+\cot A \right )}-=\sin A\cos A\]Answers:
+
+ID: 199503001014
+Content:
+Find all the angles from \[0^{\circ}\] to \[360^{\circ}\]  inclusive which satisfy the equation ;(a) \[\tan(x-30^{\circ})-\tan50^{\circ}=0\] ;(b) \[3 \sin y + \tan y = 0\];(c) \[2\sin^4z+7\cos^2z=4\];(Note: Please enter the answers in ascending order)Answers:
+
+ID: 199504001003
+Content:
+a) Express \[63\sin x+16\cos x\]in the form \[R\sin \left ( x+\alpha  \right )\] where R is positive and \[\alpha\] is acute.;Find ;i)	the acute angle x for which $$63\sin x+16\cos x =50$$;ii)	the obtuse angle x for which \[63\sin x+16\cos x=0\];b) By first expressing \[\cos 3x\]as \[\cos \left ( 2x+x \right )\]show that \[\cos 3x -=4\cos ^{3}x-3\cos x\]Hence find all the angles between \[0^{\circ}\]and \[360^{\circ}\]which satisfy the equation \[\cos 3x +\cos ^{2}x=0\];(Note: Please enter the answers in ascending order)Answers:
+
+ID: 199601001007
+Content:
+Show that \[(\csc x-1)(\csc x+1)(\sec x-1)(\sec x+1)-=1\]Answers:
+
+ID: 199601001011
+Content:
+Solve, giving all the solutions from \[0^{\circ}\]to \[360^{\circ}\];i) \[\tan3x=1\] ;ii) \[3\cos^2y=7\sin y+5\] ;iii) \[\cot(\frac{z}{2})-2\cos(\frac{z}{2})=0\];(Note: Please enter the answers in ascending order)Answers:
+
+ID: 199601001018
+Content:
+a) Sketch, on the same diagram, for \[0< x< 2.5\] the graphs of \[y=\cos \pi x\] and \[y=\frac{2}{5}x\] ;Hence state the number of roots of the equation \[5\cos \pi x = 2x\] which are ;i) between 0 and 2.5,;ii) greater than 2.5;b) Tabulate the values of f(x) from x = 0 to x = 2, at intervals of 0.5, where \[f:x|->\sin (\frac{(\pi x)}{4})\] ;Hence plot on graph paper, using the same axes for both curves and using the same scale for x-axis and y-axis, the graph of;i) y = f(x) for \[0\leq x\leq 2\] ;ii) \[y = f^{-1}(x)\] for \[0\leq x\leq 1\] ;Given that the area of the region bounded by y=f(x), the x-axis and the line x = 2 is \[\frac{4}{\pi}\] find the area of the region bounded by the curve \[y=f^{-1}(x)\] the x-axis and the line x = 1.Answers:
+
+ID: 199602001005
+Content:
+img;The diagram shows two perpendicular lines, AC and BD, where AD =5cm, BC = 12cm and \[\angle DAE = \angle EBC = \theta\] where \[\theta\]  varies.;i)Explain why \[BD= 5\sin \theta + 12\cos \theta\] ;ii) Express BD in the form \[R\sin(\theta + \alpha)\] stating the value of R and of \[\alpha\]  and hence find the value of \[\theta\]   for which BD = 8cm. ;iii) Show that the area of the quadrilateral ABCD is \[\frac{(169\sin 2\theta + 120)}{4}\];iv) Find the maximum area of ABCD as \[\theta\]   varies and state the corresponding value of \[\theta\]  Answers:
+
+ID: 199603001010
+Content:
+Sketch, on the same diagram, the graphs of \[y=\tan x\] and \[y=\cos x\] for values of x \[0^{\circ}\] to \[360^{\circ}\] ;Hence state ;i) the number of roots of the equation \[\tan x = \cos x\] in the range \[0^{\circ}\] to \[360^{\circ}\] ;ii) the range of values of x, between \[0^{\circ}\] to \[270^{\circ}\] for which \[\tan x\]  and \[\cos x\]  are increasing as x increases.Answers:
+
+ID: 199603001013
+Content:
+(a)	Find all the values between \[0^{\circ}\] and \[360^{\circ}\] which satisfy the equation;(i)	\[2 \cot 2x = 5\];(ii)	\[3 \sin y \tan y + 8 = 0\];(Note: Please enter the answers in ascending order);(b)	Show that \[\frac{(2-\csc^{2}A)}{(\csc^{2}A+2\cot A)} -= \frac{(\sin A-\cos A)}{(\sin A+\cos A)}\]Answers:
+
+ID: 199604001007
+Content:
+img;ABCD is a rectangle. A line through B, at an angle \[\theta \] to BC, intersects AD at F and CD produced at E, where BF = 8 cm and FE = 7 cm,;i) Show that the length P cm, of the perimeter of ABCD is given by \[P=16\sin \theta +30\cos \theta \];ii) Express P in the form \[P=R\sin(\theta+\alpha)\] and evaluate R and \[\theta \];Given that \[\theta \] varies,;iii) state the maximum value of P and the corresponding  value of \[\theta \] ;iv) find the value of \[\theta \] or which P = 20.;b) Given that \[\cos A = p\];find an expression, in terms of p, for;i) \[\tan^2A\];ii) \[\cos^2A\];iii) \[\cos^3A\]Answers:
+
+ID: 199701001003
+Content:
+Prove the identity \[\frac{(1+\cos A)}{(1-\cos A)}-\frac{(1-\cos A)}{(1+\cos A)}-=4\cot A \csc A\] Answers:
+
+ID: 199701001013
+Content:
+Find all the angles between \[0^{\circ}\] and \[360^{\circ}\]which satisfy the equation;(a) \[5\cos^2x-8\sin x\cos x=0\] ;(b) \[5\tan^2y+7=11\sec y\];(c) \[1+2\sin(\frac{3z}{2}+75^{\circ})=0^{\circ}\];(Note: Please enter your answers in ascending order)Answers:
+
+ID: 199702001003
+Content:
+(a)	By first expressing \[3 \cos x-2 \sin x\] in the form \[R\cos(x+\alpha)\] find all the angles between \[0^{\circ}\] and \[360^{\circ}\] which satisfy the equation \[3 \cos x-2 \sin x + 1 = 0\];(Note: Please enter the answers in ascending order);(b)	A curve has the equation \[y = 5(1- \cos 2x)\] and is defined for \[0\leq x\leq \frac{\pi}{2}\] radians. Find;(i)	the value of y when x = 1,;(ii)	the value of x when y = 3,;(iii)	the gradient of the curve when \[x=\frac{\pi }{4}\];(c) Given that \[\tan A = 2 \tan B\], show that \[\tan(A-B)=\frac{(\sin 2B)}{(3-\cos 2B)}\]Answers:
+
+ID: 199703001014
+Content:
+Find all the angles, between \[0^{\circ}\]  and \[360^{\circ}\]  which satisfy the equation;(a) \[16\sin x-8\sin^2x=5\cos^2x\] ;(b) \[4\sin y\cos y-3\cos^2y=0\]; (c) \[\sec(\frac{(3z)}{2}-18^{\circ})+2=0\]; (Note: Please enter your answers in ascending order)Answers:
+
+ID: 199704001005
+Content:
+a) Find all angles between \[0^{\circ}\]  and \[360^{\circ}\]   which satisfy the equation;i) \[2\cos2x=4\sin x+3\];ii) \[\sin(y+30^{\circ})=3\cos y\];b) Express \[3\cos x-4\sin x\] in the form \[R\cos(x+\alpha)\] where R is a positive constant and \[\alpha\] is a positive acute angle measured in radians.;A curve has the equation \[y=3\cos x-4\sin x\] For \[0\leq x\leq \pi \];Find the coordinates of ;i) the point on the curve at which y = 1,;ii) the stationary point of the curve.Answers:
+
+ID: 199801001008
+Content:
+Show that \[\frac{1}{(1+\sin\theta)}+\frac{1}{(1-\sin\theta)}-=2\sec^2\theta\]Answers:
+
+ID: 199801001012
+Content:
+(a)	Solve, giving all the solutions from \[0^{\circ}\]  and \[360^{\circ}\]   ; i)	\[2 \sin x + 3 \cos x = 0\] ;(ii) \[2\tan^2y=5\sec y+1\];(b)	Find all the values of z, between 0 and 10, for which \[2\sin(\frac{(\pi z)}{4})=1\] where \[\frac{(\pi z)}{4}\]  is in radians.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 199802001004
+Content:
+(a)Find all the angles between \[0^{\circ}\]  and \[360^{\circ}\]   which satisfy the equation.;(i)\[3 \cos x - 2 \sin x = 1\];(ii) \[5 \sin y = \sec y\];img;(b)The diagram shows a right-angled triangle ABC in which AB = h m and BC = 6 m. The point D lies on BC so that BD = 1 m and DC = 5 m. The \[\angle CAD = 45^{\circ}\] and the \[\angle BAD = \theta \] ;By using the expansion of \[\tan(\theta+45^{\circ})\] or otherwise, find the possible values of h;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 199803001008
+Content:
+Given that \[\sin\beta=p\] where \[\beta\] is an acute angle measured in degrees, obtain an expression, in terms of p, for;(a) \[\tan\beta\];(b) \[\sin(90^{\circ}-\beta)\];(c) \[\sin(180^{\circ}+\beta)\]Answers:
+
+ID: 199803001009
+Content:
+Prove the identity \[(1+\csc \theta)(1-\sin\theta)-=\cos\theta\cot\theta\]Answers:
+
+ID: 199803001012
+Content:
+(a)	Find all the angles between \[0^{\circ}\]  and \[360^{\circ}\]   which satisfy the equation;(i)	\[2 \sin 2x + 1 = 0\];(ii)	\[\sec y(1 + \tan y) = 6 \csc y\]; (b)	Find all the values of t between 0 and 10, for which \[\cos(\frac{\pi t}{5})=0.6\] where \[\frac{\pi t}{5}\]is measured in radians.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 199804001004
+Content:
+a) Solve, for \[0^{\circ}\leq \theta\leq 360^{\circ}\] \[\cos2\theta=\cos\theta\] ;b)Express \[4\sin x - 2\cos x\] in the form of \[R\sin(x - \alpha)\] where R is a positive constant and \[\alpha\] is a positive acute angle measured in radians. ;Hence find the x- coordinates, between 0 and \[2\pi\] of the points of intersection of the curves whose equations are \[y = 4\sin x\] and \[y = 2\cos x + 1\];c) Given that \[\frac{(\cos(A-B))}{(\cos(A+B))}=\frac{-9}{7}\] find the value of \[\tan A\tan B\] (Note: Please enter your answers in ascending order)Answers:
+
+ID: 199804001010
+Content:
+a) The parametric equations of a curve are \[x=3\sin\alpha+\cos\alpha\] \[y=\sin\alpha-2\cos\alpha\];Express each of \[\sin\alpha and \cos\alpha\] in terms of x and y. Hence obtain the equation of the curve.;b) The Cartesian equation of the curve is \[(y-3)^2=1+x^2\];Given that x may be defined parametrically by \[x=\cot \theta \]and that y = 1 when \[\theta=\frac{\pi }{6}\] express y in terms of \[\csc \theta\]Answers:
+
+ID: 199901001007
+Content:
+Show that \[\frac{1}{(\sec\theta+1)}+\frac{1}{(\sec\theta-1)}-=2\csc\theta\cot\theta\]Answers:
+
+ID: 199901001014
+Content:
+Find all the angles between \[0^{\circ}\]  and  \[360^{\circ}\]   which satisfy;(a) \[\sin(2x-30^{\circ})=\cos30^{\circ}\];(b) \[3\sin y\cos y=2\cos^2y\];(c) \[2\tan^2z+11\sec z+7=0\](Note: Please enter your answers in ascending order)Answers:
+
+ID: 199902001004
+Content:
+(a) Given that \[\cos A = p\] find \[\tan^2A\] in terms of p.;(b)	Express \[5\sin\theta+6\cos\theta\] in the form \[R\sin(\theta + \alpha)\] where R is positive and \[\alpha\] is acute. Hence;(i) find the value of \[\theta\] between \[0^{\circ}\] and \[90^{\circ}\] for which \[5\sin\theta+6\cos\theta\] is a maximum,;(ii)	solve the equation \[5\sin\theta+6\cos\theta=4\]  \[0^{\circ}\leq \theta\leq 360^{\circ}\]; c) Find, in terms of h, an expression for;(i) \[\tan A\];(ii) \[\tan B\]; where A, B and h are as shown in the diagram;img; Hence obtain, in terms of h, an expression for \[\tan (B-A)\] Given that \[B-A=45^{\circ}\] find the two possible values of h.(Note: Please enter your answer in ascending order)Answers:
+
+ID: 199903001006
+Content:
+Show that \[(\tan\theta+\sin\theta)(\tan\theta-\sin\theta)-=\tan^2\theta\sin^2\theta\] Answers:
+
+ID: 199903001014
+Content:
+(a) Find all the angles, between \[0^{\circ}\] and \[360^{\circ}\] which satisfy ;(i) \[4\sin^2x=6-9\cos x\];(ii) \[3 \cos y + \cot y = 0\];(b) Find, to two decimal places, the values of z between 0 and 3 for which \[\tan(2z -1) = 0.6\] (Note: Please enter your answers in ascending order)Answers:
+
+ID: 199904001005
+Content:
+a) Show that \[4 \sin A\cos^3A-4\cos Asin^3A-=\sin4A\] ;img;b) The trapezium ABCD is right angled at A and at D, and AB is parallel to DC. The acute \[\angle ABC=0^{\circ}\]  AB = 10 cm and BC = 15 cm.;i) Express AD and DC in terms of \[\theta \].;ii) Find the value of \[\theta\] for which the perimeter is 45 cm.;c) Given that \[\frac{\sin(A-B)}{(\sin(A+B))}=2\], find the value of \[\tan A\cot B\]Answers:
+
+ID: 200001001009
+Content:
+Show that \[(1-\sin A+\cos A)^2-=2(1-\sin A)(1+\cos A)\]Answers:
+
+ID: 200001001012
+Content:
+(a) Find all the angles between \[0^{\circ}\] and \[360^{\circ}\] which satisfy the equation;(i)	\[8 \sin x \cos x = \sin x\];(ii) \[5\tan^2y+5\tan y=2\sec^2y\];(b)	Find the value of z between 0 and \[2\pi\] for which \[\sin(\frac{z}{3}+5)=\frac{1}{2}\];(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200002001005
+Content:
+img;The diagram shows two perpendicular lines, OA and AB, of length 5 cm and 2 cm respectively. The line BN is perpendicular to ON. The line OA is inclined to an angle \[\theta\] to ON.;(a)Show that \[ON=5\cos\theta + 2\sin\theta\];(b)	Find the value of R and of \[\alpha\] for which \[ON=R\cos(\theta-\alpha)\];(c)	Find the particular value of \[\theta\] for which ON = 3 cm.;(d) State which line in the diagram has a length of R cm and which angle in the diagram has a value of \[\alpha\];(e)	Express BN in terms of R and \[(\theta-\alpha)\];(f) Show that the area of triangle OBN is \[\frac{(29\sin 2(\theta-\alpha))}{4}cm^2\];(g) Given that \[\theta\] can vary, find the maximum value of the area of triangle OBN and the corresponding value of \[\theta\]Answers:
+
+ID: 200003001009
+Content:
+Find the value of each of the constants a and b for which \[\sin x\cos x(5\tan x+2\cot x)-=a+b\sin^2x\]Answers:
+
+ID: 200003001012
+Content:
+(a)	Find all the angles, between \[0^{\circ}\]and \[360^{\circ}\] which satisfy the equation;(i) \[2\cos^2x=3\sin x\];(ii) \[2 \tan y = 5 \sin y\];(b)	Find, in radians, correct to 2 decimal places, the values of t between 0 and 3 for which \[\tan 3t = 2\] (Note: Please enter your answers in ascending order)Answers:
+
+ID: 200101001003
+Content:
+Given that \[2\sin A\cos A+(\cos A+\sin A)^2-(2\cos A+\sin A)^2-=p \sin^2A+q\] find the value of the constant p and of the constant q.Answers:
+
+ID: 200101001016
+Content:
+(a) Find all the angles between \[0^{\circ}\] and \[360^{\circ}\]for which;(i) \[3 \cos x -6 \sec x = 7\],;(ii)  \[(\tan y+1)^2=\sec^2y-3\];(b) Find all the values of z between 0 and 8 for which \[16\sin(\frac{z}{2}-1)=15\];(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200102001007
+Content:
+img;The figure shows part of the curve \[y = 3 \sin x + 2 \cos x \] for \[0\leq x\leq \pi\] The points P and Q on the curve are such that y is a maximum at P and Q has coordinates (k, 1).;i) Express \[3 \sin x + 2 \cos x  \] in the form \[R\sin(x + \alpha)\]where \[R > 0 \]and \[0\leq \alpha\leq \frac{\pi }{2}\];ii) Find the coordinates of P.;iii) Find the value of k.;b) A curve has equation \[y=8\sin x\cos^3x\];Find an expression for \[\frac{\mathrm{d} y}{\mathrm{d} x}\] and hence find the coordinates of the stationary point in the interval \[0< x<\frac{\pi }{2}\] radians.Answers:
+
+ID: 200103001004
+Content:
+Prove that  \[\cot A+ \tan A-=\sec A\csc A\]Answers:
+
+ID: 200103001011
+Content:
+(a) Find all the angles between  \[0^{\circ}\] and \[360^{\circ}\]  which satisfy;(i) \[8\sin^2x=7-2\cos x\];(ii) \[4\sin(\frac{1}{2})y \cos y=3\cos y\];(b)	Find the values of z between 0 and 3 for which \[\tan(2z - 0.2) = 1.2\];(Note:Please enter your answers in ascending order)Answers:
+
+ID: 200104001005
+Content:
+a) Find all the angles from $$0 ^{\circ}$$ to $$180 ^{\circ}$$ inclusive, which satisfy the equation;i) $$\tan 2x=3\tan x$$;ii) $$3+10\sin y\cos y=0$$;b)i) Express $$4\cos\theta-3\sin\theta$$ in the form $$R\cos(\theta+\alpha)$$ where $$0<\alpha<\frac{\pi}{28} $$;ii) Find, in radians, the value of $$\theta$$, where $$0<\theta<\pi$$ for which $$4cos\theta-3\sin\theta=2$$;c) Given that \sin(A + B) = 2 \sin(A - B), express tan A in terms of tan B .;(Note:Please enter your answers in ascending order)Answers:
+
+ID: 200201001005
+Content:
+(a)	Sketch, on the same diagram and for $$0 \leq x \leq 2\pi$$, the graphs of $$y= \frac{1}{4}+\sin x$$ and $$y= \frac{1}{2}\cos 2x$$;(b)	The x-coordinates of the points of intersection of the two graphs referred to in part (a) satisfy the equation $$2 \cos  2x-k \sin  x = 1$$. Find the value of k.Answers:
+
+ID: 200203001001
+Content:
+Solve, for $$0 0^{\circ}\leq\theta\leq360 0^{\circ}$$, the equation $$4\sin \theta+3\cos \theta=0$$;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200301001007
+Content:
+The function f is defined, for $$0^{\circ}\leq(x)\leq360^{\circ}$$, by $$f(x) = 4 - \cos 2x$$.;(a)	State the amplitude and period of f.;(b)	Sketch the graph of f, stating the coordinates of the maximum points.Answers:
+
+ID: 200302001008
+Content:
+(a)	Find all the angles between $$0^{\circ}$$ and $$360^{\circ}$$ which satisfy the equation $$3(\sin  x-\cos  x) = 2(\sin  x + \cos  x)$$.;(b)	Find all the angles between 0 and 3 radians which satisfy the equation $$1+3\cos ^2y=4\sin y$$;(Note:Please enter your answers in ascending order)Answers:
+
+ID: 200303001009
+Content:
+(a)	Solve, for $$0^{\circ}\leq x\leq 360^{\circ}$$, the equation $$4\tan ^2x+8secx=1$$;(b) Given that y < 4, find the largest value of y such that $$5 \tan (2y + 1) = 16$$;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200304001002
+Content:
+Show that $$\cos\theta\frac{1}{(1-\sin \theta)}-\frac{1}{(1+\sin \theta)}$$ can be written in the form $$k \tan \theta$$ and find the value of k.Answers:
+
+ID: 200403001006
+Content:
+The function f is defined, for $$0< x<\pi$$, by $$f(x) = 5 + 3 \cos  4x$$ Find;(i)	the amplitude and the period of f,;(ii)	the coordinates of the maximum and minimum points of the curve y = f(x).Answers:
+
+ID: 200403001009
+Content:
+(a)	Solve, for $$0^{\circ}\leq\theta\leq360^{\circ}$$, the equation $$\sin ^2x=3\cos ^2x+4\sin x$$;(b)	Solve, for 0 < y < 4, the equation $$\cot (2y)=0.25$$, giving your answers in radians correct to 2 decimal places.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200404001006
+Content:
+Given that $$x=3\sin \theta - 2\cos  \theta$$ and $$y=3\cos  \theta + 2\sin  \theta$$;(i)	find the value of the acute angle $$\theta$$ for which x = y,;(ii)	show that $$x^2+y^2$$ is constant for all values of $$\theta$$Answers:
+
+ID: 200503001009
+Content:
+(a) Find all the angles between $$0^{\circ}$$ and $$360^{\circ}$$ which satisfy the equation 3 cos  x = 8 tan  x.;(b)	Given that, $$4\leq y\leq6$$, find the value of y for which $$2\cos (\frac{2y}{3})+\sqrt3=0$$;(Note; Please enter your answer in ascending order)Answers:
+
+ID: 200504001004
+Content:
+The function f is given by $$f: x \mapsto 2+5\sin 3x$$ for $$0 ^{\circ}\leq x\leq180 ^{\circ}$$.;(i) State the amplitude and period of f.;(ii)	Sketch the graph of y=f(x).Answers:
+
+ID: 200603001002
+Content:
+img;The diagram shows part of the graph of y=a sin (bx)+c.;State the value of;(i)	a,;(ii)	b,;(iii)	c.Answers:
+
+ID: 200603001011
+Content:
+a)	Solve, for $$0^{\circ}\leq x\leq360^{\circ}$$, the equation $$2 \cot x =1 + \tan  x$$;b)	Given that y is measured in radians, find the two smallest positive values of y such that $$6 \sin  (2y + 1) + 5 = 0$$;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200604001002
+Content:
+Prove the identity $$\cos x\cot x+\sin x-=\csc x$$Answers:
+
+ID: 200703001009
+Content:
+The function $$f:x \mapsto 2\cos (3x)$$ is defined for $$0\leq x\leq \pi$$.;(i) State the period of f.;(ii) State the amplitude of f.;(iii) Sketch the graph of y=f(x).;(iv) On the diagram drawn in part (iii), sketch the graph of $$y=1-\frac{(2x)}{\pi}$$ for $$0\leq x\leq \pi$$.;(v) State the number of solutions, for $$0\leq x\leq\pi$$, of the equation $$2\pi \cos (3x)+2x=\pi$$.Answers:
+
+ID: 200704001001
+Content:
+Prove the identity $$\frac{1}{(1+\tan ^2(A))}=(1+\sin (A))(1-\sin (A))$$Answers:
+
+ID: 200704001009
+Content:
+(a) Solve the equation $$2\cos ^2(x)+5\sin (x)+1=0$$ for $$0^{\circ}\leq x\leq360^{\circ}$$.;(b)	Solve the equation $$\tan (y)(1+\cot (y))+2=0$$ for $$0\leq y\leq2\pi$$ radians.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200803001001
+Content:
+img;The diagram shows a triangle ABC in which AB = 4cm, BC = 2cm and angle $$ \angle ABC=120^{\circ}$$. The line CB is extended to the point X where angle $$ \angle AXB=90^{\circ}$$. ;(i) Find the exact length of AX.;(ii) Show that the angle $$ \angle ABC= \tan^{-1}(\frac{\sqrt{3}}{2})$$.Answers:
+
+ID: 200803001008
+Content:
+i)Show that $$\sin 3x + \sin  x = 4 \sin  x \cos ^2 x$$.;ii) Find all the angles between 0 and $$\pi$$ which satisfy the equation $$\sin  3x + \sin  x = 2 \cos ^2x$$; (Note: Please enter your answers in ascending order)Answers:
+
+ID: 200804001003
+Content:
+i)Prove the identity $$\tan A +cot A = 2 \csc 2A$$.;ii) Find all the angles between $$0^{\circ} $$ and $$360^{\circ} $$ which satisfy the equation $$\tan A + \cot A = 3$$.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200804001007
+Content:
+The function f is defined by $$f(x) = 4\cos  2x -2$$;(i) State the amplitude of f.;(ii) State the period of f.;The equation of a curve is $$y = 4\cos 2x-2$$ for $$0^{\circ} \leq x \leq 180^{\circ} $$.;(iii) Find the coordinates of the minimum point of the curve.;(iv) Find the coordinates of the points where the curve meets the x-axis.;(v) Sketch the graph of $$y = 4\cos 2x-2$$ for $$0^{\circ}  \leq x \leq 180^{\circ} $$.;(vi) Sketch the graph of $$y =|4\cos 2x-2|$$ for $$0^{\circ}  \leq x \leq 180^{\circ} $$.Answers:
+
+ID: 200804001009
+Content:
+img;The diagram shows a straight road OP. A runner leaves the road at O and runs 4km in a straight line to a point A. She then turns through $$90^{\circ} $$ and runs 2km in a straight line to a point B. The angle POA is $$\theta^{\circ} $$, where $$0\leq \theta \leq 90$$, and the perpendicular distance of B from the road OP is L km.;(i) Show that $$L = 4 \sin  \theta - 2\cos  \theta$$.;(ii) Express L in the form $$R \sin (\theta - \alpha)$$, where $$R>0$$ and $$0^{\circ} <\alpha<90^{\circ} $$;(iii) Find the value of $$\theta$$ for which L =3.Answers:
+
+ID: 200903001008
+Content:
+i)Show that $$\cos  3x -\cos  x = -4\sin ^2x \cos  x$$.;ii)Hence, or otherwise, solve, for $$0 \leq x \leq \pi$$ radians, the equation $$\cos 3x + 2\cos x =0$$.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 200903001009
+Content:
+The function f is defined, for $$x \geq 0^{\circ}$$, by $$f(x)=3\sin (\frac{x}{3}) -1$$.;(i) State the maximum and minimum values of f(x).;(ii) State the amplitude of f.;(iii) State the period of f.;(iv) Find the smallest value of x such that f(x) =0.;(v) Sketch the graph of $$y = 3\sin (\frac{x}{3}) -1$$ for $$0^{\circ} \leq x\leq 540^{\circ}$$.Answers:
+
+ID: 200904001001
+Content:
+A and B are acute angles that $$\sin  (A-B) = \frac{3}{8}$$ and $$\sin A\cos B = \frac{5}{8}$$. Without using a calculator, find the value of ;(i) $$\cos A\sin B$$;(ii) $$\sin (A+B)$$,;(iii) $$\frac{\tan A}{\tan B}$$.Answers:
+
+ID: 200904001006
+Content:
+img;The diagram shows part of the curve $$y=1+2\cos x$$, meeting the  x-axis at the point A and B .;(i) Show that the x-coordinate of A is $$\frac{2\pi }{3} $$ and find the x-coordinate of B .;(ii) Find the total area of the shaded regions.Answers:
+
+ID: 201003001002
+Content:
+(i)Show that $$(\sin  x+ \cos  x)^2 = 1+\sin 2x$$.;(ii) Hence find, in terms of $$\pi$$, the value of $$\int_0^{( \frac{\pi }{2})} (\sin  x+\cos x)^2 dx$$.Answers:
+
+ID: 201003001010
+Content:
+Without using a calculator, show that;(i) $$\tan  75^{\circ} = 2+ \sqrt{3}$$;(ii) $$sec^2 75^{\circ} =4 \tan  75^{\circ}$$.Answers:
+
+ID: 201004001001
+Content:
+Solve the equation $$3\cot^2 \theta + 10 \csc \theta =5$$ for $$0^{\circ} \leq \theta \leq 360^{\circ}$$.;(Note: Please enter your answers in ascending order)Answers:
+
+ID: 201004001011
+Content:
+The diagram shows the curves $$y=4\cos x$$ and $$y=2+3\sin x$$ for $$0\leq x\leq2 \pi$$ radians. The points A and B are turning points on the curve $$y=2+3\sin x$$ and the point C is a turning point on the curve $$y=4\cos x$$. The curves intersects at the point D and E.;(i) Write down the coordinates of A, B and C.;(ii) Express the equation $$4\cos x =2+3\sin x$$ in the form $$\cos (x+ \alpha) =k$$, where $$\alpha$$ and k are constants to be found.;(iii) Hence find, in radians, the x-coordinate of D and of E.Answers:
+

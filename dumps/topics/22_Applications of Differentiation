@@ -1,0 +1,69 @@
+ID: 199803003016
+Content:
+The equation of a curve C is $$x^3 + xy + 2 y^3 = k$$, where $$k$$ is a constant. Find  $$\frac{dy}{dx}$$ in terms of $$x$$ and $$y$$. It is given that C has a tangent which is parallel to the y-axis. ;Show that the y-coordinate of the point of contact of the tangent with C must satisfy $$216 y^6 + 4 y^3 + k = 0$$. Hence show that  $$k \leq \frac{1}{54}$$. Find the possible values of k in the case where the line x = -6 is a tangent to C. It is given instead that C has a tangent which is parallel to the x-axis. Show that $$k \leq \frac{1}{54}$$ in this case also. Answers:
+108: \frac{dy}{dx} = "-(\frac{3x^2 + y}{x+6y^2})".
+109: 
+110: 
+111: Possible values of k are "-212" and " -220".
+112: 
+
+ID: 199903003008
+Content:
+The equation of a curve is \[2x^2 - 8xy + 5y^2 = -3\]. Find the equations of the two tangents which are parallel to the x-axis.Answers:
+173: Equations of the two tangents are y = "-1" and y = "1".
+
+ID: 199904003013
+Content:
+img;It is given that the graph of y = f(x), where \[f(x) = 2 - \frac {1}{(x-1)^2}\], is as shown above. State the equations of the asymptotes. Copy the above diagram and, by sketching another graph on the same diagram, state the number of real roots of the equation 3x = f(x). Taking x = 0.2 as a first approximation, use the Newton-Raphson method once to obtain a second approximation to a root of the equation 3x = f(x), giving your answer correct to 2 significant figures. By sketching appropriate graphs, state the number of real roots of the equation 3|x| = |f(x)|. Use linear interpolation once, on the interval [-1, 0], to obtain an approximation to a root of the equation 3|x| = |f(x)|.Answers:
+233: Equations of the asymptotes are x = "1" and y = "2".
+234: "1" real roots of the equation 3x = f(x).
+235: Second approximation to a root of the equation 3x = f(x) is "0.18".
+236: "4" real roots of the equation 3|x| = |f(x)|.
+237: An approximation to a root of the equation 3|x| = |f(x)| is "-0.444".
+
+ID: 200103003002
+Content:
+Find the equation of the tangent to the curve  $$y = e^x $$ at the point where x = a. Hence find the equation of the tangent to the curve  $$y = e^x $$ which passes through the origin. The straight line $$y = mx$$ intersects the curve  $$y = e^x $$ in two distinct points. Write down an inequality for m. Answers:
+331: Equation of the tangent to the curve y=e^{x} is y = "e^{a}(x-a+1)".
+332: Equation of the tangent to the curve y=e^{x}, passing through the origin is y = "ex".
+333: Inequality of m > "e".
+
+ID: 200203003010
+Content:
+A curve is defined by the parametric equations  $$x = t^2 $$,  $$y = t^3 $$. Prove that the equation of the tangent at the point with parameter t is  $$2y - 3tx + t^3  = 0$$. ;(i) This tangent passes through a fixed point (X, Y). Give a brief argument to show that there cannot be more than 3 tangents passing through (X, Y). ;(ii) The tangent at the point where t = 2 meets the curve again at the point where t = u. Find the value of u. Answers:
+433: 
+434: The tangent is a "cubic" equation in the parameter t.
+435: ii) u = "-1".
+
+ID: 200204003003
+Content:
+(i) Find the coordinates of the stationary points on the curve  $$y = x^4  - 4x^3  + 27$$.;(ii) Determine the nature of each of these stationary points.;(iii) Sketch the curve. Answers:
+454: Coordinates of the stationary point are (1)("0","27") and (2)("3","0").
+455: Nature of each of these stationary points are "point of inflexion" (point of inflexion/minimum point/ maximum point) for point(1) and "minimum point" (point of inflexion/minimum point/ maximum point) for point(2).
+456: None
+
+ID: 200303003013
+Content:
+The equation of a curve C is \[y = 1 + \frac{6}{x - 3} - \frac{24}{x + 3}\]. ;(i) Write down the equations of the asymptotes.;(ii) Find the coordinates of the points where C meets the axes.;(iii) Find the coordinates of the stationary points of C and determine whether each is a maximum or a minimum point.;(iv)Sketch C.Answers:
+508: Equations of the asympotes x = "3" and "-3", y = "1".
+509: Coordinates of the points where X meets the axes are ("0","-9") and ("9","0").
+510: Coordinates of the stationary points of C are (1)("1","-8") and (2)("9","0").
+511: Nature of each of these stationary points are "maximum point" (point of inflexion/minimum point/ maximum point) for point(1) and " minimum point" (point of inflexion/minimum point/ maximum point) for point(2).
+512: None
+
+ID: 200403003014
+Content:
+Find the x-coordinates of all the stationary points on the curve  $$y = \frac{x^3}{(x + 1 )^2} $$ stating, with reasons, the nature of each point. Answers:
+573: x-coordinates of the stationary points of y are (1)"-3" and (2)"0".
+574: Nature of each point "maximum point" (point of inflexion/minimum point/ maximum point) for point(1) and " point of inflexion" (point of inflexion/minimum point/ maximum point) for point(2).
+
+ID: 200503003009
+Content:
+The line $$y = x - 3$$ intersects the curve $$y^2 + y = 2 x^2 - x + 1$$  at two points. Prove that the line is the normal to the curve at exactly one of these points.Answers:
+624: 
+
+ID: 200603003008
+Content:
+Find the coordinates of the points on the curve $$3x^{2}+xy+y^{2}=33$$ at which the tangent is parallel to the x-axis. Answers:
+689: Coordinates are ("-1","6") and ("1","-6").
+

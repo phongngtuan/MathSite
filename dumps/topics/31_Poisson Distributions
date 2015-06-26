@@ -1,0 +1,51 @@
+ID: 199503001016
+Content:
+(a) The vector \[\vec{OA}\] has magnitude 100 and has the same direction as \[\binom{7}{24}\] Express \[\vec{OA}\]  as a column vector. The vector \[\vec{OB}\] is \[\binom{24}{99}\] Obtain the unit vector in the direction of \[\vec{AB}\];(Note:Please enter your answers in the form of coordinates);img;(b) In the figure shown the position vectors of A and B with respect to O are a and b respectively. The points P and Q are such that \[\vec{AB}=5\vec{AP}\] and \[\vec{OQ}=2\vec{OP}\] Express \[\vec{OP}\] and \[\vec{BQ}\]  in terms of a and b .;Given that\[\vec{OR}=\lambda a\] and \[\vec{BR}=\mu \vec{BQ}\], express in terms of \[\vec{BR}\];(i)\[\lambda, a, b\] ;(ii) \[\mu, a, b\];and hence evaluate \[\mu\] and \[\lambda \] Answers:
+
+ID: 199704003008
+Content:
+a) 1.8 and the corresponding figure for 'Xanadu' sets is 2.7. Sales take place independently at random times.;(i) Find the probability that exactly 2 'Kubla' sets are sold in a given week.;(ii) Find the probability that exactly 4 'Kubla' sets are sold in a given two-week period.;(iii) Find the probability that total number of television sets sold in a given week is at least 4.;;b) The random variable X has a Poisson distribution with mean $$\lambda$$. Denoting  by $$P(X = r)$$ by $$P_r$$ show that $$\frac{P_r + 1}{P_r} = \frac{\lambda}{r+1}$$, deduce that $$P_r + 1 > P_r$$ when  $$r < \lambda + 1$$. Deduce the values of r for which $$p_r$$ is greatest in the cases;(i)  $$\lambda = 12.3$$;(ii) $$\lambda = 15$$Answers:
+50: P(K=2) = "0.258".
+51: P(K_2=4) ="0.191".
+52: P(Y \ge 4) = "0.658".
+53: 
+54: 
+55: When \lambda > 12.3, p_r is greatest when r = "12".
+56: When \lambda = 15, p_r is greatest when r = "14".
+
+ID: 199704003009
+Content:
+The random variable X has probability density function f given by $$F(x) = \frac{3}{32} ( 4-x^{2})  -2 \leq x \leq 2  F(x) = 0$$ otherwise Show that $$Var (x) = \frac{4}{5}$$ The random variable Y is defined by $$Y = aX + b$$, where a and b are positive constants. It is given that $$E(Y)=50$$ and $$Var(Y)=80$$. Find a and b. A random sample consists of 160 independent observations of Y. Find an approximate value for the probability that the sample mean lies between 49.0 and 50.5. Answers:
+57: 
+58: a = "10".
+59: b = "50".
+60: P(49.0 < \overline{Y} < 50.5) = "0.681".
+
+ID: 199904003009
+Content:
+A telephone enquiry service is so busy that only 80% of calls to it are successfully connected. It may be assumed that all calls are independent. Twelve calls are made at random to the service. Find the probability that at least 9 are successfully connected.   After improving the facilities, the management arranges for a random sample of 120 calls to be made to the service and it is found that 105 of these calls are successfully connected. Test, at the 4% significance level, whether the successful connection rate has improved.   A consumer association carries out its own test using a random sample of 150 calls and finds that the number of unsuccessful calls is 25. Using this sample, find an approximate 92% confidence interval for the proportion of calls that are unsuccessful.  Answers:
+221: P(no. of successful calls \geq 9) = "0.795".
+222: "reject" (Do not reject/Reject) H_0 and conclude that, at the 4% level of significance, there is " sufficient" (sufficient/insufficient) evidence that the successful connection rate has improved.
+223: The 92% confidence interval for q is ["0.113","0.220"].
+
+ID: 200304003030
+Content:
+A fruit grower produces a large number of peaches every day. A small proportion p of these peaches is infected. A check is carried out each day by taking a random sample of 60 peaches and examining them for infection. The number X of infected peaches in the sample may be assumed to have an approximate Poisson distribution. State the inequality satisfied by p. The probability that none of the 60 peaches is infected is 0.25. Use the Poisson distribution to show that the probability that at most 2 are infected is 0.837, correct to 3 decimal places. If exactly 3 are infected, a further random sample of 15 peaches is taken. The day's production is accepted as satisfactory in either of the following two cases: The number of infected peaches in the sample of 60 is at most 2  The number of infected peaches in the sample of 60 is 3, and the number of infected peaches in the sample of 15 is 0 or 1. Find the probability that the day' production is accepted as satisfactoryAnswers:
+546: p < "\frac{1}{12}".
+547: 
+548: P(production accepted as satisfactory) = "0.943".
+
+ID: 200404003024
+Content:
+The random variable X has a normal distribution with mean $$\mu$$  and variance $$\sigma^2$$. It is given that P(X<10) = P(X>20) = 0.330. Find $$\mu$$ and $$\sigma$$.  The mean of a random sample of 100 values of X is denoted by $$\overline{X}$$ . State the values of $$E(\overline{X})$$ and $$Var(\overline{X})$$. ;Give your answer correct to 3 significant figures. Answers:
+590: \sigma = "3.38".
+591: E(\overline{X}) = \mu = "15".
+592: Var(\overline{X}) = "0.114".
+
+ID: 200504003025
+Content:
+A machine produces ribbon in which flaws occur randomly at an average rate of one flaw in 100m. ;Find the probability that there are 3 or more flaws in a randomly chosen 200m length of ribbon. Give your answer correct to 3 decimal places.;Find the length of ribbon such that the probability that it contains no flaws is 0.001. Give your answer correct to 3 significant figures.;Using a suitable approximation, find the probability that there are fewer than 12 flaws in a randomly chosen 2000m of ribbon. Give your answer correct to 3 decimal places.Answers:
+660: P(X \geq 3) = "0.323".
+661: Length of ribbon, with 0.001 probability that it contains no flaws = "691".
+662: P(no. of flaws in 2000 m of ribbon <12) = "0.029".
+

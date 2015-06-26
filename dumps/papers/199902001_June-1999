@@ -1,0 +1,36 @@
+ID: 199902001001
+Content:
+(a) Find the remainder when \[2x^4+5x^2-7\] is divided by x + 3.;(b) Given that \[2x^3+5x^2-6x-5 =(Ax-3)(x+B)(x+1)+C\] for all values of x, find the value of each of A, B and C.;(c) The expression \[7x^2+35\] and \[44x-2x^3\] leave the same remainder when divided by x- p. Find;(i) the three possible values of p,(Note: Please enter the answers in ascending order);(ii) the largest of the three corresponding remaindersAnswers:
+
+ID: 199902001002
+Content:
+img;(a)	The table shows experimental values of two variables x and y.;It is known that x and y are related by an equation of the form \[y=ax+\frac{b}{\sqrt{x}}\] where a and b are constants. Draw the straight line graph of \[y\sqrt{x}\] against \[x\sqrt{x}\] for the given data and use your graph to estimate;(i)	the value of a and of b,;(ii)	the value of x when \[y=\frac{2}{\sqrt{x}}\] `;(b)The variables x and y are related in such a way that when y + x is plotted against \[x^2\] a straight line is obtained which passes through (1, 1) and (13, 4), as shown in the diagram.;img; Express y in terms of x.;Sketch the graph of y against x, indicating on your graph the coordinates of the points where the curve cuts the coordinate axes.Answers:
+
+ID: 199902001003
+Content:
+a) A geometric progression has first term a and common ratio r. The 3rd term is 32 and the eighth term is -243. Calculate ;i) the value of r and of a,;ii) the sum of the first ten terms.;b) Find the common ratio of a geometric series whose sum to infinity is 4 times its first term.;c) An arithmetic progression with first term 8 and common difference d, consists of 101 terms. Given that the sun of the last 3 terms is 3 times the sum of the first 3 terms, find;i) the value of d,;ii) the sum of the last 48 terms.Answers:
+
+ID: 199902001004
+Content:
+(a) Given that \[\cos A = p\] find \[\tan^2A\] in terms of p.;(b)	Express \[5\sin\theta+6\cos\theta\] in the form \[R\sin(\theta + \alpha)\] where R is positive and \[\alpha\] is acute. Hence;(i) find the value of \[\theta\] between \[0^{\circ}\] and \[90^{\circ}\] for which \[5\sin\theta+6\cos\theta\] is a maximum,;(ii)	solve the equation \[5\sin\theta+6\cos\theta=4\]  \[0^{\circ}\leq \theta\leq 360^{\circ}\]; c) Find, in terms of h, an expression for;(i) \[\tan A\];(ii) \[\tan B\]; where A, B and h are as shown in the diagram;img; Hence obtain, in terms of h, an expression for \[\tan (B-A)\] Given that \[B-A=45^{\circ}\] find the two possible values of h.(Note: Please enter your answer in ascending order)Answers:
+
+ID: 199902001005
+Content:
+(a) Given that \[\frac{(4^x)}{(2^y)}=2\] and that \[\lg (2x + 2y) = 1\] calculate the value of x and of y.;(b)	Find a and b such that \[\lg(\frac{125}{y})+4\lg y=a\lg(by)\]  for all positive values of y.Answers:
+
+ID: 199902001006
+Content:
+A particle moves in a straight line so that, at time t s after leaving a fixed point O, its displacement from O is s m and its velocity is \[v\frac{m}{s}\] Given that \[s=e^t-2e^{-t}+1\]  where \[t\geq 0\] find;(i)	the value of s when \[t = \ln 5\];(ii)	an expression for v in terms of t,;(iii)	the value of t for which v  = 4.5.Answers:
+
+ID: 199902001007
+Content:
+(a)Differentiate with respect to x, ;(i) \[\frac{(\sin2x)}{(x^2+1)}\];(ii) \[\sqrt{7x^2+4}\];(b)	Find, to the nearest whole number, the gradient of the curve \[y = x \tan x \] at the point where x = 1.;(c) A curve has equation \[4x^2-8x+9y^2-36y=0\] Find;(i) \[\frac{\mathrm{d} y}{\mathrm{d} x}\]in terms of x and y,;(ii) the y-coordinates of the two points on the curve where the tangent is parallel to the x-axis, giving the answers to 2 decimal places.Answers:
+
+ID: 199902001008
+Content:
+(a) Find;(i) \[\int\sqrt{1-2x}dx\] ;(ii) \[\int \frac{2}{(1+3x)}dx\];img;(b) The diagram shows part of the curve \[y = 1-2 \sin x\];(i) Find the area of the shaded region;(ii)	Show that \[(1-2\sin x)^2-=3-4\sin x-2\cos2x\] ;Hence find the volume generated when the shaded region is rotated through \[30^{\circ}\] about the x-axis.Answers:
+
+ID: 199902001009
+Content:
+A curve has parametric equations \[x=2t^2-t, y=t^2+t\];  i) Find an expression for \[\frac{\mathrm{d} y}{\mathrm{d} x}\]  in terms of t.;The point P has parameter t = - 2 and the point Q has parameter t = 3. Find;ii) the distance PQ,;iii) the coordinates of the point on the curve where the tangent is parallel to PQ,;iv) the value of t at the point on the curve where the normal at P meets the curve again.Answers:
+

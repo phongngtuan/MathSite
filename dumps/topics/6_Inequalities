@@ -1,0 +1,34 @@
+ID: 199703003005
+Content:
+By completing the square, find the greatest and least values, as \[\Theta\] varies, of \[cos^{2} - cos\Theta + 6\].Answers:
+
+ID: 199703003006
+Content:
+Solve the inequality \[|1 + x| < 3\]. Hence write down the solution of \[-4 < |1 + x| < 3\].Answers:
+6: "-4" < "x" < "3".
+
+ID: 199803003015
+Content:
+a)  Given that $$x$$ is real, prove that $$x^2 - 4x + 9$$  is always positive. Solve the inequality $$\frac{x^3 + 2 x^2 + x + 14}{x^2 + 5} > x + 1$$. ;;b) Sketch, on separate diagrams, the graphs of;(i) $$y = |x - 1|$$;(ii)$$y = |x - 1| + |x - 3|$$. Hence or otherwise find the least value of $$|x - 1| + |x - 2| + |x - 3|$$, justifying your answer. Answers:
+
+ID: 200203003004
+Content:
+Find the set of values of x such that  $$ - 1 < \frac{2x + 3}{x - 1} < 1$$. Answers:
+421:  Solution is "-4" < x < "-\frac{2}{3}".
+
+ID: 200503003005
+Content:
+Find the set of values of x for which $$2x - 1 \geq \frac{6}{x}$$ Answers:
+614: Solution is "-\frac{3}{2}" \leq x < "0" or x \geq "2".
+
+ID: 200604003001
+Content:
+Solve the inequality  $$\frac{x - 9}{x^2  - 9} \le 1$$. Answers:
+709: Solution is x < "-3", "0"  \leq  x  \leq "1", x > "3".
+
+ID: 200703003001
+Content:
+Show that $$ \frac{2x^{2}-x-19}{x^{2}+3x+2 }-1= \frac{ x^{2}-4x-21}{x^{2}+3x+2}$$. ;Hence, without using a calculator, solve the inequality $$ \frac{2x^{2}-x-19}{x^{2}+3x+2} > 1$$.Answers:
+751: 
+752: Solution set of the inequality: x < "-3" or " -2" < x < " -1" or x > " 7".
+

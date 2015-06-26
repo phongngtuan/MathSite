@@ -1,0 +1,72 @@
+ID: 199601001001
+Content:
+Three points are O(0, 0), A(4, 2) and B(1, 2). Find the equation of the line through B which is parallel to OA.;C is the point on this line whose x-coordinates is \[\frac{-11}{5}\]; Find the y-coordinate of C and show that OB=OC.Answers:
+
+ID: 199601001002
+Content:
+Solve for x and y; \[\frac{x^{2}}{6}-\frac{y}{4}=1\] ; \[x+y=5\];(Note: Please enter the answer with smaller value of x first in the answer space)Answers:
+
+ID: 199601001003
+Content:
+A curve has the equation \[y=2x^2-5x+3\] ;Find ;i) the x-coordinate of the minimum point,;ii) the equation of the normal to the curve at the point where x = 2.Answers:
+
+ID: 199601001004
+Content:
+Evaluate \[\int_{2}^{4}(\frac{x^3-10}{x^2})dx\]Answers:
+
+ID: 199601001005
+Content:
+a) In the expansion of \[(1-2x)^{11}\] the coefficient of  \[x^3\] is k times the coefficient of \[x^2\] Evaluate k.;b) Find the coefficient of \[a^4b^4\] in the expansion of \[\left ( \frac{a+b}{2} \right )^8\]Answers:
+
+ID: 199601001006
+Content:
+A triangle has vertices A(0, 2), B(3, 7) and C(0, 6). Given that ABCD is a parallelogram, find;i)	the coordinates of D,;ii)	the area of the parallelogram ABCD.Answers:
+
+ID: 199601001007
+Content:
+Show that \[(\csc x-1)(\csc x+1)(\sec x-1)(\sec x+1)-=1\]Answers:
+
+ID: 199601001008
+Content:
+The position vectors of the points A and B, with respect to an origin O, are a and b respectively. Given that a = 5i + 2j and b = i + 11j, find ;a) a.b,;b) \[\angle AOB\];c) the magnitude of a + 2bAnswers:
+
+ID: 199601001009
+Content:
+a) A circle of radius 1.5 cm has a sector with area \[6.25 cm^2\] Calculate the perimeter of this sector.;img;b) The diagram shows two points A and B on the circumference of a circle, centre O. Given that \[\angle AOB\] is 1.8 radians, find the ratio of the area of the segment, shown shaded in the diagram, to the area of the circle.Answers:
+
+ID: 199601001010
+Content:
+img;The diagram shows part of a curve `\[y=7+6x-x^2\];Find ;i)	the coordinates of the points P, Q, R and S,;ii)	the area of each of the three shaded regions.Answers:
+
+ID: 199601001011
+Content:
+Solve, giving all the solutions from \[0^{\circ}\]to \[360^{\circ}\];i) \[\tan3x=1\] ;ii) \[3\cos^2y=7\sin y+5\] ;iii) \[\cot(\frac{z}{2})-2\cos(\frac{z}{2})=0\];(Note: Please enter the answers in ascending order)Answers:
+
+ID: 199601001012
+Content:
+a) When the height of liquid in a tub is x meters the volume of liquid is  \[Vm^3\] where  \[V=0.05[(3x+2)^3-8]\] ;i) Find an expression for \[\frac{\mathrm{d} V}{\mathrm{d} x}\];The liquid enters the tub at a constant rate of \[0.081m^3s^{-1}\] ;ii)	Find the rate at which the height of liquid is increasing when V =0.95.;b) Given that \[y=\frac{8}{x^3}\], use calculus to determine, in terms of p, where p is small, the approximate change;i)	in y as x increases from 4 to 4 + p,;ii)	in x as y decreases from 1 to 1-p.Answers:
+
+ID: 199601001013
+Content:
+The net value V, in thousands of pounds, of the daily output of a factory is modeled by \[V = \frac{N^2}{10}- \frac{N^3}{3000}\], where N, the number of men employed, is taken to be continuous. Calculate the value of N such that V is a maximum.Answers:
+
+ID: 199601001014
+Content:
+A particle travels in a straight line in such a way that, t seconds after passing through a fixed point O, its displacement from O is s meters. Given that \[s=4-8(t+2)^{-1}\];find;i)	expressions, in terms of t, for the velocity and acceleration of the particle,;ii)	the value of t when the velocity of the particle is \[0.125m s^{-1}\];iii)	the acceleration of the particle when it is 3.5 metres away from O.Answers:
+
+ID: 199601001015
+Content:
+a) Find the range of values of c for which the equation \[x^2-4cx+c\] has real roots.;b) Find the values of m for which y = mx is a tangent to the curve \[y = x^2+3x+4\]; (Note: Please enter the smaller value first in the answer space)Answers:
+
+ID: 199601001016
+Content:
+The function f is defined by \[f:x |-> 2x^2-6x+5\] for the domain \[1< x< 4\] Find the range of f.Answers:
+
+ID: 199601001017
+Content:
+a) The point P lies on the line AB such that \[\vec{AP}=\frac{1}{4}\vec{AB}\] ;The position vectors, relative to an origin O, of the points A, B and P are a, b and p respectively. Express p in terms of a and b .;Given that 2p and 3a are the position vectors, relative to O, of the points Q and R respectively, show that B, Q and R are collinear. ;img;b) In the diagram, Z is the point of intersection of the diagonals of the quadrilateral OJKL. The position vectors, relative to O, of the points J and L are 5v and 4u + v, respectively. Find \[\vec{JL}\] in terms of u and v.;Given that \[\vec{JZ} = s\vec{JL}\] find \[\vec{OZ}\] in terms of u, v and s.;The position vector, relative to O, of the point K is 3u + 12v. Given that \[\vec{OZ} = t\vec{OK}\]  evaluate s and t.Answers:
+
+ID: 199601001018
+Content:
+a) Sketch, on the same diagram, for \[0< x< 2.5\] the graphs of \[y=\cos \pi x\] and \[y=\frac{2}{5}x\] ;Hence state the number of roots of the equation \[5\cos \pi x = 2x\] which are ;i) between 0 and 2.5,;ii) greater than 2.5;b) Tabulate the values of f(x) from x = 0 to x = 2, at intervals of 0.5, where \[f:x|->\sin (\frac{(\pi x)}{4})\] ;Hence plot on graph paper, using the same axes for both curves and using the same scale for x-axis and y-axis, the graph of;i) y = f(x) for \[0\leq x\leq 2\] ;ii) \[y = f^{-1}(x)\] for \[0\leq x\leq 1\] ;Given that the area of the region bounded by y=f(x), the x-axis and the line x = 2 is \[\frac{4}{\pi}\] find the area of the region bounded by the curve \[y=f^{-1}(x)\] the x-axis and the line x = 1.Answers:
+

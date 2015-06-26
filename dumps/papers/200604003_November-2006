@@ -1,0 +1,164 @@
+ID: 200604003001
+Content:
+Solve the inequality  $$\frac{x - 9}{x^2  - 9} \le 1$$. Answers:
+709: Solution is x < "-3", "0"  \leq  x  \leq "1", x > "3".
+
+ID: 200604003002
+Content:
+Given that  $$z = \frac{x}{(x^2 + 32) ^\left(\frac{1}{2}\right)}$$, show that  $$\frac{dz}{dx} = \frac{32}{( x^2  + 32 )^\left(\frac{3}{2}\right)}$$. Find the exact value of the area of the region bounded by the curve  $$y = \frac{1}{( x^2  + 32 )^\left(\frac{3}{2}\right)}$$, the x-axis and the lines x = 2 and x = 7. Answers:
+879: \frac{dz}{dx} = \frac{d}{dx} \left[\frac{x}{(x^2 + 32)^\frac{1}{2}}\right];=\frac{(x^2 + 32)^\frac{1}{2} \frac{d}{dx}[x] - (x)\frac{d}{dx}[(x^2+32)^\frac{1}{2}]}{\left[(x^2 + 32)^{\frac{1}{2}}\right]^2};=\frac{(x^2 + 32)^\frac{1}{2} - (x)\left[\frac{1}{2}(x^2 + 32)^{-\frac{1}{2}}(2x)\right]}{(x^2 + 32)};="\frac{[(x^2 + 32)-(x^2)](x^2 + 32)^{-\frac{1}{2}}}{(x^2 + 32)}";=\frac{32}{(x^2 + 32)^\frac{3}{2}}
+880: Area of the region bounded = "\frac{1}{72}"units^2.
+
+ID: 200604003003
+Content:
+Using the law for change of base of logarithms, or otherwise, show that  $$\log _b a = \frac{1}{\log _a b}$$. ;Hence, or otherwise, solve the equation  $$2\log _9 x + 1 = 2\log _x 3$$. Answers:
+710: 
+711: x = "3".
+
+ID: 200604003004
+Content:
+img;In the quadrilateral ABCD, angle ABC + angle ADC =  $$180^{\circ} $$. The lengths of the sides are given by AB = a, BC = b, CD = c, DA = d and the length of the diagonal AC is x (see diagram).;(i) Using the cosine formula, show that  $$( ab + cd )x^2  = ( ac + bd )( ad + bc )$$.;(ii) Given that BD = y, show that xy = ac + bd. Answers:
+712: 
+713: 
+
+ID: 200604003005
+Content:
+Using a graphical argument, or otherwise, show that the equation  $$x^3  + x = 100$$ has exactly one real root,  $$\alpha $$. Find a pair of consecutive integers between which  $$\alpha $$ lies, and use linear interpolation once to find an initial approximation,  $$x_1 $$, to  $$\alpha $$. Give your answer correct to 1 decimal place. The iteration  $$x_{n + 1}  = 3 ( 100 - x_n ) $$, with initial approximation  $$x_1 $$, converges. Explain why the iteration converges to  $$\alpha $$, and use the iteration to find  $$\alpha $$ correct to 3 decimal places. Answers:
+714: 
+715: Pair of consecutive integers between which  \alpha  lies = ["4","5"].
+716: Linear interpolation = "4.5".
+717: \alpha = "4.570".
+
+ID: 200604003006
+Content:
+Applied MathematicsAnswers:
+
+ID: 200604003007
+Content:
+Applied MathematicsAnswers:
+
+ID: 200604003008
+Content:
+Applied MathematicsAnswers:
+
+ID: 200604003009
+Content:
+Applied MathematicsAnswers:
+
+ID: 200604003010
+Content:
+Applied MathematicsAnswers:
+
+ID: 200604003011
+Content:
+Applied MathematicsAnswers:
+
+ID: 200604003012
+Content:
+Applied MathematicsAnswers:
+
+ID: 200604003013
+Content:
+Applied MathematicsAnswers:
+
+ID: 200604003014
+Content:
+Particle MathematicsAnswers:
+
+ID: 200604003015
+Content:
+Particle MathematicsAnswers:
+
+ID: 200604003016
+Content:
+Particle MathematicsAnswers:
+
+ID: 200604003017
+Content:
+Particle MathematicsAnswers:
+
+ID: 200604003018
+Content:
+Particle MathematicsAnswers:
+
+ID: 200604003019
+Content:
+Particle MathematicsAnswers:
+
+ID: 200604003020
+Content:
+Particle MathematicsAnswers:
+
+ID: 200604003021
+Content:
+Particle MathematicsAnswers:
+
+ID: 200604003022
+Content:
+In a poll of 800 electors, the number supporting George Berry as Presidential candidate is 417. Find a 99% confidence interval for the percentage of the electorate that supports George Berry as presidential candidate. State any assumption, or assumptions, that you need to make.Answers:
+718: The 99% confidence interval for p is ["0.476","0.567"].
+719: Assumption made is that the electors were "randomly selected".
+
+ID: 200604003023
+Content:
+Two fair dice, one red and the other green, are thrown. A is the event: The score on the red die is divisible by 3. B is the event: The sum of the two scores is 9. Justifying your conclusion, determine whether A and B are independent.  Find $$P(A \cup B)$$. Answers:
+720: A and B are "not independent" (independent/not independent).
+721: P(A \cup B) = "\frac{7}{18}".
+
+ID: 200604003024
+Content:
+A group of 10 pupils consists of 6 girls and 4 boys. The random variable X is the number of girls minus the number of boys in a random sample of 3 pupils from the group. For example, if there are 2 boys and 1 girl in the sample then X = -1. Find the probability distribution of X, giving each probability as a fraction in its lowest terms. Find Var(|X|). Answers:
+722: P(X=-3) = "\frac{1}{30}".
+723: P(X=-1) = "\frac{3}{10}".
+724: P(X=1) = "\frac{1}{2}".
+725: P(X=3) = "\frac{1}{6}".
+726: Var(|X|) = "0.64".
+
+ID: 200604003025
+Content:
+The mass of vegetables in a randomly chosen bag has a normal distribution. The mass of the contents of a bag is supposed to be 10 kg. A random sample of 80 bags is taken and the mass of the contents of each bag, x grams, is measured. The data are summarized by  $$\Sigma (x-10000) = -2510$$,  $$\Sigma (x-10000)2 = 2010203$$ Test, at the 5% significance level, whether the mean mass of the contents of a bag is less than 10 kg. Explain, in the context of the question, the meaning of 'at the 5% significance level'. Answers:
+727: "reject" (Do not reject/Reject) H_0 and conclude that, there is "sufficient" (sufficient/insufficient) evidence that the mean mass of the contents of a bag is less than 10 kg.
+
+ID: 200604003026
+Content:
+In a weather model, severe floods are assumed to occur at random intervals. But at an average rate of 2 per 100 years. Using this model, find the probability that, in a randomly chosen 200 year period, there is exactly one severe flood in the first 100 years and exactly one severe flood in the second 100 years.  Using the same model, and a suitable approximation, find the probability that there are more than 25 severe floods in 1000 years. Answers:
+728: Let X_i = no. of svere floods in the i^{th} 100 years. Therefore, P(X_1 = 1, X_2=1) = "0.0183".
+
+ID: 200604003027
+Content:
+A calculator generates random numbers between 0 and 1. The corresponding continuous random variable is X. State the distribution of X, and calculates its variance.  A second calculator generates random numbers between -1 and 2. The corresponding continuous random variable is Y, whether y has the same distribution as 3X -1. State the mean and variance of Y.  The random variable T is given by T = $$\lambda$$ X + $$(1-\lambda)$$Y, where $$\lambda$$ is a constant and where X and Y correspond to independent random number s generated by the two calculators. Show that E(T) does not depend on $$\lambda$$, and find the value of $$\lambda$$ for which Var(T) is as small as possible. Answers:
+729: Distribution of X is X \sim U ("0","1").
+730: Var(X) = "\frac{1}{12}".
+731: E(Y) = "\frac{1}{2}".
+732: Var(Y) = "\frac{3}{4}".
+733: 
+734: Var(T) is smallest when \lambda = "\frac{9}{10}".
+
+ID: 200604003028
+Content:
+Observations are made of the speeds of cars on a particular stretch of road during daylight hours. It is found that, on average, 1 in 80 cars is travelling at a speed exceeding 125 $$km h^{-1}$$, and 1 in 10 is travelling at a speed less than 40 $$km h^{-1}$$. Assuming a normal distribution, find the mean and the standard deviation of this distribution. Give you answers correct to 3 significance figures.;(i) A random sample of 10 cars is to be taken. Find the probability that at least 7 will be travelling at a speed in excess of 40 $$km h^{-1}$$.;(ii) A random sample of 100 cars is to e taken. Using a suitable approximation, find the probability that at most 8 cars will be traveling at a speed less than 40 $$km h^{-1}$$. Answers:
+735: \sigma = "24.1" kmh^{-1}.
+736: \mu = "70.9" kmh^{-1}.
+737: P(at least 7 cars with X > 40) = "0.987".
+738: P(at most 8 cars with X < 40) = "0.309".
+
+ID: 200604003029
+Content:
+A researcher is investigating the distribution of the amount of time per week that teenagers spend playing computer games. Using the data from a large sample, the researcher obtains the result that (3.52, 4.14) is a 95% confidence interval for $$\mu$$, the population mean number of hours in a week that teenagers spend playing computer games. Explain what is meant by '(3.52, 4.14) is a 95% confidence interval for $$\mu$$', and explain why , in obtaining the confidence interval, it is not necessary to make any assumptions about the distribution. Calculate a 99% confidence interval for $$\mu$$, correcting your answer to 3 significance figures. The researcher plans to continue the investigation one year later by calculating confidence intervals for $$\mu$$ based on two large independent random samples $$S_1$$  and $$S_2$$ . Using $$I_1$$, a 95% confidence interval $$I_1$$  and a 99% confidence interval $$I_1$$  will be calculated. Using $$S_2$$, a 95% confidence interval $$I_2$$  will be calculated. Find the probability that, in the form of percentage,;(i) Both $${I_1}^'$$ and $$I_1$$ will contain $$\mu$$ ;(ii) Exactly one of $${I_1}^'$$  and $$I_1$$ will contain $$\mu$$;(iii) Both $$I_1$$  and $$I_2$$ will contain $$\mu$$;(iv) Exactly one of $$I_1$$  and $$I_2$$  will contain $$\mu$$Answers:
+739: It meant that there is a 95% condicence level that the interval (3.52,4.14) "encloses" the true value of \mu.
+740: A symmetric 99% confidence interval for \mu = ["3.42","4.24"].
+741: P(both I_1 and {I_1}^' to contain \mu) = "95"%.
+742: P(exactly one of I_1 and {I_1}^' to contain \mu) = "4"%.
+743:  P(both I_1 and I_2 to contain \mu) = "90.25"%.
+744:  P(exactly one of I_1 and I_2 to contain \mu) = "9.5"%.
+
+ID: 200604003030
+Content:
+The random variable U has probability density function g, given by $$g \left(u\right) = \binom{\frac{1}{6}\left(2u + 1\right),  0 < u < 2}  {0, otherwise} $$.The independent random variable V has probability density function h, given by $$h\left(v\right) = \binom{\frac{1}{2}\left(2 - v\right), 0 < v < 2}{0, otherwise}$$. The random variable X is taken to be U with probability 0.4 and V with probability 0.6. Give with reason why, for $$0 < x < 2$$, and for small $$\delta x$$, <  and hence show that, for $$0 < x < 2$$, the probability density function f of X is given by $$P\left(x < X < x + \delta x \right) \approx \left\{0.4g\left(x\right) + 0.6h\left(x\right)\right\}\delta x$$. Find;(i) the distribution function of X;(ii) the expectation and variance of  $$f\left(x\right) = \frac{1}{6}\left(4 - x\right) X^2$$ . Give your answer correct to 3 significance figures.Answers:
+745: 
+746: Var(X^2) = "1.25".
+747: E(X^2)  = "\frac{10}{9}".
+748: f(x) = "0",  x < "0".
+749: f(x) = "\frac{1}{12}x(8-x)", "0" \leq x \leq  "2".
+750: f(x) = "1", x > "2".
+
