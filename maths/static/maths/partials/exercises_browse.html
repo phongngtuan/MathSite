@@ -1,0 +1,22 @@
+<div class="row-fluid">
+    <div class="col-md-4" controller="TabCtrl"> 
+        <h5>Level: {{level}}</h5>
+        <h5> Exercise</h5>
+        <tabset>
+        <tab heading="Topic">
+        <ul>
+            <li ng-repeat="topic in topics ">
+                <a ui-sref="do_topic({topic: topic.id})">{{topic.id}} {{topic.title}}</a>
+            </li>
+        </ul>
+        </tab>
+        <tab heading="Paper">
+        <ul>
+            <li ng-repeat="paper in papers">
+                <a ui-sref="do_paper({paper: paper.id})">{{paper.id}}: {{paper.month}}/{{paper.year}}</a>
+            </li>
+        </ul>
+        </tab>
+        </tabset>
+    </div>
+</div>

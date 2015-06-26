@@ -27,11 +27,16 @@
                 })
                 .state('exercise', {
                     url: "/:level/exercise",
-                    templateUrl: "/static/maths/partials/exercises.html",
-                    controller: "TopicsViewController"
+                    templateUrl: "/static/maths/partials/exercises_browse.html",
+                    controller: "BrowseController"
                 })
-                .state('exercise_do', {
-                    url: "/:topic/do",
+                .state('do_topic', {
+                    url: "/topic/:topic",
+                    templateUrl: "/static/maths/partials/exercise_do.html",
+                    controller: "ExercisesDoController"
+                })
+                .state('do_paper', {
+                    url: "/paper/:paper",
                     templateUrl: "/static/maths/partials/exercise_do.html",
                     controller: "ExercisesDoController"
                 })
