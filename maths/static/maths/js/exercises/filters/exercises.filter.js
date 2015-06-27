@@ -4,7 +4,7 @@
         .module('maths.exercises.filters')
         .filter('rawHtml', ['$sce', function($sce){
             return function(val){
-                return $sce.trustAsHtml(val);
+                return x; 
             };
         }])
         .filter('assignModel', function(){

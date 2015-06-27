@@ -9,7 +9,10 @@
 <div align="left">
     <ul>
         <li ng-repeat="question in questions" class="question-content">
-            <p ng-repeat="part in question.parts track by $index">{{part}}</p>
+            <h5>{{question.id}}</h5>
+            <p ng-repeat="part in question.parts track by $index">
+                <span compile="part"></span>
+            </p>
         </li>
     </ul>
 </div>
