@@ -13,8 +13,9 @@ from django.db import models
 
 
 class Answer(models.Model):
+    id = models.AutoField(primary_key=True)
     answertype = models.IntegerField(blank=True, null=True)
-    question = models.ForeignKey('Question', related_name='answers', db_column='question')
+    question = models.ForeignKey('Question', related_name='answers')
     part = models.IntegerField()
     content = models.TextField(blank=True, null=True)
     switch = models.IntegerField(blank=True, null=True)
@@ -28,7 +29,6 @@ class Answertype(models.Model):
     description = models.TextField()
 
     class Meta:
-        managed = False
         db_table = 'answertype'
 
 
@@ -38,18 +38,17 @@ class EducationLevel(models.Model):
     description = models.CharField(max_length=1000, blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'education_level'
 
 
-class Image(models.Model):
+class Figure(models.Model):
     id = models.AutoField(primary_key=True)
     qa = models.TextField(blank=True, null=True)
-    qa_id = models.ForeignKey('Question', related_name='figures', db_column='qa_id')
-    imagepath = models.CharField(max_length=100)
+    question = models.ForeignKey('Question', related_name='figures')
+    image = models.ImageField(blank=True, null=True, upload_to='figures')
 
     class Meta:
-        db_table = 'image'
+        db_table = 'figure'
 
 
 class Paper(models.Model):
@@ -57,11 +56,10 @@ class Paper(models.Model):
     year = models.TextField(blank=True, null=True)
     month = models.TextField(blank=True, null=True)
     number = models.IntegerField(blank=True, null=True)
-    subject = models.IntegerField()
-    paperset = models.IntegerField()
+    subject = models.IntegerField(blank=True, null=True)
+    paperset = models.IntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'paper'
 
 
@@ -71,7 +69,6 @@ class Paperset(models.Model):
     subject = models.IntegerField()
 
     class Meta:
-        managed = False
         db_table = 'paperset'
 
 
@@ -82,7 +79,6 @@ class Progress(models.Model):
     score = models.IntegerField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'progress'
 
 
@@ -91,7 +87,7 @@ class Question(models.Model):
     paper = models.CharField(max_length=64, blank=True, null=True)
     question = models.SmallIntegerField(blank=True, null=True)
     content = models.TextField()
-    topic = models.ForeignKey('Topic', db_column='topic', blank=True, null=True)
+    topic = models.ForeignKey('Topic', blank=True, null=True)
     subtopic = models.IntegerField(blank=True, null=True)
     marks = models.IntegerField(blank=True, null=True)
     source = models.TextField(blank=True, null=True)
@@ -109,18 +105,16 @@ class Solution(models.Model):
     content = models.TextField()
 
     class Meta:
-        managed = False
         db_table = 'solution'
 
 
 class Subject(models.Model):
     id = models.IntegerField(primary_key=True)
     title = models.TextField(blank=True, null=True)
-    edu_level = models.ForeignKey(EducationLevel, db_column='edu_level', blank=True, null=True)
+    edu_level = models.ForeignKey(EducationLevel, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'subject'
 
 
@@ -130,14 +124,13 @@ class Subtopic(models.Model):
     title = models.TextField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'subtopic'
 
 
 class Topic(models.Model):
     id = models.AutoField(primary_key=True)
     title = models.TextField(blank=True, null=True)
-    subject = models.ForeignKey(Subject, db_column='subject', blank=True, null=True)
+    subject = models.ForeignKey(Subject, blank=True, null=True)
 
     class Meta:
         db_table = 'topic'
