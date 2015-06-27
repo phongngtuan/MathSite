@@ -5,7 +5,6 @@ class PaperSerializer(serializers.ModelSerializer):
     class Meta:
         model = Paper
 
-
 class AnswerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Answer
@@ -18,11 +17,17 @@ class AnswerListingField(serializers.RelatedField):
         hidden = re.sub(r'"(.*?)"', r'<input>', value.content)
         return {"id": value.id, "part_no": value.part, "content": hidden}
 
+class FigureListingField(serializers.RelatedField):
+    def to_representation(self, value):
+        return {"path": value.imagepath}
+
 class QuestionSerializer(serializers.ModelSerializer):
     answers = AnswerListingField(many=True, read_only=True)
+    figures = FigureListingField(many=True, read_only=True)
     class Meta:
         model = Question
-                                            
+
+
 class TopicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Topic

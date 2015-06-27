@@ -44,11 +44,10 @@ class EducationLevel(models.Model):
 
 class Image(models.Model):
     qa = models.TextField(blank=True, null=True)
-    qa_id = models.CharField(max_length=64)
+    qa_id = models.ForeignKey('Question', related_name='figures', db_column='qa_id')
     imagepath = models.CharField(max_length=100)
 
     class Meta:
-        managed = False
         db_table = 'image'
 
 
