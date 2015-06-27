@@ -23,7 +23,7 @@
                 .state('browse.paper', {
                     url: "/paper/:paper",
                     templateUrl: "/static/maths/partials/questions.html",
-                    controller: "PaperViewController"
+                    controller: "QuestionsViewController"
                 })
                 .state('exercise', {
                     url: "/:level/exercise",
