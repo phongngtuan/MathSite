@@ -19,14 +19,13 @@ class AnswerListingField(serializers.RelatedField):
 
 class FigureListingField(serializers.RelatedField):
     def to_representation(self, value):
-        return {"path": value.imagepath}
+        return {"id": value.id, "path": value.imagepath}
 
 class QuestionSerializer(serializers.ModelSerializer):
     answers = AnswerListingField(many=True, read_only=True)
     figures = FigureListingField(many=True, read_only=True)
     class Meta:
         model = Question
-
 
 class TopicSerializer(serializers.ModelSerializer):
     class Meta:
@@ -39,3 +38,7 @@ class LevelSerializer(serializers.ModelSerializer):
 class SubjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Subject
+
+class FigureSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Image

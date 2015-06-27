@@ -30,6 +30,7 @@ questions_router = routers.NestedSimpleRouter(router, r'questions', lookup='ques
 questions_router.register(r'answers', views.AnswerViewSet)
 urlpatterns = [
         url(r'^api/auth/login/$', views.LoginView.as_view(), name='login'),
+        url(r'^api/upload/$', views.upload_file, name='upload'),
         url(r'^api/checkAnswer/$', views.checkAnswer, name='checkAnswer'),
         url(r'^api/', include(router.urls)), 
         url(r'^api/', include(questions_router.urls)),

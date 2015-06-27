@@ -2,8 +2,12 @@
     'use strict';
     angular
         .module('maths.questions.controllers')
-        .controller('QuestionEditController', ['$scope', '$stateParams', 'Question', 'Answer',
-                function($scope, $stateParams, Question, Answer) {
+        .controller('QuestionEditController', ['$scope', '$stateParams', 'Question', 'Answer', 'Figure', 'FileUploader',
+                function($scope, $stateParams, Question, Answer, Figure,  FileUploader) {
+                    $scope.uploader = new FileUploader();
+                    console.log($scope.uploader.method);
+                    $scope.uploader.method = "POST";
+                    $scope.uploader.url = "/maths/api/upload/";
                     var trash_answers = [];
                     var question_id = $stateParams.id
                     Question.get({id: question_id}, function(response) {
@@ -27,6 +31,13 @@
                             Answer.remove(answer);
                         });
                     };
+
+                    $scope.upload = function(file) {
+                        Figure.create({question: question_id}, function(response){
+                            console.log(response);
+                        });
+                        console.log(file)
+                    }
 
                     $scope.deleteAnswer = function(answer) {
                         var index = $scope.answers.indexOf(answer);

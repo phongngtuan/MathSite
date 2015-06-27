@@ -5,6 +5,7 @@
                                'maths.config',
                                'maths.authentication',
                                'maths.topics',
+                               'maths.figures',
                                'maths.papers',
                                'maths.questions',
                                'maths.exercises',

@@ -17,7 +17,7 @@
                             '"/></p>'
                     })
                 }
-                return content
+                return content;
             }
             if(topic){
                 Topic.get({id: topic}, function(response){

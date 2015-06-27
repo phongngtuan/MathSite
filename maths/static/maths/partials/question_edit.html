@@ -20,6 +20,20 @@
                 <button type="submit" class="form-group btn btn-default">Submit</button>
             </div>
         </form>
+
+        {{question.figures}}
+            <label>New figure</label>
+            <div class="form-group">
+                <input type="file" nv-file-select uploader="uploader"/>
+                <ul>
+                    <li ng-repeat="item in uploader.queue">
+                        Name: <span ng-bind="item.file.name"></span></br>
+                        <button ng-click="upload(item)">upload</button>
+            </div>
+        <div ng-repeat="figure in question.figures">
+            <b>Figure ID: {{figure.id}}</b>
+            <img ng-src="{{figure.path}}"/>
+        </div>
     </div>
     <div class="col-md-8">
         <h5>Answer</h5>

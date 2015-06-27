@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from maths.models import *
 from maths.serializers import *
 from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt, csrf_protect
 import json
 
 def index(request):
@@ -91,3 +92,18 @@ class SubjectViewSet(viewsets.ModelViewSet):
 class PaperViewSet(viewsets.ModelViewSet):
     queryset = Paper.objects.all()
     serializer_class = PaperSerializer
+
+@csrf_exempt
+def upload_file(request):
+    print("here")
+    print(request)
+    if request.method == 'POST':
+        file = request.FILES['file']
+        f = open("maths/static/maths/figures/%s" %file.name, 'wb+')
+        for chunk in file.chunks():
+            f.write(chunk)
+        print(file)
+        response = json.dumps({'filename': file.name, 'path': "/static/maths/figures/%s" %file.name})
+        return HttpResponse(response,
+        content_type = 'application/json')
+    return HttpResponse("FAIL")
