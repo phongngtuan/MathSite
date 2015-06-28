@@ -33,7 +33,7 @@
                 .state('do_topic', {
                     url: "/topic/:topic",
                     templateUrl: "/static/maths/partials/exercise_do.html",
-                    controller: "ExercisesDoController"
+                    controller: "QuestionsViewController"
                 })
                 .state('do_paper', {
                     url: "/paper/:paper",

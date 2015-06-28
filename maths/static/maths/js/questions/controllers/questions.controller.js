@@ -12,7 +12,7 @@
                 if(question.figures.length){
                     console.log("doing")
                     var content=content.replace("img;", function(){
-                        return '<p><img ng-src="'+
+                        return '<p><img ng-src="/media/'+
                             question.figures[index++].path +
                             '"/></p>'
                     })
