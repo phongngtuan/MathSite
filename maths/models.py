@@ -44,6 +44,7 @@ class EducationLevel(models.Model):
 
 class Figure(models.Model):
     id = models.AutoField(primary_key=True)
+    sequence = models.IntegerField(blank=True, null=True, unique=True)
     qa = models.TextField(blank=True, null=True)
     question = models.ForeignKey('Question', related_name='figures')
     image = models.ImageField(blank=True, null=True, upload_to="maths/figures")
@@ -85,7 +86,7 @@ class Progress(models.Model):
 
 class Question(models.Model):
     id = models.CharField(primary_key=True, max_length=64)
-    paper = models.CharField(max_length=64, blank=True, null=True)
+    paper = models.ForeignKey('Paper', blank=True, null=True)
     question = models.SmallIntegerField(blank=True, null=True)
     content = models.TextField()
     topic = models.ForeignKey('Topic', blank=True, null=True)
