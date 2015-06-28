@@ -1,9 +1,10 @@
 <div class="panel panel-default">
     <div class="panel-heading">
-        <h3 class="panel-title">{{question.id}}</h3>
+        <label class="panel-title">{{question.id}}
+        </label>
+        <a ui-sref="question({id: question.id})">Edit</a>
     </div>
     <div class="panel-body">
-        <a ui-sref="question({id: question.id})">Edit</a>
         {{question.content}}
     </div>
 </div>
