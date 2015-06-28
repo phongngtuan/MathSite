@@ -45,7 +45,7 @@ class Figure(models.Model):
     id = models.AutoField(primary_key=True)
     qa = models.TextField(blank=True, null=True)
     question = models.ForeignKey('Question', related_name='figures')
-    image = models.ImageField(blank=True, null=True, upload_to='figures')
+    image = models.ImageField(blank=True, null=True, upload_to='.')
 
     class Meta:
         db_table = 'figure'

@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth import authenticate, login
 from rest_framework import views, viewsets
 from rest_framework.response import Response
+from rest_framework.parsers import FileUploadParser, FormParser, MultiPartParser
 from maths.models import *
 from maths.serializers import *
 from django.http import HttpResponse
@@ -64,9 +65,9 @@ class QuestionViewSet(viewsets.ModelViewSet):
         paper = self.request.QUERY_PARAMS.get('paper', None)
         print(topic)
         if topic is not None:
-            queryset = queryset.filter(topic__id=topic)
+            queryset = queryset.filter(topic_id=topic)
         elif paper is not None:
-            queryset = queryset.filter(paper=paper)
+            queryset = queryset.filter(paper_id=paper)
         return queryset
     
 
@@ -92,6 +93,23 @@ class SubjectViewSet(viewsets.ModelViewSet):
 class PaperViewSet(viewsets.ModelViewSet):
     queryset = Paper.objects.all()
     serializer_class = PaperSerializer
+
+#@csrf_exempt
+class FigureViewSet(viewsets.ModelViewSet):
+    queryset = Figure.objects.all()
+    serializer_class = FigureSerializer
+    parser_classes = (FormParser, MultiPartParser,)
+
+class FileUploadView(views.APIView):
+    parser_classes = (FormParser, MultiPartParser,)
+    def put(self, request, filename, format=None):
+        file_obj = request.data['file']
+        print(file_obj)
+        return Response(status=204)
+
+    def post(self, request, filename, format=None):
+        print("here")
+        return Response(status=500)
 
 @csrf_exempt
 def upload_file(request):

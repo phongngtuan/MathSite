@@ -103,3 +103,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_ROOT = '/Users/phongnt/Developments/URECA/mathsite/maths/static/maths/figures'
+#REST_FRAMEWORK = {
+#        'DEFAUT_PARSER_CLASSES': (
+#            'rest

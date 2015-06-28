@@ -7,7 +7,8 @@
                     $scope.uploader = new FileUploader();
                     console.log($scope.uploader.method);
                     $scope.uploader.method = "POST";
-                    $scope.uploader.url = "/maths/api/upload/";
+                    $scope.uploader.headers = {'Content-Type': 'multipart/form-data'};
+                    $scope.uploader.url = "/maths/api/figures/";
                     var trash_answers = [];
                     var question_id = $stateParams.id
                     Question.get({id: question_id}, function(response) {
@@ -33,10 +34,11 @@
                     };
 
                     $scope.upload = function(file) {
-                        Figure.create({question: question_id}, function(response){
-                            console.log(response);
-                        });
-                        console.log(file)
+                        console.log(file.formData);
+                        file.formData = {"question": question_id};
+                        console.log(file.formData);
+                        file.upload();
+                        console.log(file);
                     }
 
                     $scope.deleteAnswer = function(answer) {
