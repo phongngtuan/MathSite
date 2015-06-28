@@ -2,13 +2,8 @@
     'use strict';
     angular
         .module('maths.questions.controllers')
-        .controller('QuestionEditController', ['$scope', '$stateParams', 'Question', 'Answer', 'Figure', 'FileUploader',
-                function($scope, $stateParams, Question, Answer, Figure,  FileUploader) {
-                    $scope.uploader = new FileUploader();
-                    console.log($scope.uploader.method);
-                    $scope.uploader.method = "POST";
-                    $scope.uploader.headers = {'Content-Type': 'multipart/form-data'};
-                    $scope.uploader.url = "/maths/api/figures/";
+        .controller('QuestionEditController', ['$scope', '$stateParams', 'Question', 'Answer', 'Figure', 'Upload', 
+                function($scope, $stateParams, Question, Answer, Figure, Upload) {
                     var trash_answers = [];
                     var question_id = $stateParams.id
                     Question.get({id: question_id}, function(response) {
@@ -33,18 +28,24 @@
                         });
                     };
 
-                    $scope.upload = function(file) {
-                        console.log(file.formData);
-                        file.formData = {"question": question_id};
-                        console.log(file.formData);
-                        file.upload();
-                        console.log(file);
-                    }
-
                     $scope.deleteAnswer = function(answer) {
                         var index = $scope.answers.indexOf(answer);
                         trash_answers.push(answer);
                         $scope.answers.splice(index, 1);
+                    }
+
+                    $scope.upload = function(files) {
+                        console.log("Uploading "+files[0]);
+                        var file = files[0];
+                        Upload.upload({
+                            method: 'POST',
+                            url: '/maths/api/figures/',
+                            fields: {'question': question_id},
+                            file: file,
+                            fileFormDataName: 'image'
+                        }).success(function(data, status, headers, config) {
+                            console.log(data);
+                        });
                     }
 
                     function saveAnswer(answer) {

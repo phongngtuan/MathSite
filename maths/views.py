@@ -100,16 +100,22 @@ class FigureViewSet(viewsets.ModelViewSet):
     serializer_class = FigureSerializer
     parser_classes = (FormParser, MultiPartParser,)
 
-class FileUploadView(views.APIView):
-    parser_classes = (FormParser, MultiPartParser,)
-    def put(self, request, filename, format=None):
-        file_obj = request.data['file']
-        print(file_obj)
-        return Response(status=204)
+    #def create(self, request):
+    #    print(request.DATA)
+    #    print(request.FILES)
+    #    print(request.FILES.get('file'))
+    #    return HttpResponse(status=500)
 
-    def post(self, request, filename, format=None):
-        print("here")
-        return Response(status=500)
+#class FileUploadView(views.APIView):
+#    parser_classes = (FormParser, MultiPartParser,)
+#    def put(self, request, filename, format=None):
+#        file_obj = request.data['file']
+#        print(file_obj)
+#        return Response(status=204)
+#
+#    def post(self, request, filename, format=None):
+#        print("here")
+#        return Response(status=500)
 
 @csrf_exempt
 def upload_file(request):

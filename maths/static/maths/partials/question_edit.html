@@ -23,12 +23,10 @@
 
         {{question.figures}}
             <label>New figure</label>
+            {{files}}
             <div class="form-group">
-                <input type="file" nv-file-select uploader="uploader"/>
-                <ul>
-                    <li ng-repeat="item in uploader.queue">
-                        Name: <span ng-bind="item.file.name"></span></br>
-                        <button ng-click="upload(item)">upload</button>
+                <div class="button" ngf-select ng-model="files" ngf-multiple="false">Select File</div>
+                <button ng-click="upload(files)"/>
             </div>
         <div ng-repeat="figure in question.figures">
             <b>Figure ID: {{figure.id}}</b>
