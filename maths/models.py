@@ -44,7 +44,7 @@ class EducationLevel(models.Model):
 
 class Figure(models.Model):
     id = models.AutoField(primary_key=True)
-    sequence = models.IntegerField(blank=True, null=True, unique=True)
+    sequence = models.IntegerField(blank=True, null=True)
     qa = models.TextField(blank=True, null=True)
     question = models.ForeignKey('Question', related_name='figures')
     image = models.ImageField(blank=True, null=True, upload_to="maths/figures")

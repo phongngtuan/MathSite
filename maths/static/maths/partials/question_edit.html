@@ -4,6 +4,10 @@
             <div class="form-group">
                 <label>Question {{question.id}}</label>
             </div>
+            <p class="form-group">
+                <button class="btn btn-primary" ng-click="updateAllAnswers()">Save</button>
+                <button class="btn btn-danger">Delete</button>
+            </p>
             <div class="form-group">
                 <label>Topic</label>
                 <input value="{{question.topic}}" class="form-control"/>
@@ -16,26 +20,26 @@
                 <label>Content</label>
                 <textarea type="text" rows="10" class="form-control">{{question.content}}</textarea>
             </div>
-            <div class="form-group">
-                <button type="submit" class="form-group btn btn-default">Submit</button>
-            </div>
         </form>
 
-        {{question.figures}}
             <label>New figure</label>
-            {{files}}
             <div class="form-group">
-                <div class="button" ngf-select ng-model="files" ngf-multiple="false">Select File</div>
-                <button ng-click="upload(files)"/>
+                <div class="form-group">
+                    <div class="btn btn-default" ngf-select ng-model="files" ngf-multiple="false">Select File</div>
+                    <label>{{files[0].name}}</label>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-default" ng-click="upload(files)">Upload</button>
+                </div>
             </div>
-        <div ng-repeat="figure in question.figures">
-            <b>Figure ID: {{figure.id}}</b>
-            <img ng-src="/media/{{figure.path}}"/>
+        <div class="form-group" ng-repeat="figure in question.figures">
+            <label><b>Figure ID: {{figure.id}}</b></label>
+            <button ng-click="deleteFigure(figure)" class="btn btn-default">Remove</button>
+            <img class="img-responsive" ng-src="/media/{{figure.path}}"/></br>
         </div>
     </div>
     <div class="col-md-8">
         <h5>Answer</h5>
-        <button class="btn btn-default" ng-click="updateAllAnswers()">Save</button>
         <button class="btn btn-default" ng-click="addAnswer()">Add part</button>
         <div ng-repeat="answer in answers">
             <div ng-include="'/static/maths/partials/answer_edit.html'"></div>

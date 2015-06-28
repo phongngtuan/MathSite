@@ -2,9 +2,10 @@
     'use strict';
     angular
         .module('maths.questions.controllers')
-        .controller('QuestionEditController', ['$scope', '$stateParams', 'Question', 'Answer', 'Figure', 'Upload', 
-                function($scope, $stateParams, Question, Answer, Figure, Upload) {
+        .controller('QuestionEditController', ['$scope', '$state', '$stateParams', 'Question', 'Answer', 'Figure', 'Upload', 
+                function($scope, $route, $stateParams, Question, Answer, Figure, Upload) {
                     var trash_answers = [];
+                    var trash_figures = [];
                     var question_id = $stateParams.id
                     Question.get({id: question_id}, function(response) {
                         console.log("here");
@@ -26,6 +27,9 @@
                         trash_answers.forEach(function(answer) {
                             Answer.remove(answer);
                         });
+                        trash_figures.forEach(function(figure) {
+                            Figure.remove(figure);
+                        });
                     };
 
                     $scope.deleteAnswer = function(answer) {
@@ -44,7 +48,14 @@
                             file: file,
                             fileFormDataName: 'image'
                         }).success(function(data, status, headers, config) {
-                            console.log(data);
+                            $route.reload();
+                        });
+                    }
+
+                    $scope.deleteFigure = function(figure){
+                        trash_figures.push(figure);
+                        $scope.question.figures = $scope.question.figures.filter(function(item){
+                            return item.id != figure.id
                         });
                     }
 
