@@ -2,8 +2,8 @@
     'use strict';
     angular
         .module('maths.questions.controllers')
-        .controller('QuestionEditController', ['$scope', '$state', '$stateParams', 'Question', 'Answer', 'Figure', 'Upload', 
-                function($scope, $route, $stateParams, Question, Answer, Figure, Upload) {
+        .controller('QuestionEditController', ['$scope', '$state', '$stateParams', '$modal', 'Question', 'Answer', 'Figure', 'Upload', 
+                function($scope, $route, $stateParams, $modal, Question, Answer, Figure, Upload) {
                     var trash_answers = [];
                     var trash_figures = [];
                     var question_id = $stateParams.id
@@ -16,6 +16,15 @@
                         $scope.answers = response;
                     });
                     
+                    function alert(template){
+                        console.log("here")
+                        $modal.open({
+                            animation: true,
+                            templateUrl: template ,
+                            size: 'sm'
+                        });
+                    };
+
                     $scope.addAnswer = function() {
                         console.log("added answer");
                         $scope.answers.push({});
@@ -30,6 +39,7 @@
                         trash_figures.forEach(function(figure) {
                             Figure.remove(figure);
                         });
+                        alert('questionSavedAlert.html')
                     };
 
                     $scope.deleteAnswer = function(answer) {

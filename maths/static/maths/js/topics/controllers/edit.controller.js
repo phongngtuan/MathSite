@@ -6,23 +6,24 @@
                 function($scope, $state, $stateParams, Topic, $modal, $http){
                     var topicId = $stateParams.topic;
                     $scope.x = topicId
-                        if(topicId != 'new') {
-                            Topic.get({id: topicId}, function(response){
-                                $scope.topic = response;
-                                console.log(response)
-                            });
-                        }
-                        else {
-                            $scope.topic = {title: '', subject:null}
-                            console.log($scope.topic)
-                        }
+                    if(topicId != 'new') {
+                        Topic.get({id: topicId}, function(response){
+                            $scope.topic = response;
+                            console.log(response)
+                        });
+                    }
+                    else {
+                        $scope.topic = {title: '', subject:null}
+                        console.log($scope.topic)
+                    }
+
                     $scope.saveTopic = function(){
                         console.log("saved");
                         if(topicId == 'new') {
                             Topic.create($scope.topic)
-                                .$promise.then(function(topic){
-                                    $scope.$parent.topics.push(topic);
-                                })
+                            .$promise.then(function(topic){
+                                $scope.$parent.topics.push(topic);
+                            })
                         }
                         else {
                             Topic.update($scope.topic);
